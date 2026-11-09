@@ -1,44 +1,84 @@
-# SR24PLUS MASTER SKILL ROUTER
+# SR24PLUS MASTER SKILL ROUTER (v2.0)
+## Multi-Specialist Autonomous Orchestration Engine
 
-## Purpose & Architecture
+The **SR24Plus Master Skill Router** is the intelligent command router and autonomous multi-agent orchestration layer for all 443 canonical engineering skills installed in the Google Antigravity environment.
 
-The **SR24Plus Master Skill Router** is the single entry point and autonomous routing engine for all 443+ skills installed in Google Antigravity.
-Instead of manually invoking one narrow skill or forgetting which complementary tools exist, the Master Router interprets natural-language intents and orchestrates complete multi-agent engineering squads.
+Instead of running isolated prompts or invoking single narrow skills, the Master Router interprets user engineering requests, inspects existing workspaces, selects the minimum sufficient squad of specialists, loads their actual `SKILL.md` instructions, and coordinates execution through strict dependency-ordered phases.
 
 ---
 
-## Natural Language Triggers & Activation Matrix
+## 1. Primary Commands & Dedicated Workflows
 
-Whenever a user utters one of the following activation phrases (or synonymous prompts), the Master Router activates the corresponding category squad:
+The Master Router supports 9 dedicated engineering commands. Each command is bound to an executable workflow runbook in `00-MASTER-CONTROLLER/workflows/`:
 
-| Natural Language Trigger Command | Target Category | Squad Directory | Primary Skills Activated |
+| Primary Command | Target Workflow Runbook | Squad Composition | Core Deliverables |
 |---|---|---|---|
-| `"Activate UI Design Toolkit"` | UI/UX DESIGN | [`01-UI-UX-DESIGN`](../01-UI-UX-DESIGN/README.md) | `antislop`, `antislop-ui`, `impeccable`, `ui-ux-pro-max`, `design-taste-frontend`, `agency-design-ui-designer`, `agency-design-ui-finish-gate-reviewer` |
-| `"Activate Game Development Toolkit"` | GAME DEVELOPMENT | [`02-GAME-DEVELOPMENT`](../02-GAME-DEVELOPMENT/README.md) | `agency-game-development-game-designer`, `agency-game-development-level-designer`, `agency-game-development-technical-artist`, `agency-game-development-godot-*`, `agency-game-development-unity-*`, `agency-game-development-unreal-*` |
-| `"Activate Frontend Development Toolkit"` | FRONTEND DEVELOPMENT | [`03-FRONTEND-DEVELOPMENT`](../03-FRONTEND-DEVELOPMENT/README.md) | `agency-engineering-frontend-developer`, `agency-engineering-desktop-app-engineer`, `generative_ui`, `performance-optimization`, `browser-testing-with-devtools` |
-| `"Activate Backend Development Toolkit"` | BACKEND DEVELOPMENT | [`04-BACKEND-DEVELOPMENT`](../04-BACKEND-DEVELOPMENT/README.md) | `agency-engineering-backend-architect`, `agency-engineering-database-optimizer`, `agency-engineering-identity-access-engineer`, `api-and-interface-design`, `agency-specialized-mcp-builder` |
-| `"Activate AI/ML Engineering Toolkit"` | AI/ML ENGINEERING | [`05-AIML-ENGINEERING`](../05-AIML-ENGINEERING/README.md) | `agency-engineering-ai-engineer`, `agency-engineering-prompt-engineer`, `agency-engineering-llm-post-training-engineer`, `agency-engineering-rag-pipeline-engineer` |
-| `"Activate Mobile App Toolkit"` | MOBILE APP DEVELOPMENT | [`06-MOBILE-APP-DEVELOPMENT`](../06-MOBILE-APP-DEVELOPMENT/README.md) | `agency-engineering-mobile-app-builder`, `agency-engineering-mobile-release-engineer`, `android-cli`, `agency-marketing-app-store-optimizer` |
-| `"Activate DevOps & Cloud Toolkit"` | DEVOPS AND CLOUD | [`07-DEVOPS-AND-CLOUD`](../07-DEVOPS-AND-CLOUD/README.md) | `agency-engineering-devops-automator`, `agency-engineering-sre`, `agency-security-cloud-security-architect`, `ci-cd-and-automation`, `shipping-and-launch` |
-| `"Activate Quality Engineering Toolkit"` | QUALITY ENGINEERING | [`08-QUALITY-ENGINEERING`](../08-QUALITY-ENGINEERING/README.md) | `agency-engineering-code-reviewer`, `code-review-and-quality`, `agency-testing-test-automation-engineer`, `debugging-and-error-recovery`, `agency-security-appsec-engineer` |
-| `"Activate Research & Analytics Toolkit"` | RESEARCH AND ANALYTICS | [`09-RESEARCH-AND-ANALYTICS`](../09-RESEARCH-AND-ANALYTICS/README.md) | `agency-research-synthesist`, `agency-support-analytics-reporter`, `agency-academic-statistician`, `agency-gis-spatial-data-scientist` |
-| `"Activate Branding & Creative Toolkit"` | BRANDING AND CREATIVE | [`10-BRANDING-AND-CREATIVE`](../10-BRANDING-AND-CREATIVE/README.md) | `agency-design-brand-guardian`, `agency-marketing-content-creator`, `agency-game-development-narrative-designer`, `agency-design-visual-storyteller` |
-| `"Activate Product Engineering Toolkit"` | PRODUCT ENGINEERING | [`11-PRODUCT-ENGINEERING`](../11-PRODUCT-ENGINEERING/README.md) | `agency-product-manager`, `agency-project-management-project-manager-senior`, `agency-product-sprint-prioritizer`, `planning-and-task-breakdown` |
-| `"Activate Science & Bioinformatics Toolkit"` | SCIENCE & BIOINFORMATICS | [`12-SCIENCE-AND-BIOINFORMATICS`](../12-SCIENCE-AND-BIOINFORMATICS/README.md) | `alphafold-database-fetch-and-analyze`, `chembl-database`, `clinvar-database`, `gtex-database`, `pubmed-database`, `uniprot-database` |
-| `"Activate Antigravity Automation Toolkit"` | ANTIGRAVITY & AUTOMATION | [`13-ANTIGRAVITY-AND-AUTOMATION`](../13-ANTIGRAVITY-AND-AUTOMATION/README.md) | `agy-customizations`, `automation`, `migrate-workflows`, `native_swarm`, `permissioned-github`, `run-workflow` |
-| `"Activate Full Stack Development Toolkit"` | MULTI-CATEGORY SQUAD | Compound: 01 + 03 + 04 + 07 + 08 | Frontend + Backend + UI + DevOps + QA Pipeline |
-| `"Activate Production Engineering Toolkit"` | MULTI-CATEGORY SQUAD | Compound: 04 + 07 + 08 + 14 | Architecture + Security + SRE + CI/CD + Hardening |
-| `"Activate Complete Project Team"` | FULL LIFECYCLE TEAM | All 14 Categories Orchestrated | End-to-end autonomous discovery, architecture, execution, and launch |
+| **`/sr24-web-dev [task]`** | [`SR24-WEB-DEV.md`](./workflows/SR24-WEB-DEV.md) | Product + Branding + UX + UI + Anti-Slop + Frontend + Backend + Security + QA + DevOps | Complete production web app, PRD, zero AI slop, clean responsive UI, fullstack code |
+| **`/sr24-game-dev [task]`** | [`SR24-GAME-DEV.md`](./workflows/SR24-GAME-DEV.md) | Game Design + Narrative + Tech Art + Engine (Unity/UE/Godot/Web) + Gameplay + Audio + QA | Playable core loop, GDD, custom shaders/VFX, responsive HUD, 60+ FPS |
+| **`/sr24-saas [task]`** | [`SR24-SAAS.md`](./workflows/SR24-SAAS.md) | Product + Enterprise Brand + High-Density UI + Multi-Tenancy + Auth + Stripe + SRE | Production SaaS platform, tenant isolation, billing webhooks, RBAC |
+| **`/sr24-design [task]`** | [`SR24-DESIGN.md`](./workflows/SR24-DESIGN.md) | UI Designer + Finish-Gate Reviewer + Impeccable + Anti-Slop + Whimsy + Design Tokens | Custom design system, contrast audit, mathematical spacing, anti-slop pass |
+| **`/sr24-ai [task]`** | [`SR24-AI.md`](./workflows/SR24-AI.md) | AI Engineer + Prompt Engineer + RAG Architect + Data Remediation + AI Security | Robust LLM/Vision/Speech integration, structured JSON outputs, rule fallback |
+| **`/sr24-security [task]`** | [`SR24-SECURITY.md`](./workflows/SR24-SECURITY.md) | AppSec Engineer + Security Architect + Cloud Security + Pen Tester + Code Auditor | OWASP Top 10 remediation, secret leak scanning, auth validation, hardened headers |
+| **`/sr24-research [task]`** | [`SR24-RESEARCH.md`](./workflows/SR24-RESEARCH.md) | Research Synthesist + Statistician + ArXiv/PubMed + Bioinformatics + Reverse Eng | Peer-reviewed citations, empirical evidence matrix, market TAM/SAM analysis |
+| **`/sr24-ship [task]`** | [`SR24-SHIP.md`](./workflows/SR24-SHIP.md) | DevOps Automator + SRE + CI/CD Automator + Launch Strategist + Technical Writer | Automated CI/CD pipeline, Docker/Vercel config, healthchecks, rollback plan |
+| **`/sr24-fullstack [task]`** | [`SR24-FULLSTACK.md`](./workflows/SR24-FULLSTACK.md) | System Architect + Backend Architect + Database Optimizer + Frontend Dev + Senior Dev | Cohesive end-to-end features, strict TypeScript API contracts, database migrations |
 
 ---
 
-## Autonomous Execution Protocol
+## 2. Dynamic Stack & Workspace Detection Protocol
 
-When a category toolkit is triggered, follow this strict step-by-step procedure:
+Before executing any code changes, the Master Router executes the following automated workspace inspection:
 
-1. **Intent Recognition**: Identify the target category or multi-category compound request.
-2. **Category Directory Inspection**: Open `SR24PLUS-ENGINEERING-TOOLKIT/<category>/README.md` and read the workflow pipeline.
-3. **Skill Instruction Loading**: Read the actual `SKILL.md` files for the primary and secondary roles in that pipeline.
-4. **Role Assignment & Sequential Execution**: Execute tasks in order of dependency (e.g. Research -> Architecture -> Implementation -> Verification -> Audit).
-5. **Finish-Gate Validation**: Enforce quality standards (Anti-Slop rules, accessibility guidelines, build verifications).
-6. **User Transparency**: Clearly notify the user which skills were active, which decisions were taken, and the results achieved.
+```
+[User Command Received]
+         │
+         ▼
+[Step 1: Workspace Scan] ──────── Inspect directory tree, package.json, configs
+         │
+         ▼
+[Step 2: Stack Detection] ─────── Identify Framework (React/Vite/Next/FastAPI/Unity)
+         │
+         ▼
+[Step 3: Specialist Selection] ── Match project requirements to exact SKILL.md paths
+         │
+         ▼
+[Step 4: Instruction Loading] ─── Read actual SKILL.md files into reasoning context
+         │
+         ▼
+[Step 5: Sequential Execution] ── Run Phase 1 -> Phase N with intermediate quality gates
+```
+
+### Stack Detection Matrix:
+- **Node.js / React / Next.js / Vite**: Detected via `package.json`. Activates `agency-engineering-frontend-developer` + `ui-ux-pro-max`.
+- **Python / FastAPI / Django / Flask**: Detected via `requirements.txt`, `pyproject.toml`, `main.py`. Activates `agency-engineering-backend-architect` + `api-and-interface-design`.
+- **Unity Engine**: Detected via `Assets/`, `ProjectSettings/`. Activates Unity architecture, shaders, and physics skills.
+- **Godot Engine**: Detected via `project.godot`. Activates Godot gameplay scripter and shader skills.
+- **Unreal Engine**: Detected via `*.uproject`. Activates Unreal systems engineer and technical artist skills.
+
+---
+
+## 3. Genuine Antigravity Invocation Mechanisms
+
+To ensure transparent execution without inventing non-existent features:
+
+1. **Prompt Interception**:
+   - The user triggers commands either by typing the exact command (e.g. `/sr24-web-dev build a billing dashboard`) or natural language equivalent (`"Build a professional billing website"`).
+   - The assistant intercepts this command, loads the corresponding workflow file from `00-MASTER-CONTROLLER/workflows/`, and announces the active squad.
+2. **Native Subagent Delegation (`invoke_subagent`)**:
+   - Where deep independent exploration or review is required, the Master Router launches native subagents:
+     - `research`: Broad codebase or documentation surveys.
+     - `code-reviewer`: Architectural, correctness, and security code reviews.
+     - `security-auditor`: Deep OWASP and vulnerability scans.
+     - `test-engineer`: Test strategy, unit test authoring, and coverage.
+     - `web-performance-auditor`: Core Web Vitals and performance audits.
+3. **Instruction Grounding (`read_file`)**:
+   - Skills are physically loaded by reading their installed `SKILL.md` paths. The instructions in the `SKILL.md` govern the constraints and output format of that phase.
+
+---
+
+## 4. Quality Gates & Anti-Slop Guarantees
+
+Every workflow enforced by the Master Router contains mandatory, non-bypassable quality gates:
+1. **The Anti-AI-Slop Gate**: Rejects unmotivated purple gradients, gratuitous glassmorphism, emoji icons, and generic 3-card layouts.
+2. **The Security Gate**: Rejects hardcoded secrets, open CORS with credentials, and unparameterized SQL queries.
+3. **The Build & Verification Gate**: Code must compile with 0 TypeScript/bundler errors (`npm run build`, `tsc`). No tasks are marked complete without real verification output.
