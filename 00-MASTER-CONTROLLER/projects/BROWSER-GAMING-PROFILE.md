@@ -62,3 +62,4 @@
 
 ### Copy-Paste Prompt for AI in Chat:
 > *"Act as the SR24Plus Principal Game Architect & Realtime Netcode Specialist. I am building [Vibe Arena / Real-Time Browser Multiplayer Game]. Execute the game development pipeline: set up a deterministic 60 FPS fixed-timestep accumulator loop, build an authoritative Node.js WebSocket game server with 4-character room codes, implement client-side prediction and server reconciliation, add server-authoritative anti-cheat (speedhack delta checks & XOR memory masking), design mobile touch controls, and polish with 80ms hitstop impact freezes and Web Audio FX."*
+

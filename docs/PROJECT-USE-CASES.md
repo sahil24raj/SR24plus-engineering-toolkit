@@ -15,13 +15,13 @@
 - **Primary Commands**: `/sr24-saas [project]` or `/sr24-web-dev [project]` or `/sr24-fullstack [feature]`
 
 ### Target Project Implementations:
-1. **Dukan Sathi (दुकान साथी)**:
+1. **Dukan Sathi (Vernacular Kirana Voice POS)**:
    - Vernacular Hindi speech billing (sub-300ms latency via Gnani Prisma v2.5 with local regex fallback).
    - 100% offline-first resilience: IndexedDB / SQLite WASM local storage with background FIFO sync queue when internet reconnects.
    - Indian GST calculation (CGST/SGST/IGST), HSN codes, and 80mm/58mm thermal receipt printing.
    - Razorpay dynamic UPI QR codes (`upi://pay`) and HMAC-SHA256 webhook reconciliation.
    - Dark glassmorphic aesthetic (`bg-zinc-900/60 backdrop-blur-xl`) with full-screen interactive 3D acoustic sphere background.
-2. **ExamLoop (एग्जाम लूप)**:
+2. **ExamLoop (AI Adaptive Testing Engine)**:
    - Computer Adaptive Testing (CAT) algorithm driven by Item Response Theory (1PL Rasch Model) calibrating test difficulty to student ability ($\theta$).
    - Flawless mathematical and chemical symbol rendering via KaTeX with zero layout shift.
    - Sandboxed proctoring telemetry auditing window blurs and suspicious device switches.
@@ -56,7 +56,7 @@
 - **Primary Commands**: `/sr24-browser-game [game-concept]` or `/sr24-multiplayer [task]`
 
 ### Target Project Implementation:
-1. **Vibe Arena (वाइब एरीना)**:
+1. **Vibe Arena (Real-Time Browser Esports Platform)**:
    - Deterministic 60Hz accumulator game loop (`dt = 1/60s`) with sub-frame state interpolation for buttery smooth movement.
    - Authoritative Node.js WebSocket backend executing 60Hz physics ticks and broadcasting 20-30Hz delta-compressed state snapshots.
    - Client-side prediction with entity reconciliation: zero rubberbanding over 4G cellular connections.

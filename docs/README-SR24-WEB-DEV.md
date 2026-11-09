@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/sr24plus-deep-dive.jpg" alt="SR24Plus Web-Dev Deep Dive Banner" width="100%" />
+</p>
+
 # SR24-WEB-DEV: Comprehensive Full-Stack & SaaS Engineering Pack
 ### Production-Grade Autonomous Engineering Architecture for Web Applications & SaaS Platforms
 
