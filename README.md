@@ -124,7 +124,7 @@ Yahan sabhi **14 Master Commands** ka comprehensive breakdown diya gaya hai. Har
 
 ---
 
-### Command 02: `/sr24-web-dev [task]`
+### Command 02: `/sr24-web-dev [task]`  🌟 *(Master Web Development Command)*
 * **Category**: Full-Stack Web Development
 * **Mission**: Executes the complete 12-phase production web application lifecycle from PRD planning to responsive React 18/Next.js frontend, backend REST/tRPC APIs, database indexing, and Anti-Slop UI.
 * **Upstream GitHub Repositories Used**:
