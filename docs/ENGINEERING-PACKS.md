@@ -217,3 +217,4 @@ SR24PLUS-ENGINEERING-TOOLKIT/
 - **Trigger Command**: `/sr24 general [task]`
 - **Natural Language Prompt**:
   > *"Review Git branch history, split uncommitted changes into clean atomic conventional commits, and draft an ADR."*
+

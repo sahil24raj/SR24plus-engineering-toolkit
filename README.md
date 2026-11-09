@@ -2,9 +2,8 @@
 ### The Ultimate Autonomous Multi-Agent Engineering Ecosystem for Web, SaaS, Game Development & AI Products
 
 [![Canonical Skills](https://img.shields.io/badge/Canonical%20Skills-413%20In--Repo-emerald.svg)](./SKILL-REGISTRY.md)
-[![Custom Specialists](https://img.shields.io/badge/Custom%20Engineered-17%20Original-blue.svg)](./docs/SKILL-PROVENANCE-REPORT.md#c-custom-authored-skills-17-skills)
-[![Primary Commands](https://img.shields.io/badge/Commands-13%20Automated-purple.svg)](./00-MASTER-CONTROLLER/COMMANDS.md)
-[![Project Profiles](https://img.shields.io/badge/Project%20Profiles-6%20Dedicated-orange.svg)](./docs/PROJECT-USE-CASES.md)
+[![Master Commands](https://img.shields.io/badge/Master%20Commands-13%20Deep--Dive%20Commands-purple.svg)](#3-the-13-master-commands--complete-technical-deep-dive)
+[![Production Profiles](https://img.shields.io/badge/Production%20Profiles-2%20Consolidated%20Blueprints-blue.svg)](#4-consolidated-master-production-profiles)
 [![Anti-AI-Slop](https://img.shields.io/badge/Anti--AI--Slop-100%25%20Enforced-success.svg)](./00-MASTER-CONTROLLER/EXECUTION-RULES.md)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](./LICENSE)
 
@@ -14,28 +13,26 @@
 
 | Documentation File | Description & Deep-Dive Contents |
 |---|---|
-| [**`docs/README-SR24-WEB-DEV.md`**](./docs/README-SR24-WEB-DEV.md) | **Deep-Dive: Web & SaaS Engineering Pack** (12-phase lifecycle, PRD, Anti-Slop UI, React 18, FastAPI, Razorpay/UPI, Indian GST, Playwright, Vercel). |
+| [**`docs/README-SR24-WEB-DEV.md`**](./docs/README-SR24-WEB-DEV.md) | **Deep-Dive: Web & SaaS Engineering Pack** (12-phase lifecycle, PRD, Anti-Slop UI, React 18/Next.js, FastAPI, Razorpay/UPI, Indian GST, Playwright, Vercel). |
 | [**`docs/README-SR24-GAME-DEV.md`**](./docs/README-SR24-GAME-DEV.md) | **Deep-Dive: Game Development Pack** (Browser WebGL games, authoritative 60Hz WebSockets, anti-cheat, Unity 16-wheeler truck physics, spline circuits). |
+| [**`docs/PROJECT-USE-CASES.md`**](./docs/PROJECT-USE-CASES.md) | **2 Consolidated Master Production Profiles** (Profile 1: Full-Stack SaaS for Dukan Sathi & ExamLoop; Profile 2: Browser Gaming for Vibe Arena). |
 | [**`docs/SKILL-SOURCES.md`**](./docs/SKILL-SOURCES.md) | **Source Repositories & Attribution** (Full links to all 10 upstream GitHub repositories and authors). |
 | [**`docs/SKILL-PROVENANCE-REPORT.md`**](./docs/SKILL-PROVENANCE-REPORT.md) | **Skill Lineage & Classification Report** (Direct imports [390], adaptations [6], custom skills [17], zero unknown). |
 | [**`docs/ENGINEERING-PACKS.md`**](./docs/ENGINEERING-PACKS.md) | **14 Domain Engineering Packs** (UI/UX, Games, Frontend, Backend, AI/ML, Mobile, DevOps, QA, Research, Science, etc.). |
 | [**`docs/MASTER-WORKFLOW.md`**](./docs/MASTER-WORKFLOW.md) | **Multi-Agent Orchestration & Lifecycle** (How master controller routes tasks, loads skills, and enforces quality gates). |
-| [**`docs/PROJECT-USE-CASES.md`**](./docs/PROJECT-USE-CASES.md) | **6 Production Project Profiles** (Dukan Sathi, Vibe Arena, Indian Truck Racing, Indian Politics Arena, Exam Loop, SR24Plus). |
 
 ---
 
 ## 📖 Table of Contents
 1. [🌟 What is SR24Plus Toolkit? (यह क्या है?)](#1-what-is-sr24plus-toolkit)
 2. [⚡ Quick Start for Beginners (शुरुआत कैसे करें - 30 Seconds Guide)](#2-quick-start-for-beginners)
-3. [💬 How to Prompt AI for Each Skill (AI को क्या प्रॉम्प्ट दें?)](#3-how-to-prompt-ai-for-each-skill)
-4. [🏛️ Source Repositories & Attribution (कहाँ से क्या स्किल लिया है?)](#4-source-repositories--attribution)
-5. [🎮 The 13 Master Commands (कमांड्स और उनका काम)](#5-the-13-master-commands)
+3. [🎮 The 13 Master Commands — Complete Technical Deep Dive (कमांड्स, कैटेगरी, गिटहब सोर्स, और प्रॉम्प्ट्स)](#3-the-13-master-commands--complete-technical-deep-dive)
+4. [🏢 Consolidated Master Production Profiles (Dukan Sathi / ExamLoop & Vibe Arena)](#4-consolidated-master-production-profiles)
+5. [🏛️ Source Repositories & Attribution (कहाँ से क्या स्किल लिया है?)](#5-source-repositories--attribution)
 6. [🌐 Deep Dive: `/sr24-web-dev` Pack](#6-deep-dive-sr24-web-dev-pack)
 7. [🕹️ Deep Dive: `/sr24-game-dev` Pack](#7-deep-dive-sr24-game-dev-pack)
-8. [💎 The 17 Original Custom-Engineered Specialists](#8-the-17-original-custom-engineered-specialists)
-9. [🏢 Pre-Built Dedicated Project Profiles](#9-pre-built-dedicated-project-profiles)
-10. [🛡️ Inviolable Execution Rules & Quality Gates](#10-inviolable-execution-rules--quality-gates)
-11. [❓ Frequently Asked Questions (FAQ)](#11-frequently-asked-questions)
+8. [🛡️ Inviolable Execution Rules & Quality Gates](#8-inviolable-execution-rules--quality-gates)
+9. [❓ Frequently Asked Questions (FAQ)](#9-frequently-asked-questions)
 
 ---
 
@@ -43,12 +40,12 @@
 
 **SR24Plus Engineering Toolkit** koi random markdown files ka collection nahi hai. Ye ek **intelligent, multi-agent engineering architecture** hai jo **Google Antigravity**, Cursor, Claude, ya kisi bhi compatible AI agent ke saath milkar ek poori senior engineering team ki tarah kaam karta hai.
 
-### Problem It Solves:
+### The Problem It Solves:
 Jab hum AI se website ya game banwate hain, toh AI aksar:
 - Generic purple/cyan gradients aur floating cards chipka deta hai (**AI Slop**).
 - Backend, payments, aur database security bhool jata hai.
 - Code me fake buttons aur bina kaam ke decorative elements daal deta hai.
-- Browser games me stuttering aur memory leaks la deta hai.
+- Browser games me stuttering, desynchronization aur memory leaks la deta hai.
 
 ### The SR24Plus Solution:
 SR24Plus ek **Master Skill Router** provide karta hai jo ek simple command par ek poori specialized squad khadi kar deta hai:
@@ -58,7 +55,7 @@ SR24Plus ek **Master Skill Router** provide karta hai jo ek simple command par e
 
 ## 2. Quick Start for Beginners
 
-Aapko 413 skills ke andar jaakar manually kuch dhoondhne ki zarurat nahi hai. 
+Aapko 413 skills ke andar jaakar manually kuch dhoondhne ki zarurat nahi hai.
 
 ### Step 1: Clone Repository
 Apne project folder me repository clone karein:
@@ -72,50 +69,272 @@ Sirf chat box me command ya natural language prompt type karein:
 ```text
 /sr24-auto
 ```
-*Ya specific full-stack SaaS app ke liye:*
+*Ya specific full-stack SaaS app (Dukan Sathi / ExamLoop) ke liye:*
 ```text
-/sr24-web-dev Build a responsive Kirana billing app with Hindi speech recognition and dark frosted glass UI
+/sr24-saas Build an offline-first Kirana voice billing POS with Hindi speech parsing, GST math, and dark glassmorphic 3D UI
 ```
-*Ya multiplayer browser game ke liye:*
+*Ya multiplayer browser game (Vibe Arena) ke liye:*
 ```text
-/sr24-browser-game Build a 60 FPS multiplayer arena brawler with mobile touch controls and room codes
-```
-*Ya Unity 3D racing simulator ke liye:*
-```text
-/sr24-racing-game Simulate a 16-wheeler commercial truck with dual drive axles on a banked mountain circuit
+/sr24-browser-game Build a 60 FPS multiplayer arena brawler with mobile touch controls and 4-character room codes
 ```
 
 ---
 
-## 3. How to Prompt AI for Each Skill
-### (AI को क्या कमांड और प्रॉम्प्ट दें?)
+## 3. The 13 Master Commands — Complete Technical Deep Dive
+### (कमांड्स, कैटेगरी, गिटहब सोर्स, और प्रॉम्प्ट्स का सम्पूर्ण विवरण)
 
-Aap AI ko direct slash commands de sakte hain ya niche diye gaye natural-language prompts use kar sakte hain:
-
-| Domain / Skill | Command | What Prompt to Give AI in Chat (Copy & Paste) |
-|---|---|---|
-| **Auto-Detect Workspace** | `/sr24-auto` | *"Inspect this workspace, detect the framework and database, and activate the matching squad."* |
-| **Full-Stack Web & SaaS** | `/sr24-web-dev` | *"Build a complete full-stack web application following the 10-phase lifecycle from PRD to production deploy."* |
-| **Anti-AI-Slop Design** | `/sr24-design` | *"Audit this UI against the Anti-AI-Slop standard: remove purple gradients, fix WCAG AA contrast, and apply an 8px grid."* |
-| **UI Polish & Critique** | `/sr24 ui` | *"Use Impeccable and UI UX Pro Max to critique and polish this screen's typography, spacing rhythm, and interactive states."* |
-| **Browser Game (60 FPS)** | `/sr24-browser-game` | *"Build a 60 FPS HTML5 browser game using a deterministic fixed-timestep loop with virtual touch joysticks."* |
-| **Realtime Multiplayer** | `/sr24-multiplayer` | *"Build an authoritative Node.js WebSocket game server with 4-digit room codes, client prediction, and reconciliation."* |
-| **Unity 3D Engine** | `/sr24-unity` | *"Scaffold a decoupled Unity project using ScriptableObjects, custom URP Shader Graph materials, and audio mixers."* |
-| **Heavy Truck Physics** | `/sr24-racing-game` | *"Simulate a 16-wheeler commercial truck in Unity with multi-axle WheelColliders, air brakes, and banked ghat hairpins."* |
-| **Indian Payments (UPI)** | `/sr24-saas` | *"Integrate Razorpay Orders API with dynamic UPI QR code generator (`upi://pay`) and HMAC webhook verification."* |
-| **Indian GST Invoicing** | `/sr24-saas` | *"Implement multi-tier Indian GST billing (CGST+SGST vs IGST) with HSN summaries and 80mm thermal receipt printing."* |
-| **Offline-First Kirana** | `/sr24-saas` | *"Implement an offline-first storage engine using IndexedDB and SQLite WASM with a FIFO sync queue for orders."* |
-| **Combat & Game Feel** | `/sr24-browser-game` | *"Implement arcade combat mechanics with 60Hz frame data, 80ms hitstop impact freezes, and camera screen shakes."* |
-| **Game Anti-Cheat** | `/sr24-multiplayer` | *"Add server-side movement delta checks, memory XOR obfuscation for scores, and input entropy bot detection."* |
-| **AI Prompt Injection Defense**| `/sr24-ai` | *"Harden this LLM agent against prompt injection using XML boundary delimiters, canary tokens, and tool call firewalls."* |
-| **Playwright QA Automation** | `/sr24-qa` | *"Write zero-flake Playwright E2E browser tests covering user authentication, cart checkout, and payment confirmation."* |
-| **Root-Cause Debugging** | `/sr24-qa` | *"Perform a 4-step hypothesis-driven root-cause analysis (RCA) to isolate and fix this memory leak."* |
-| **Programmatic SEO** | `/sr24-ship` | *"Generate a programmatic SEO engine with Next.js ISR, structured JSON-LD schema markup, and dynamic XML sitemaps."* |
-| **Product Hunt Launch** | `/sr24-ship` | *"Prepare a complete launch playbook for Product Hunt #1 Product of the Day, including Show HN copy and gallery slides."* |
+Yahan sabhi **13 Master Commands** ka detailed deep-dive diya gaya hai, jisme unki category, upstream GitHub repository sources, mobilized skills, aur copy-paste prompts shamil hain:
 
 ---
 
-## 4. Source Repositories & Attribution
+### Command 1: `/sr24-auto [task]`
+* **Category**: General Engineering & Autonomous Orchestration
+* **Mission**: Workspace inspect karta hai, frameworks (`package.json`, `requirements.txt`, `Assets/`) detect karta hai, aur automatically exact specialist squad mobilize karta hai.
+* **Upstream GitHub Repositories Used**:
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (Agents Orchestrator, Codebase Onboarding)
+  * [`addyosmani/agent-skills`](https://github.com/addyosmani/agent-skills) (Context Engineering)
+  * `SR24Plus Custom Engineering` (Systematic Debugging)
+* **Skills Mobilized**: `agency-specialized-agents-orchestrator`, `agency-engineering-codebase-onboarding-engineer`, `context-engineering`, `systematic-debugging-engineer`.
+* **Dedicated Runbook**: [`00-MASTER-CONTROLLER/workflows/SR24-AUTO.md`](./00-MASTER-CONTROLLER/workflows/SR24-AUTO.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"Act as SR24Plus Auto-Orchestrator: Inspect this entire workspace, detect the technology stack, framework, and database, and autonomously mobilize the exact engineering squad to solve: [describe task]."`
+  * *Hindi Prompt*: `"SR24Plus Auto-Orchestrator ke roop me kaam karo: Poore workspace ko scan karo, framework aur database detect karo, aur is task ke liye sahi specialist team activate karo: [apna task likhein]."`
+* **Execution Flow**: Workspace Audit ➔ Tech Stack Fingerprinting ➔ Skill Matching ➔ Squad Execution ➔ Verification.
+
+---
+
+### Command 2: `/sr24-web-dev [task]`
+* **Category**: Full-Stack Web Development
+* **Mission**: Complete 12-phase production web application lifecycle execute karta hai — PRD planning se lekar React/Next.js frontend, backend APIs, database optimization, aur anti-slop UI tak.
+* **Upstream GitHub Repositories Used**:
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (Frontend Developer, Backend Architect, Database Optimizer)
+  * [`pbakaus/impeccable`](https://github.com/pbakaus/impeccable) (Visual Design Critique)
+  * [`miqdadbadjuber/anti-slop`](https://github.com/miqdadbadjuber/anti-slop) (Anti-AI-Slop Filter)
+  * [`nextlevelbuilder/ui-ux-pro-max-skill`](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (Design System Tokens)
+  * `SR24Plus Custom Engineering` (Playwright QA Automation)
+* **Skills Mobilized**: `agency-engineering-frontend-developer`, `agency-engineering-backend-architect`, `impeccable`, `antislop-ui`, `ui-ux-pro-max`, `agency-engineering-database-optimizer`, `playwright-automation-engineer`.
+* **Dedicated Runbook**: [`docs/README-SR24-WEB-DEV.md`](./docs/README-SR24-WEB-DEV.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-web-dev Build a modern web application for [Project Name]. Follow the 12-phase engineering lifecycle: enforce strict TypeScript contracts, apply the Anti-AI-Slop design standard, build scalable REST/tRPC APIs, optimize database queries, and provide Playwright test evidence."`
+  * *Hindi Prompt*: `"/sr24-web-dev [Project Name] ke liye ek modern web app banao. 12-phase lifecycle follow karo: clean TypeScript code, anti-AI-slop design, fast APIs, database indexing, aur automated tests verify karo."`
+* **Execution Flow**: PRD Specification ➔ Anti-Slop Design ➔ Frontend Hierarchy ➔ Backend APIs ➔ DB Indexing ➔ QA Verification.
+
+---
+
+### Command 3: `/sr24-saas [task]`
+* **Category**: SaaS Architecture, Fintech & Commercial Monetization
+* **Mission**: High-impact SaaS products build karta hai — multi-tenant database isolation, Razorpay/Stripe billing, Indian GST compliance, offline-first storage, aur adaptive assessment engines.
+* **Upstream GitHub Repositories Used**:
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (Software Architect, AppSec Engineer)
+  * `SR24Plus Custom Engineering` (Razorpay UPI Specialist, Indian GST Billing, Offline Kirana Architect, Assessment Engine)
+  * [`addyosmani/agent-skills`](https://github.com/addyosmani/agent-skills) (Performance Optimization)
+* **Skills Mobilized**: `agency-engineering-software-architect`, `saas-architect`, `razorpay-upi-specialist`, `indian-gst-billing-engineer`, `offline-first-kirana-architect`, `assessment-engine-architect`, `agency-security-appsec-engineer`, `programmatic-seo-engineer`.
+* **Dedicated Runbook**: [`00-MASTER-CONTROLLER/workflows/SR24-SAAS.md`](./00-MASTER-CONTROLLER/workflows/SR24-SAAS.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-saas Build a production-grade multi-tenant SaaS application for [ExamLoop / Dukan Sathi / SaaS Idea]. Integrate dynamic UPI QR code checkout (`upi://pay`), Indian GST math with HSN codes, offline-first IndexedDB resilience, role-based auth, and automated billing reconciliation."`
+  * *Hindi Prompt*: `"/sr24-saas [ExamLoop / Dukan Sathi / SaaS Idea] ke liye production SaaS build karo. Dynamic UPI QR payments, Indian GST tax calculations, offline-first storage aur secure user auth setup karo."`
+* **Execution Flow**: Multi-Tenant Schema ➔ Auth & RBAC ➔ Billing/UPI Gateway ➔ Offline Sync ➔ Security Audit ➔ Production Launch.
+
+---
+
+### Command 4: `/sr24-fullstack [task]`
+* **Category**: Rapid Full-Stack Feature Engineering
+* **Mission**: End-to-end fullstack features implement karta hai bina context switch kiye — database migration se lekar backend endpoint, frontend UI component, aur state management tak.
+* **Upstream GitHub Repositories Used**:
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (Senior Developer, API Platform Engineer)
+  * [`addyosmani/agent-skills`](https://github.com/addyosmani/agent-skills) (Test-Driven Development)
+  * [`vercel-labs/agent-skills`](https://github.com/vercel-labs/agent-skills) (Next.js Edge Runtime)
+* **Skills Mobilized**: `agency-engineering-senior-developer`, `agency-engineering-database-optimizer`, `agency-engineering-api-platform-engineer`, `test-driven-development`.
+* **Dedicated Runbook**: [`00-MASTER-CONTROLLER/workflows/SR24-FULLSTACK.md`](./00-MASTER-CONTROLLER/workflows/SR24-FULLSTACK.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-fullstack Implement an end-to-end fullstack feature for [Feature Name]: write the SQL database migration, construct the validated backend endpoint with Zod/Pydantic schemas, build the responsive UI component with Tailwind, and write integration tests."`
+  * *Hindi Prompt*: `"/sr24-fullstack [Feature Name] ka poora end-to-end feature banao: database schema change, backend API endpoint, frontend UI component aur testing ek flow me complete karo."`
+* **Execution Flow**: Schema Migration ➔ Backend Route ➔ Frontend Component ➔ State Hook ➔ Verification Test.
+
+---
+
+### Command 5: `/sr24-browser-game [task]`
+* **Category**: HTML5 & WebGL Browser Game Development
+* **Mission**: High-performance 60 FPS browser-based games build karta hai — deterministic fixed-timestep accumulator loop, sub-frame interpolation, mobile virtual touch controls, aur visceral game feel (hitstop, screen shake).
+* **Upstream GitHub Repositories Used**:
+  * `SR24Plus Custom Engineering` (Browser Game Architect, Combat Mechanics Engineer)
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (Game Designer, Game Audio Engineer, Whimsy Injector)
+  * [`nextlevelbuilder/ui-ux-pro-max-skill`](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (Game HUD Tokens)
+* **Skills Mobilized**: `browser-game-architect`, `combat-mechanics-engineer`, `agency-game-development-game-audio-engineer`, `agency-design-whimsy-injector`, `ui-ux-pro-max`.
+* **Dedicated Runbook**: [`docs/README-SR24-GAME-DEV.md`](./docs/README-SR24-GAME-DEV.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-browser-game Build a 60 FPS browser action game for [Vibe Arena / Game Concept]. Implement a deterministic fixed-timestep loop (`dt = 1/60`), sub-frame interpolation, mobile virtual touch controls, 80ms hitstop impact freezes, dynamic screen shake, and Web Audio FX."`
+  * *Hindi Prompt*: `"/sr24-browser-game [Vibe Arena / Game Concept] ke liye 60 FPS browser game banao: fixed-timestep game loop, mobile touch joystick, 80ms hitstop impact, screen shake aur Web Audio sound effects ke saath."`
+* **Execution Flow**: 60Hz Game Loop ➔ Input Abstraction ➔ Physics & Colliders ➔ Frame-Data Hitboxes ➔ Web Audio FX ➔ Mobile Touch HUD.
+
+---
+
+### Command 6: `/sr24-multiplayer [task]`
+* **Category**: Realtime Multiplayer Networking & Anti-Cheat
+* **Mission**: Low-latency authoritative game servers build karta hai — client-side prediction, entity interpolation, server reconciliation, 4-character room codes (`#A9K4`), aur server-side movement delta anti-cheat.
+* **Upstream GitHub Repositories Used**:
+  * `SR24Plus Custom Engineering` (WebSocket Multiplayer Engineer, Browser Game Anti-Cheat Engineer)
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (Multiplayer Engineer)
+* **Skills Mobilized**: `websocket-multiplayer-engineer`, `browser-game-anti-cheat-engineer`, `agency-game-development-godot-godot-multiplayer-engineer`, `playwright-automation-engineer`.
+* **Dedicated Runbook**: [`00-MASTER-CONTROLLER/workflows/SR24-MULTIPLAYER.md`](./00-MASTER-CONTROLLER/workflows/SR24-MULTIPLAYER.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-multiplayer Build an authoritative Node.js WebSocket game server for [Game Name]. Implement 60Hz server tick simulation, 20Hz delta-compressed snapshot broadcasts, client-side prediction with server reconciliation, 4-character room codes, and server-side delta-distance anti-cheat."`
+  * *Hindi Prompt*: `"/sr24-multiplayer [Game Name] ke liye authoritative WebSocket game server banao: 60Hz server tick, client-side prediction, 4-digit room code matchmaking, aur speedhack rokne ke liye server-side anti-cheat logic daalo."`
+* **Execution Flow**: WebSocket Handshake ➔ Room Code Matchmaking ➔ 60Hz Authoritative Tick ➔ Client Prediction & Reconciliation ➔ Anti-Cheat Validation.
+
+---
+
+### Command 7: `/sr24-unity [task]`
+* **Category**: Unity Engine & 3D Interactive Simulation
+* **Mission**: Decoupled, production-ready Unity 2D/3D games build karta hai — ScriptableObject architecture, URP custom shaders, Render Graph passes, audio mixers, aur cross-platform builds.
+* **Upstream GitHub Repositories Used**:
+  * [`Unity Technologies Official`](https://unity.com) (Unity Antigravity Plugin: 32 Official Engine Skills)
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (Unity Architect, Shader Graph Artist)
+* **Skills Mobilized**: `agency-game-development-unity-unity-architect`, `agency-game-development-unity-unity-shader-graph-artist`, `urp-postprocessing`, `audio-setup-mixers`, `physics-3d-collision`, `optimize-audio`.
+* **Dedicated Runbook**: [`00-MASTER-CONTROLLER/workflows/SR24-UNITY.md`](./00-MASTER-CONTROLLER/workflows/SR24-UNITY.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-unity Architect a decoupled Unity 3D project for [Game Title]. Use ScriptableObject event channels, custom URP Shader Graph shaders, hierarchical audio mixers, optimized physics layers, and clean assembly definitions."`
+  * *Hindi Prompt*: `"/sr24-unity [Game Title] ke liye Unity 3D architecture taiyar karo: ScriptableObjects, custom URP shaders, audio mixers aur clean C# scripts ka use karo."`
+* **Execution Flow**: Assembly Definition Setup ➔ ScriptableObject Architecture ➔ Physics Layering ➔ Shader Graph Creation ➔ Audio Routing ➔ Build Optimization.
+
+---
+
+### Command 8: `/sr24-racing-game [task]`
+* **Category**: Commercial Vehicle & Racing Physics Simulation
+* **Mission**: Advanced heavy truck aur sports car physics simulate karta hai — 16-wheeler multi-axle WheelColliders, Ackermann steering geometry, Pacejka slip curves, diesel torque models, air brakes, aur mountain ghat spline tracks.
+* **Upstream GitHub Repositories Used**:
+  * `SR24Plus Custom Engineering` (Truck Physics Engineer, Realistic Car Controller, Racing Track Design)
+  * [`Unity Technologies Official`](https://unity.com) (Physics 3D Collision)
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (Game Audio Engineer)
+* **Skills Mobilized**: `truck-physics-engineer`, `realistic-car-controller-engineer`, `racing-track-design-engineer`, `agency-game-development-game-audio-engineer`.
+* **Dedicated Runbook**: [`00-MASTER-CONTROLLER/workflows/SR24-RACING-GAME.md`](./00-MASTER-CONTROLLER/workflows/SR24-RACING-GAME.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-racing-game Simulate a 16-wheeler commercial heavy truck in Unity. Configure multi-axle WheelColliders with dynamic body roll centers, Ackermann steering geometry, diesel RPM torque curves, air brake hiss audio, and a procedural spline mountain ghat circuit with 5°-12° banking."`
+  * *Hindi Prompt*: `"/sr24-racing-game Unity me 16-wheeler commercial truck physics simulate karo: multi-axle WheelColliders, air brakes, diesel engine sound aur ghat road ke banked turns design karo."`
+* **Execution Flow**: Rigidbody Center of Mass ➔ Multi-Axle WheelColliders ➔ Torque Curve Engine ➔ Brake Pressure System ➔ Spline Track Banking.
+
+---
+
+### Command 9: `/sr24-ai [task]`
+* **Category**: Production AI Engineering, MCP & LLM Defense
+* **Mission**: Enterprise AI systems build karta hai — Model Context Protocol (MCP) servers, hybrid RAG pipelines, prompt injection firewalls (XML delimiters, canary tokens), aur local rule-based deterministic fallbacks.
+* **Upstream GitHub Repositories Used**:
+  * `SR24Plus Custom Engineering` (MCP Server Developer, Prompt Injection Security Engineer)
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (Prompt Engineer, RAG Pipeline Engineer)
+  * [`addyosmani/agent-skills`](https://github.com/addyosmani/agent-skills) (Context Engineering)
+* **Skills Mobilized**: `mcp-server-developer`, `prompt-injection-security-engineer`, `agency-engineering-prompt-engineer`, `agency-engineering-rag-pipeline-engineer`.
+* **Dedicated Runbook**: [`00-MASTER-CONTROLLER/workflows/SR24-AI.md`](./00-MASTER-CONTROLLER/workflows/SR24-AI.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-ai Build a production LLM integration and MCP server for [AI Feature]. Implement strict JSON-RPC 2.0 schemas, XML delimiter containment against prompt injection, canary tokens for leak detection, and a deterministic local fallback rule engine."`
+  * *Hindi Prompt*: `"/sr24-ai [AI Feature] ke liye production LLM agent aur MCP server banao: prompt injection security (canary tokens, XML delimiters) aur offline fallback rule engine implement karo."`
+* **Execution Flow**: JSON Schema Authoring ➔ MCP Tool Wiring ➔ Injection Hardening ➔ Fallback Rule Matrix ➔ Latency Benchmarking.
+
+---
+
+### Command 10: `/sr24-design [task]`
+* **Category**: Anti-AI-Slop Visual Systems & Component Design
+* **Mission**: Bespoke, human-crafted interfaces banata hai — 4px/8px mathematical layout rhythm, WCAG AA contrast floor, dark frosted glassmorphism, bespoke color tokens, aur generic AI purple gradient stripping.
+* **Upstream GitHub Repositories Used**:
+  * [`pbakaus/impeccable`](https://github.com/pbakaus/impeccable) (Paul Bakaus - Design Critique)
+  * [`miqdadbadjuber/anti-slop`](https://github.com/miqdadbadjuber/anti-slop) (Miqdad Badjuber - Anti-Slop Core & UI)
+  * [`nextlevelbuilder/ui-ux-pro-max-skill`](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (Enterprise Design Systems)
+  * [`Leonxlnx/taste-skill`](https://github.com/Leonxlnx/taste-skill) (Aesthetic Taste)
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (UI Designer, Finish Gate Reviewer)
+* **Skills Mobilized**: `impeccable`, `antislop`, `antislop-ui`, `taste-skill`, `ui-ux-pro-max`, `agency-design-ui-finish-gate-reviewer`, `agency-design-ui-designer`.
+* **Dedicated Runbook**: [`00-MASTER-CONTROLLER/workflows/SR24-DESIGN.md`](./00-MASTER-CONTROLLER/workflows/SR24-DESIGN.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-design Audit and redesign this interface for [Screen Name]. Strip away all unmotivated purple gradients and generic AI card slop. Apply mathematical 4px/8px spacing rhythm, WCAG AA high-contrast typography, interactive focus states, and a premium dark glass aesthetic."`
+  * *Hindi Prompt*: `"/sr24-design Is screen ka poora UI redesign karo: sabhi cheap AI purple gradients aur generic cards hatao. 4px/8px mathematical spacing, high-contrast readable fonts aur dark glass aesthetic lagao."`
+* **Execution Flow**: Anti-Slop Audit ➔ Color Token Definition ➔ 8px Spatial Grid ➔ Typography Hierarchy ➔ Interactive States ➔ Finish Gate Pass.
+
+---
+
+### Command 11: `/sr24-security [task]`
+* **Category**: Application Security & Infrastructure Hardening
+* **Mission**: Deep offensive and defensive security audits execute karta hai — OWASP Top 10 vulnerabilities, SQL injection, Git secret exposure scanning, CSP/CORS policy hardening, aur tenant data boundary isolation.
+* **Upstream GitHub Repositories Used**:
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (AppSec Engineer, Penetration Tester, Cloud Security Architect)
+  * [`addyosmani/agent-skills`](https://github.com/addyosmani/agent-skills) (Security and Hardening)
+  * `SR24Plus Custom Engineering` (Prompt Injection Defense)
+* **Skills Mobilized**: `agency-security-appsec-engineer`, `agency-security-penetration-tester`, `security-and-hardening`, `prompt-injection-security-engineer`, `agency-security-cloud-security-architect`.
+* **Dedicated Runbook**: [`00-MASTER-CONTROLLER/workflows/SR24-SECURITY.md`](./00-MASTER-CONTROLLER/workflows/SR24-SECURITY.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-security Conduct a comprehensive OWASP Top 10 security audit on this application. Check for SQL injection vectors, ensure 100% parameterized queries, verify CORS and Content-Security-Policy headers, audit secret leakage in commits, and harden API routes."`
+  * *Hindi Prompt*: `"/sr24-security Poori application par OWASP Top 10 security audit chalao: SQL injection check karo, CORS/CSP headers verify karo, API keys leak toh nahi hain check karo aur endpoints harden karo."`
+* **Execution Flow**: Static Code Analysis ➔ Dependency Vulnerability Scan ➔ Auth Boundary Check ➔ Injection Vector Penetration ➔ Hardening Patch.
+
+---
+
+### Command 12: `/sr24-qa [task]`
+* **Category**: Quality Assurance & Automated Testing
+* **Mission**: Zero-flake automated test suites construct karta hai — Playwright end-to-end browser automation, API integration test suites, hypothesis-driven systematic debugging (RCA), aur visual regression testing.
+* **Upstream GitHub Repositories Used**:
+  * `SR24Plus Custom Engineering` (Playwright Automation Engineer, Systematic Debugging Engineer)
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (Test Automation Engineer, Evidence Collector)
+  * [`addyosmani/agent-skills`](https://github.com/addyosmani/agent-skills) (Test-Driven Development)
+* **Skills Mobilized**: `playwright-automation-engineer`, `systematic-debugging-engineer`, `agency-testing-test-automation-engineer`, `test-driven-development`, `agency-testing-evidence-collector`.
+* **Dedicated Runbook**: [`00-MASTER-CONTROLLER/workflows/SR24-SHIP.md`](./00-MASTER-CONTROLLER/workflows/SR24-SHIP.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-qa Author a zero-flake Playwright E2E browser test suite for [User Journey]. Use role-based accessible locators, mock flaky network requests, test edge-case error states, and perform a 4-step hypothesis-driven root-cause analysis (RCA) on any failing tests."`
+  * *Hindi Prompt*: `"/sr24-qa [User Journey] ke liye Playwright E2E test suite likho: user login, checkout aur edge cases test karo, aur failing tests par systematic debugging (RCA) karke fix karo."`
+* **Execution Flow**: Test Plan Authoring ➔ Playwright Test Writing ➔ Headless Browser Execution ➔ Failure RCA ➔ Verified Test Report.
+
+---
+
+### Command 13: `/sr24-ship [task]`
+* **Category**: Production Release, SRE, Growth & SEO
+* **Mission**: Complete deployment and launch pipeline execute karta hai — production build verification (`npm run build`), Docker multi-stage containerization, GitHub Actions CI/CD, Next.js programmatic SEO, aur Product Hunt launch playbooks.
+* **Upstream GitHub Repositories Used**:
+  * [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (DevOps Automator, SRE, Growth Hacker)
+  * [`addyosmani/agent-skills`](https://github.com/addyosmani/agent-skills) (CI/CD and Automation)
+  * `SR24Plus Custom Engineering` (Programmatic SEO Engineer, Product Hunt Launch Specialist)
+* **Skills Mobilized**: `agency-engineering-devops-automator`, `ci-cd-and-automation`, `agency-engineering-sre`, `programmatic-seo-engineer`, `product-hunt-launch-specialist`.
+* **Dedicated Runbook**: [`00-MASTER-CONTROLLER/workflows/SR24-SHIP.md`](./00-MASTER-CONTROLLER/workflows/SR24-SHIP.md)
+* **Exact Command & Chat Prompt (Copy & Paste)**:
+  * *English Prompt*: `"/sr24-ship Prepare [Project Name] for production release. Run production build audits, generate optimized multi-stage Dockerfiles, configure GitHub Actions CI/CD workflows with automated rollback triggers, and scaffold programmatic SEO sitemaps."`
+  * *Hindi Prompt*: `"/sr24-ship [Project Name] ko production me deploy karne ke liye taiyar karo: build test verify karo, Dockerfile banao, CI/CD pipeline setup karo aur programmatic SEO ready karo."`
+* **Execution Flow**: Build & Bundle Audit ➔ Containerization ➔ CI/CD Deployment ➔ Healthcheck Verification ➔ SEO & Launch Assets.
+
+---
+
+## 4. Consolidated Master Production Profiles
+*(Full Architectural Specifications: [**`docs/PROJECT-USE-CASES.md`**](./docs/PROJECT-USE-CASES.md))*
+
+Toolkit ke sabhi workflows ko consolidate karke **2 Dedicated Master Production Profiles** me organize kiya gaya hai jo actual software products banane me use hote hain:
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│             SR24PLUS CONSOLIDATED MASTER PRODUCTION PROFILES           │
+├────────────────────────────────────┬───────────────────────────────────┤
+│  PROFILE 1: FULL-STACK SAAS & WEB  │  PROFILE 2: BROWSER MULTIPLAYER   │
+│  Target: Dukan Sathi, ExamLoop,    │  Target: Vibe Arena, WebGL 3D,    │
+│  Vernacular Commerce, B2B SaaS     │  HTML5 Canvas, 60Hz Arena Games   │
+│  Commands: /sr24-saas, /sr24-web   │  Commands: /sr24-browser-game     │
+└────────────────────────────────────┴───────────────────────────────────┘
+```
+
+### Profile 1: Full-Stack Production SaaS & Web Applications
+* **Core Projects Built**:
+  * **Dukan Sathi (दुकान साथी)**: Offline-first Kirana POS with sub-300ms vernacular Hindi speech billing, deterministic regex fallback, Indian GST invoicing (CGST/SGST/IGST), dynamic UPI QR checkout (`upi://pay`), and full-screen 3D interactive acoustic sphere background.
+  * **ExamLoop (एग्जाम लूप)**: Computer Adaptive Testing (CAT) platform powered by Item Response Theory (1PL Rasch Model), proctoring telemetry, and KaTeX mathematical formula rendering.
+* **Primary Tech Stack**: Next.js 14/15 / React 18, TypeScript, Tailwind CSS, Python FastAPI / Node.js, SQLite / PostgreSQL / Supabase, Razorpay/Stripe, IndexedDB local store.
+* **Runbook File**: [`00-MASTER-CONTROLLER/projects/FULLSTACK-SAAS-PROFILE.md`](./00-MASTER-CONTROLLER/projects/FULLSTACK-SAAS-PROFILE.md)
+* **Prompt to Activate**:
+  > *"Act as the SR24Plus Principal SaaS Architect & Full-Stack Squad. Build a production-grade full-stack SaaS application for [ExamLoop / Dukan Sathi / SaaS Idea]. Follow the 12-phase pipeline with strict TypeScript contracts, anti-AI-slop design, database migrations, authentication, billing, and automated test coverage with `npm run build` evidence."*
+
+---
+
+### Profile 2: Browser-Based Multiplayer 3D/2D Gaming Platform
+* **Core Projects Built**:
+  * **Vibe Arena (वाइब एरीना)**: Real-time browser multiplayer esports platform with deterministic 60Hz accumulator loop, authoritative Node.js WebSocket game server, client prediction, reconciliation, 4-character room codes (`#A9K4`), server-authoritative delta-distance anti-cheat, and mobile touch controls.
+* **Primary Tech Stack**: HTML5 Canvas, Three.js WebGL, Authoritative Node.js / Bun WebSockets, Fixed 60Hz accumulator loop, Web Audio API, Redis in-memory match state.
+* **Runbook File**: [`00-MASTER-CONTROLLER/projects/BROWSER-GAMING-PROFILE.md`](./00-MASTER-CONTROLLER/projects/BROWSER-GAMING-PROFILE.md)
+* **Prompt to Activate**:
+  > *"Act as the SR24Plus Principal Game Architect & Realtime Netcode Specialist. Build a 60 FPS browser-based multiplayer gaming platform for Vibe Arena. Implement a deterministic fixed-timestep game loop, authoritative Node.js WebSocket game server with 4-character room codes, client-side prediction, server-authoritative anti-cheat, mobile virtual controls, and 80ms hitstop impact freezes."*
+
+---
+
+## 5. Source Repositories & Attribution
 ### (कहाँ से क्या स्किल लिया है? Provenance Table)
 
 Is toolkit me world-class open-source repositories ke proven skills ko carefully curate, test aur customize karke integrate kiya gaya hai. See full details in [**`docs/SKILL-SOURCES.md`**](./docs/SKILL-SOURCES.md) and [**`docs/SKILL-PROVENANCE-REPORT.md`**](./docs/SKILL-PROVENANCE-REPORT.md):
@@ -135,27 +354,6 @@ Is toolkit me world-class open-source repositories ke proven skills ko carefully
 | [**`nextlevelbuilder/ui-ux-pro-max-skill`**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)<br>*(by NextLevelBuilder)* | **1** | **Enterprise Design Systems**: Responsive grid tokens (4px/8px), interactive component states, accessible color palettes. |
 | [**`custom-skills / REA`**](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | **6** | **Reverse Engineering Suite**: Decompilation, codebase archaeology, runtime observation, and tool contracts. |
 | **Total In-Repo Verified Skills** | **413** | **100% Factual Integrity — Zero Guesswork** |
-
----
-
-## 5. The 13 Master Commands
-### (कमांड्स और उनका काम)
-
-| # | Master Command | Scope & Mission | Dedicated Runbook |
-|---|---|---|---|
-| **1** | **`/sr24-auto [task]`** | **Autonomously inspects workspace**, detects stack (React/Next/FastAPI/Unity), and activates the exact squad. | [`SR24-AUTO.md`](./00-MASTER-CONTROLLER/workflows/SR24-AUTO.md) |
-| **2** | **`/sr24-web-dev [task]`** | Complete 12-phase squad for modern web applications from PRD to production deploy. | [`README-SR24-WEB-DEV.md`](./docs/README-SR24-WEB-DEV.md) |
-| **3** | **`/sr24-saas [task]`** | Multi-tenant SaaS platform, subscription billing, multi-tier auth, dashboard HUD, SRE launch. | [`SR24-SAAS.md`](./00-MASTER-CONTROLLER/workflows/SR24-SAAS.md) |
-| **4** | **`/sr24-fullstack [task]`** | End-to-end feature squad: TypeScript contracts, SQL migrations, API routes, responsive UI. | [`SR24-FULLSTACK.md`](./00-MASTER-CONTROLLER/workflows/SR24-FULLSTACK.md) |
-| **5** | **`/sr24-browser-game [task]`**| 60 FPS HTML5/WebGL browser games, fixed timestep loop, mobile virtual controls, game feel. | [`README-SR24-GAME-DEV.md`](./docs/README-SR24-GAME-DEV.md) |
-| **6** | **`/sr24-multiplayer [task]`** | Low-latency authoritative game servers, client prediction, reconciliation, 4-character room codes. | [`SR24-MULTIPLAYER.md`](./00-MASTER-CONTROLLER/workflows/SR24-MULTIPLAYER.md) |
-| **7** | **`/sr24-unity [task]`** | Complete Unity 2D/3D development, ScriptableObjects, URP shaders, audio mixers, builds. | [`SR24-UNITY.md`](./00-MASTER-CONTROLLER/workflows/SR24-UNITY.md) |
-| **8** | **`/sr24-racing-game [task]`** | Heavy truck & car physics, WheelColliders, Ackermann steering, ghat road tracks, diesel audio. | [`SR24-RACING-GAME.md`](./00-MASTER-CONTROLLER/workflows/SR24-RACING-GAME.md) |
-| **9** | **`/sr24-ai [task]`** | Production AI systems, MCP servers, prompt injection defense, hybrid RAG, offline rule fallbacks. | [`SR24-AI.md`](./00-MASTER-CONTROLLER/workflows/SR24-AI.md) |
-| **10**| **`/sr24-design [task]`** | Bespoke design system, 4px/8px mathematical tokens, anti-AI-slop audit, finish-gate critique. | [`SR24-DESIGN.md`](./00-MASTER-CONTROLLER/workflows/SR24-DESIGN.md) |
-| **11**| **`/sr24-security [task]`** | Comprehensive AppSec, OWASP Top 10, secret scanning, SQL injection, CSP/CORS hardening. | [`SR24-SECURITY.md`](./00-MASTER-CONTROLLER/workflows/SR24-SECURITY.md) |
-| **12**| **`/sr24-qa [task]`** | Automated Playwright E2E suites, visual regression, systematic debugging, test evidence. | [`SR24-SHIP.md`](./00-MASTER-CONTROLLER/workflows/SR24-SHIP.md) |
-| **13**| **`/sr24-ship [task]`** | Production build verification, Docker, CI/CD pipeline, healthchecks, rollback strategy. | [`SR24-SHIP.md`](./00-MASTER-CONTROLLER/workflows/SR24-SHIP.md) |
 
 ---
 
@@ -191,43 +389,7 @@ Supports both browser-based real-time games and commercial Unity 3D simulators:
 
 ---
 
-## 8. The 17 Original Custom-Engineered Specialists
-
-Directly stored in `skills/sr24-custom-engineering/`:
-
-1. **`razorpay-upi-specialist`**: Indian payment gateway, UPI Intent, dynamic QR codes, HMAC-SHA256 webhooks.
-2. **`indian-gst-billing-engineer`**: CGST, SGST, IGST calculations, HSN codes, 80mm/58mm thermal receipts.
-3. **`offline-first-kirana-architect`**: IndexedDB/SQLite offline store, FIFO sync queue, conflict resolution.
-4. **`browser-game-architect`**: HTML5 Canvas, WebGL, fixed 60Hz loop, mobile virtual touch controls.
-5. **`websocket-multiplayer-engineer`**: Authoritative game servers, client prediction, reconciliation, room lobbies.
-6. **`browser-game-anti-cheat-engineer`**: Speedhack distance delta checks, memory XOR obfuscation, bot detection.
-7. **`truck-physics-engineer`**: Heavy truck WheelColliders, anti-roll bars, diesel torque curves, air brakes.
-8. **`realistic-car-controller-engineer`**: Ackermann steering geometry, Pacejka slip curves, aerodynamic downforce.
-9. **`racing-track-design-engineer`**: Procedural spline circuits, ghat hairpin banking, surface grip zones.
-10. **`combat-mechanics-engineer`**: 60Hz frame data (startup/active/recovery), 80ms hitstop, combo input buffer.
-11. **`mcp-server-developer`**: JSON-RPC 2.0 Model Context Protocol servers in TypeScript/Python with Zod schemas.
-12. **`prompt-injection-security-engineer`**: XML delimiter containment, canary token leaks, tool call firewalls.
-13. **`assessment-engine-architect`**: Item Response Theory (IRT 1PL/Rasch model), Computer Adaptive Testing (CAT), KaTeX.
-14. **`playwright-automation-engineer`**: Zero-flake Playwright E2E suites, accessible locators, visual regression.
-15. **`systematic-debugging-engineer`**: 4-step hypothesis-driven root-cause analysis (RCA), memory leak heap isolation.
-16. **`programmatic-seo-engineer`**: Scalable long-tail landing pages (ISR), structured JSON-LD, XML sitemaps.
-17. **`product-hunt-launch-specialist`**: Complete launch strategy for Product Hunt #1 Product of the Day and Show HN.
-
----
-
-## 9. Pre-Built Dedicated Project Profiles
-*(Full Architectural Profiles: [**`docs/PROJECT-USE-CASES.md`**](./docs/PROJECT-USE-CASES.md))*
-
-- **Dukan Sathi** ([`DUKAN-SATHI.md`](./00-MASTER-CONTROLLER/projects/DUKAN-SATHI.md)): Offline-first Kirana POS with sub-3s Hindi speech billing, GST math, and dark glass 3D UI.
-- **Vibe Arena** ([`VIBE-ARENA.md`](./00-MASTER-CONTROLLER/projects/VIBE-ARENA.md)): Real-time browser gaming platform with authoritative servers and 4-digit room codes.
-- **Indian Truck Racing** ([`INDIAN-TRUCK-RACING.md`](./00-MASTER-CONTROLLER/projects/INDIAN-TRUCK-RACING.md)): 3D heavy vehicle simulation in Unity (16-wheelers, ghat hairpin banking).
-- **Indian Politics Arena** ([`INDIAN-POLITICS-ARENA.md`](./00-MASTER-CONTROLLER/projects/INDIAN-POLITICS-ARENA.md)): Browser satirical fighting game with frame data and 80ms hitstop.
-- **Exam Loop** ([`EXAM-LOOP.md`](./00-MASTER-CONTROLLER/projects/EXAM-LOOP.md)): AI adaptive testing engine using Item Response Theory and KaTeX formulas.
-- **SR24Plus Core** ([`SR24PLUS.md`](./00-MASTER-CONTROLLER/projects/SR24PLUS.md)): Central tech ecosystem, programmatic SEO, and startup growth architecture.
-
----
-
-## 10. Inviolable Execution Rules & Quality Gates
+## 8. Inviolable Execution Rules & Quality Gates
 *(Detailed Rules: [**`docs/MASTER-WORKFLOW.md`**](./docs/MASTER-WORKFLOW.md))*
 
 Every specialist adheres to the **SR24Plus Quality Charter**:
@@ -238,13 +400,13 @@ Every specialist adheres to the **SR24Plus Quality Charter**:
 
 ---
 
-## 11. Frequently Asked Questions (FAQ)
+## 9. Frequently Asked Questions (FAQ)
 
 #### Q1: Kya mujhe sabhi 413 skills ko manually install karna hoga?
 **Nahi!** Sabhi 413 skills directly is repository ke `skills/` folder me pre-installed aur verified hain. Jab aap koi command run karte hain, toh Antigravity unhe automatically dynamically read kar leta hai.
 
 #### Q2: `/sr24-auto` command kaise kaam karti hai?
-Ye aapke project files (`package.json`, `Assets/`, `requirements.txt`, etc.) ko scan karti hai aur automatically sahi squad activate kar deti hai. Agar aap Dukan Sathi me hain, toh ye retail + GST + payment squad chalu kar degi; agar aap Unity project me hain, toh ye truck/racing squad chalu karegi.
+Ye aapke project files (`package.json`, `Assets/`, `requirements.txt`, etc.) ko scan karti hai aur automatically sahi squad activate kar deti hai. Agar aap Dukan Sathi ya ExamLoop me hain, toh ye SaaS + database + payment squad chalu kar degi; agar aap Vibe Arena me hain, toh ye browser multiplayer squad chalu karegi.
 
 #### Q3: Mera design AI jaisa (slop) kyu nahi dikhega?
 Kyunki is toolkit me **Impeccable**, **Anti-Slop**, aur **UI UX Pro Max** integrated hain jo design finish gate par check karte hain aur kisi bhi cheap purple gradient ya generic card layout ko reject kar dete hain.

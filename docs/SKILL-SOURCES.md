@@ -52,3 +52,4 @@ All imported skills maintain their original open-source licenses:
 ## 4. Preservation of Intellectual Property
 
 No copyright headers, author attributions, or original `SKILL.md` instructions were removed or modified during the repository organization. Every skill is cited with its exact upstream author and repository link.
+

@@ -24,16 +24,12 @@ The SR24Plus Engineering Toolkit provides **13 Primary Workflow Commands** for e
 
 ---
 
-## 2. Dedicated Project Workflow Profiles
+## 2. Dedicated Master Production Profiles
 
-| Project Command | Target Project Profile | Activated Specialist Squad |
+| Project Command | Target Production Profile | Activated Specialist Squad |
 |---|---|---|
-| `/sr24-auto vibe-arena` | [`VIBE-ARENA.md`](./projects/VIBE-ARENA.md) | Browser Game Architect + WebSocket Multiplayer + Anti-Cheat Engineer |
-| `/sr24-auto truck-racing`| [`INDIAN-TRUCK-RACING.md`](./projects/INDIAN-TRUCK-RACING.md)| Unity Architect + Truck Physics + Car Controller + Circuit Designer |
-| `/sr24-auto politics-arena`| [`INDIAN-POLITICS-ARENA.md`](./projects/INDIAN-POLITICS-ARENA.md)| Browser Game Architect + Combat Mechanics + Game Feel + Anti-Cheat |
-| `/sr24-auto dukan-sathi` | [`DUKAN-SATHI.md`](./projects/DUKAN-SATHI.md) | Offline Kirana Architect + Indian GST Specialist + Razorpay UPI + Dark Glass UI |
-| `/sr24-auto exam-loop` | [`EXAM-LOOP.md`](./projects/EXAM-LOOP.md) | Assessment Engine Architect + MCP Server Developer + AI Security Engineer |
-| `/sr24-auto sr24plus` | [`SR24PLUS.md`](./projects/SR24PLUS.md) | Chief Product Architect + Brand Strategist + Programmatic SEO + Launch |
+| `/sr24-saas [dukan-sathi / exam-loop / saas]` | [`FULLSTACK-SAAS-PROFILE.md`](./projects/FULLSTACK-SAAS-PROFILE.md) | SaaS Architect + Offline Kirana Lead + Indian GST Specialist + Razorpay UPI + Assessment Lead + Anti-Slop UI |
+| `/sr24-browser-game [vibe-arena / game]` | [`BROWSER-GAMING-PROFILE.md`](./projects/BROWSER-GAMING-PROFILE.md) | Browser Game Architect + WebSocket Multiplayer + Anti-Cheat Engineer + Combat Mechanics + Web Audio Lead |
 
 ---
 

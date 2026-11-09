@@ -29,15 +29,11 @@ The Master Router supports 13 dedicated engineering commands. Each command is bo
 
 ---
 
-## 2. Dedicated Project Workflow Profiles
+## 2. Dedicated Master Production Profiles
 
-When working on user-specific initiatives, the Master Router deploys specialized project squad profiles from `00-MASTER-CONTROLLER/projects/`:
-- **Vibe Arena**: [`00-MASTER-CONTROLLER/projects/VIBE-ARENA.md`](./projects/VIBE-ARENA.md)
-- **Indian Truck Racing**: [`00-MASTER-CONTROLLER/projects/INDIAN-TRUCK-RACING.md`](./projects/INDIAN-TRUCK-RACING.md)
-- **Indian Politics Arena**: [`00-MASTER-CONTROLLER/projects/INDIAN-POLITICS-ARENA.md`](./projects/INDIAN-POLITICS-ARENA.md)
-- **Dukan Sathi**: [`00-MASTER-CONTROLLER/projects/DUKAN-SATHI.md`](./projects/DUKAN-SATHI.md)
-- **Exam Loop**: [`00-MASTER-CONTROLLER/projects/EXAM-LOOP.md`](./projects/EXAM-LOOP.md)
-- **SR24Plus Core**: [`00-MASTER-CONTROLLER/projects/SR24PLUS.md`](./projects/SR24PLUS.md)
+When working on user-specific initiatives, the Master Router deploys specialized production squad profiles from `00-MASTER-CONTROLLER/projects/`:
+- **Profile 1: Full-Stack Production SaaS & Web Applications** (Dukan Sathi, ExamLoop, B2B SaaS): [`00-MASTER-CONTROLLER/projects/FULLSTACK-SAAS-PROFILE.md`](./projects/FULLSTACK-SAAS-PROFILE.md)
+- **Profile 2: Browser-Based Multiplayer 3D/2D Gaming Platform** (Vibe Arena, Multiplayer WebGL/Canvas): [`00-MASTER-CONTROLLER/projects/BROWSER-GAMING-PROFILE.md`](./projects/BROWSER-GAMING-PROFILE.md)
 
 ---
 

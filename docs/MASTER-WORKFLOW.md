@@ -113,3 +113,4 @@ No task or phase is marked complete unless it passes these four automated gates:
 | **`/sr24-qa [task]`** | Automated testing & RCA debugging | Playwright E2E suites, visual regression | *"Write Playwright tests for user signup, cart checkout, and payment confirmation."* |
 | **`/sr24-ship [task]`** | Production DevOps & launch | Dockerfile, CI/CD pipeline, healthchecks | *"Generate a multi-stage Dockerfile and GitHub Actions workflow for automated deployments."* |
 | **`/sr24-research [task]`** | Quantitative evidence synthesis | TAM/SAM, competitive matrix, reverse eng | *"Synthesize technical architecture papers for offline-first synchronization."* |
+

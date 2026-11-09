@@ -205,3 +205,4 @@ flowchart TD
 | 10 | `optimize-audio` | `Unity Technologies` | `skills/optimize-audio` | `skills/unity-skills/optimize-audio/SKILL.md` | Codec selection & mixer group CPU costs | Verified In-Repo |
 | 11 | `unity-cli` | `Unity Technologies` | `skills/unity-cli` | `skills/unity-skills/unity-cli/SKILL.md` | Headless command line build scripts | Verified In-Repo |
 | 12 | `agency-support-analytics-reporter` | `msitarzewski/agency-agents` | `skills/agency-support-analytics-reporter` | `skills/agency-agents/agency-support-analytics-reporter/SKILL.md` | Session retention & progression analytics | Verified In-Repo |
+
