@@ -1,0 +1,19 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Binaries & Compiled Executables
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# Local caches
+.temp/
+.cache/
