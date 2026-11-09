@@ -30,3 +30,4 @@
    - 4-character room codes (`#A9K4`), private lobbies, spectator slots, and reconnect tokens.
 5. **Stage 5: Network Stress Testing**:
    - Simulate 150ms latency and 5% packet loss; verify zero visual desync.
+

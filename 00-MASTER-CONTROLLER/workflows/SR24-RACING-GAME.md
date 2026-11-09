@@ -36,3 +36,4 @@
    - Dynamic tire skid marks and tire smoke particle bursts on drift/wheel spin.
 6. **Phase 6: 60 FPS Profiling**:
    - LOD groups on truck meshes and roadside vegetation; verify stable 60 FPS on target hardware.
+

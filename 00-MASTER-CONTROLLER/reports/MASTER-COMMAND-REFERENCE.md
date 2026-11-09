@@ -114,3 +114,4 @@ Quick triggers for user's actual project workspaces:
 - `/sr24 science`: 12 - Science and Bioinformatics
 - `/sr24 agy`: 13 - Antigravity Automation
 - `/sr24 general`: 14 - General Engineering
+

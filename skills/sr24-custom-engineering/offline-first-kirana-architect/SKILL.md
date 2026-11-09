@@ -164,3 +164,4 @@ window.addEventListener('online', () => triggerBackgroundSync());
 - [ ] Bills can be printed or sent via local bluetooth thermal printer without active internet.
 - [ ] Sync queue guarantees FIFO order execution for ledger balance accuracy.
 - [ ] Visual indicator shows distinct state: `● Online (All Synced)` vs `○ Offline (3 Bills Pending Sync)`.
+

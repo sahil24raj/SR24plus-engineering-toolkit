@@ -147,3 +147,4 @@ export function computeInvoiceTaxes(
 - [ ] Display HSN summary table grouped by HSN code (HSN, Taxable Value, CGST, SGST, Total Tax).
 - [ ] Thermal print layouts support 48 characters width (80mm) and 32 characters width (58mm).
 - [ ] Invoice serial numbers must be consecutive, alphanumeric, and reset annually (e.g. `DS/26-27/0001`).
+

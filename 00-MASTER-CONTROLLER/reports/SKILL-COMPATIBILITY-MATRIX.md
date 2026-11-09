@@ -35,3 +35,4 @@ This document details the environment compatibility, language runtimes, host pla
 - **Windows 10/11**: Fully tested and verified (PowerShell 5.1/7+, Windows paths with backslash normalization).
 - **macOS / Linux**: 100% compatible (POSIX compliant paths, standard Bash/Zsh commands).
 - **Cloud Containers**: Fully compatible with Linux Docker containers (`node:20-alpine`, `python:3.11-slim`).
+

@@ -102,3 +102,4 @@ Bots emit mathematically perfect timings (e.g., clicks exactly every 100ms) or s
 - [ ] No game-critical endpoints accept raw client-specified scores (`POST /api/score { score: 9999 }` is forbidden).
 - [ ] Client telemetry logs anomalous packet rates to audit tables for shadow-banning.
 - [ ] Server clamps all incoming coordinate packets to legitimate map navigation bounds.
+

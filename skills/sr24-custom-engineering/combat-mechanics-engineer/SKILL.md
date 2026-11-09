@@ -128,3 +128,4 @@ export class InputBufferQueue {
 - [ ] Combos implement damage scaling: each successive hit in a combo scales damage down (e.g. 100% -> 90% -> 80% -> 70% min 20%).
 - [ ] Corner trap recovery: player being juggled in corner receives pushback to prevent infinite wall traps.
 - [ ] Distinct audio layers for light attack, heavy impact, blocked hit, and special move activation.
+

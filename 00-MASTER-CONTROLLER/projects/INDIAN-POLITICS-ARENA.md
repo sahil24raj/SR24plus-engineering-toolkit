@@ -36,3 +36,4 @@
 2. **Hitbox Accuracy**: Visual attack sprites match physical bounding boxes within 4-pixel tolerance.
 3. **Corner Trap Protection**: Damage scaling reduces consecutive combo hits to prevent infinite wall locks.
 4. **Mobile Responsive**: Virtual joystick + 3 action buttons scale dynamically to any mobile aspect ratio.
+

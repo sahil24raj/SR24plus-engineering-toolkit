@@ -170,3 +170,4 @@ public class HeavyTruckController : MonoBehaviour
 - [ ] Air brake sound effect triggers with distinct pneumatic hiss upon brake release.
 - [ ] High-payload cargo shifts center of mass dynamically upwards, increasing tipping hazard.
 - [ ] Wheels rotate visually matching WheelCollider RPM without stuttering.
+

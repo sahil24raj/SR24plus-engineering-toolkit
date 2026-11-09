@@ -133,3 +133,4 @@ main().catch((err) => {
 - [ ] All inputs validated via Zod schemas before processing.
 - [ ] MCP server handles `stdio` closed events cleanly without zombie processes.
 - [ ] Tool errors set `isError: true` with human-readable diagnostic messages.
+

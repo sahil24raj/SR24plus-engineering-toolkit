@@ -154,3 +154,4 @@ export class NetworkedPlayerClient {
 - [ ] Verify zero visual rubberbanding during standard movement.
 - [ ] Auto-reconnect with session token restores player to active room within 3 seconds.
 - [ ] Room codes use 4-character unambiguous uppercase alphanumeric (e.g. `K9X2`, avoiding `0/O`, `1/I`).
+

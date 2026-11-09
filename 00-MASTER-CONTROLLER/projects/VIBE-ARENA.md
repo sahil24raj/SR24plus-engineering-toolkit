@@ -47,3 +47,4 @@
 3. **Anti-Cheat Defense**: Server rejects any movement exceeding speed caps; high scores require signed HMAC tokens.
 4. **Mobile Optimization**: Responsive touch virtual joystick with haptic feedback, 60 FPS on iOS Safari & Chrome Mobile.
 5. **QA & Stress Gate**: Verified under simulated 150ms 4G network jitter and 5% packet loss with zero rubberbanding.
+

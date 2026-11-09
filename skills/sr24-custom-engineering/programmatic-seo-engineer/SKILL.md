@@ -92,3 +92,4 @@ export function generateJsonLd(cityName: string, categoryName: string) {
 - [ ] Canonical URLs explicitly defined on 100% of generated pages.
 - [ ] Automated sitemap pinging on new content generation (`/sitemap.xml`).
 - [ ] Google PageSpeed score > 90 on mobile viewports for all template routes.
+

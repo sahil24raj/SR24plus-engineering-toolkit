@@ -130,3 +130,4 @@ export class TestProctoringGuard {
 - [ ] Timer continues server-side (prevents resetting test time via local clock manipulation).
 - [ ] Scorecard generates subject-level percentile, accuracy percentage, and negative marking deductions.
 - [ ] Student receives personalized remediation reading list based on failed topics.
+

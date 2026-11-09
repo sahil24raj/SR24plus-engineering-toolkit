@@ -118,3 +118,4 @@ test('landing page visual regression snapshot', async ({ page }) => {
 - [ ] HTML report generated with video and trace recordings of any failures.
 - [ ] All network mocks specify clean status codes and response headers.
 - [ ] Suite completes in < 60 seconds locally.
+

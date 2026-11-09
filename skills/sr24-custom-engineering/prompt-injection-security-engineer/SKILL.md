@@ -116,3 +116,4 @@ export function validateAgentToolCall(toolName: string, args: Record<string, any
 - [ ] Verify that external documents retrieved via RAG cannot override system constraints.
 - [ ] Ensure system prompt never contains raw API keys, production database passwords, or internal IP addresses.
 - [ ] Model outputs rendered in HTML must be escaped to prevent stored Cross-Site Scripting (XSS).
+

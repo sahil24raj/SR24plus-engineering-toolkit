@@ -149,3 +149,4 @@ export function setupGameCanvas(canvas: HTMLCanvasElement, targetWidth = 1280, t
 - [ ] Zero object instantiation inside the render or physics loop (use Object Pooling for bullets, particles, and damage numbers).
 - [ ] Audio playback initiated strictly after first user gesture (satisfying browser autoplay policies).
 - [ ] Asset loader provides visual loading percentage bar with pre-compiled WebGL shaders.
+

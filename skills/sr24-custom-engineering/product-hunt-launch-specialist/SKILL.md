@@ -65,3 +65,4 @@ We'd love your honest feedback! We're active in the comments all day to answer y
 - [ ] Direct sign-up flow tested with zero friction (Google One-Tap or Instant Demo without credit card).
 - [ ] Server infrastructure load-tested for 10x normal traffic concurrency.
 - [ ] OpenGraph image and Twitter card preview rendering validated via social share debuggers.
+

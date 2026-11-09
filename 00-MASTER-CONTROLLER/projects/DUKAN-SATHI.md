@@ -46,3 +46,4 @@
 2. **100% Offline Survival**: Full POS billing, stock lookup, and Udhaar ledger accessible with zero internet.
 3. **Exact GST Math**: B2B and B2C tax breakdowns accurate to 2 decimal places with annual serial number sequencing.
 4. **Dark Glass Aesthetics**: Consistent dark frosted glass styling (`bg-zinc-900/60 backdrop-blur-xl`) across all 11 tabs.
+

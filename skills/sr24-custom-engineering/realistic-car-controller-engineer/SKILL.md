@@ -98,3 +98,4 @@ public class VehicleAerodynamics : MonoBehaviour
 - [ ] Visual tire mesh rotates and steers in exact synchronization with WheelCollider transform.
 - [ ] High-speed stability: aerodynamic downforce prevents floatiness at 100+ km/h.
 - [ ] Skid marks and tire smoke instantiate only when slip ratio exceeds threshold ($> 0.35$).
+

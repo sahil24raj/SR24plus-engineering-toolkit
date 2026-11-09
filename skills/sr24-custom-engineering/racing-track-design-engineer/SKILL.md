@@ -107,3 +107,4 @@ public class RoadSurfaceZone : MonoBehaviour
 - [ ] Checkpoints cannot be bypassed via off-road shortcuts (invisible trigger barriers).
 - [ ] AI racing line nodes contain pre-calculated braking zones before sharp turns.
 - [ ] Visual road markings (white lane dividers, yellow hazard stripes) baked onto road texture atlases.
+

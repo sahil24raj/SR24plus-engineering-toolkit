@@ -72,3 +72,4 @@ useEffect(() => {
 - [ ] Why didn't existing tests catch it?
 - [ ] Was an automated test added that fails before the fix and passes after?
 - [ ] Are any other components in the codebase vulnerable to the same pattern?
+

@@ -36,3 +36,4 @@
 1. **Deterministic Timing**: Test countdown timer runs server-side to prevent local device clock tampering.
 2. **Zero Latex Clipping**: All mathematical equations rendered with responsive line-breaking and KaTeX fonts.
 3. **Prompt Hardening**: MCP question generation tools reject system prompt exfiltration and out-of-curriculum requests.
+

@@ -37,3 +37,4 @@
 6. **Phase 6: Performance & Browser QA**:
    - Audit 60 FPS performance on 4x CPU throttling in Chrome DevTools.
    - Verify zero memory growth over 10 minutes of active gameplay.
+
