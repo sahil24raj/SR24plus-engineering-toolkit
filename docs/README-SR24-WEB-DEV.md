@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/sr24plus-deep-dive.jpg" alt="SR24Plus Web-Dev Deep Dive Banner" width="100%" />
+  <img src="../assets/sr24plus-web-dev-banner.jpg" alt="SR24Plus Web-Dev Deep Dive Banner" width="100%" />
 </p>
 
 # SR24-WEB-DEV: Comprehensive Full-Stack & SaaS Engineering Pack

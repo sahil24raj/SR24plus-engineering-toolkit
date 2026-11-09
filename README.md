@@ -398,7 +398,7 @@ Is toolkit me world-class open-source repositories ke proven skills ko carefully
 ## 6. Deep Dive: `/sr24-web-dev` Pack
 
 <p align="center">
-  <img src="./assets/sr24plus-deep-dive.jpg" alt="SR24Plus Deep Dive Packs: Web-Dev and Game-Dev" width="100%" />
+  <img src="./assets/sr24plus-web-dev-banner.jpg" alt="SR24Plus Web-Dev Deep Dive Banner" width="100%" />
 </p>
 
 *(Full Technical Specification: [**`docs/README-SR24-WEB-DEV.md`**](./docs/README-SR24-WEB-DEV.md))*
@@ -438,6 +438,10 @@ The Web Development pack coordinates a disciplined 12-phase pipeline. Here is th
 ---
 
 ## 7. Deep Dive: `/sr24-game-dev` Pack
+
+<p align="center">
+  <img src="./assets/sr24plus-game-dev-banner.jpg" alt="SR24Plus Game-Dev Deep Dive Banner" width="100%" />
+</p>
 
 *(Full Technical Specification: [**`docs/README-SR24-GAME-DEV.md`**](./docs/README-SR24-GAME-DEV.md))*
 

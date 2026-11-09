@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/sr24plus-deep-dive.jpg" alt="SR24Plus Game-Dev Deep Dive Banner" width="100%" />
+  <img src="../assets/sr24plus-game-dev-banner.jpg" alt="SR24Plus Game-Dev Deep Dive Banner" width="100%" />
 </p>
 
 # SR24-GAME-DEV: Complete Game Production & Multiplayer Engineering Pack
