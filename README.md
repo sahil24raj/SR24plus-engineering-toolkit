@@ -73,7 +73,7 @@ Har phase ek specialized verified skill ke through run hota hai with **zero hall
 
 ## 2. Quick Start for Beginners
 
-Aapko 413 skills manually install ya search karne ki koi zarurat nahi hai. Sabhi skills pre-indexed aur directly usable hain.
+Aapko 476 Canonical Skills manually install ya search karne ki koi zarurat nahi hai. Sabhi skills pre-indexed aur directly usable hain.
 
 ### Step 1: Clone Repository
 Clone the repository in your project workspace:
@@ -492,8 +492,8 @@ Every specialist squad strictly enforces the **SR24Plus Quality Charter**:
 
 ## 9. Frequently Asked Questions (FAQ)
 
-#### Q1: Kya mujhe sabhi 413 skills ko manually install karna hoga?
-**Nahi!** Sabhi 413 skills directly is repository ke `skills/` folder me pre-installed aur verified hain. Jab aap koi command run karte hain, toh Antigravity unhe automatically dynamically read kar leta hai.
+#### Q1: Kya mujhe sabhi 476 Canonical Skills ko manually install karna hoga?
+**Nahi!** Sabhi 476 Canonical Skills directly is repository ke `skills/` folder me pre-installed aur verified hain. Jab aap koi command run karte hain, toh Antigravity unhe automatically dynamically read kar leta hai.
 
 #### Q2: `/sr24-auto` command kaise kaam karti hai?
 Ye aapke project files (`package.json`, `Assets/`, `requirements.txt`, etc.) ko scan karti hai aur automatically sahi squad activate kar deti hai. Agar aap Dukan Sathi ya ExamLoop me hain, toh ye SaaS + database + payment squad chalu kar degi; agar aap Vibe Arena me hain, toh ye browser multiplayer squad chalu karegi.
