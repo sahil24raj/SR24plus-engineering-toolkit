@@ -76,9 +76,9 @@ The following diagram illustrates how requests flow through the Core Intelligenc
    - Languages: TypeScript, JavaScript, Python, Rust, Go, C#.
    - Web Frameworks: Next.js, React, Vite, Remix, Vue, Svelte, FastAPI, Express.
    - Styling Systems: Tailwind CSS, CSS Modules, Styled Components, Sass.
-   - Database & ORMs: PostgreSQL, Supabase, Prisma, Drizzle, MongoDB, Redis, SQLite.
-   - Game Engines: Three.js, React Three Fiber, Rapier, Phaser, Pixi.js, Unity.
-   - Testing Frameworks: Playwright, Jest, Vitest, Cypress, Pytest.
+   - Database & ORMs: PostgreSQL, [Supabase](https://github.com/supabase/agent-skills), [Prisma](https://github.com/prisma/prisma), [Drizzle](https://github.com/drizzle-team/drizzle-orm), MongoDB, [Redis](https://github.com/redis/redis), SQLite.
+   - Game Engines: [Three.js](https://github.com/mrdoob/three.js), [React Three Fiber](https://github.com/pmndrs/react-three-fiber), [Rapier](https://github.com/dimforge/rapier), [Phaser](https://github.com/phaserjs/phaser), [Pixi.js](https://github.com/pixijs/pixijs), [Unity](https://github.com/Unity-Technologies/com.unity.entities).
+   - Testing Frameworks: [Playwright](https://github.com/microsoft/playwright), Jest, Vitest, Cypress, Pytest.
 3. **12 Archetype Classifications**:
    - `Browser 2D/3D Gaming Platform`
    - `Full Stack SaaS Platform`
@@ -108,13 +108,13 @@ The following diagram illustrates how requests flow through the Core Intelligenc
 | Dimension | Scope & Forensic Checks | Default Standard |
 |---|---|:---:|
 | **1. Architecture & Modularity** | Clean separation of concerns, feature-based directories, decoupled state, no circular imports. | 9.0 / 10 |
-| **2. UI/UX & Anti-Slop** | Banned AI slop tropes (unmotivated purple gradients, fake stat counters), mathematical 4px/8px tokens, WCAG AA contrast. | 9.0 / 10 |
+| **2. UI/UX & Anti-Slop** | Banned AI slop tropes (unmotivated purple gradients, fake stat counters), mathematical 4px/8px tokens, WCAG AA contrast via [anti-slop](https://github.com/miqdadbadjuber/anti-slop). | 9.0 / 10 |
 | **3. Frontend Engineering** | Strict TypeScript interfaces, no unhandled promises, sanitization against XSS (`dangerouslySetInnerHTML`), zero CLS. | 9.0 / 10 |
-| **4. Backend & API Design** | Contract-first REST/tRPC, runtime DTO validation (Zod), structured error handling, rate limiting. | 9.0 / 10 |
+| **4. Backend & API Design** | Contract-first REST/tRPC, runtime DTO validation ([Zod](https://github.com/colinhacks/zod)), structured error handling, rate limiting. | 9.0 / 10 |
 | **5. Database & Data Integrity** | Schema normalization, indexed foreign keys, migration idempotency, connection pooling, safe ORM queries. | 9.0 / 10 |
-| **6. Security & AppSec** | Leaked secrets scanning (Gitleaks regexes), OWASP Top 10 defenses, parameterized SQL queries, CSP headers. | 9.0 / 10 |
-| **7. Game Systems & Physics** | Deterministic fixed-timestep accumulator loop (1/60s), asset compression, anti-cheat memory protection, draw call batching. | 9.0 / 10 |
-| **8. Deployment & SRE** | Multi-stage Docker optimization, CI/CD pipeline automation, Sentry error monitoring, health check endpoints. | 9.0 / 10 |
+| **6. Security & AppSec** | Leaked secrets scanning ([Gitleaks](https://github.com/gitleaks/gitleaks) regexes), OWASP Top 10 defenses ([OWASP ZAP](https://github.com/zaproxy/zaproxy)), parameterized SQL queries, CSP headers. | 9.0 / 10 |
+| **7. Game Systems & Physics** | Deterministic fixed-timestep accumulator loop (1/60s), asset compression ([glTF-Transform](https://github.com/donmccurdy/glTF-Transform)), anti-cheat memory protection, draw call batching. | 9.0 / 10 |
+| **8. Deployment & SRE** | Multi-stage [Docker](https://github.com/docker/docs) optimization, CI/CD pipeline automation ([GitHub Actions](https://github.com/actions/runner)), [Sentry](https://github.com/getsentry/sentry) error monitoring, health check endpoints. | 9.0 / 10 |
 
 ### Reporting & Evidence Artifact:
 Generates `reports/SR24-PRODUCTION-AUDIT.md` containing:

@@ -28,7 +28,7 @@ flowchart TD
 ---
 
 ## 2. The 6-Step Closed Loop
-1. **Detect**: Executes test suite, linter, or build (`npm test`, `pytest`, `tsc --noEmit`).
+1. **Detect**: Executes test suite, linter, or build (`npm test`, `pytest`, `tsc --noEmit`, [Playwright](https://github.com/microsoft/playwright)).
 2. **Diagnose**: Parses compiler and runtime stack traces, extracting affected file, line number, and error type.
 3. **Plan**: Formulates a surgical patch prioritizing critical errors without altering unaffected logic.
 4. **Repair**: Applies the minimal targeted code fix directly to the source file.

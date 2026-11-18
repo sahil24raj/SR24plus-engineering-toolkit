@@ -31,13 +31,13 @@ flowchart TD
 | Module | Verification Target | Common Traps Detected |
 |---|---|---|
 | **A. Architecture** | Directory layout, circular dependencies, modularity | Monolithic god-files, barrel import cycles, leaky domain abstractions |
-| **B. UI/UX** | Responsive scaling, contrast, typography, anti-slop | AI-generated generic cards, broken mobile touch viewports, unstyled errors |
+| **B. UI/UX** | Responsive scaling, contrast, typography, anti-slop via [anti-slop](https://github.com/miqdadbadjuber/anti-slop) | AI-generated generic cards, broken mobile touch viewports, unstyled errors |
 | **C. Frontend** | React rendering, hook dependencies, bundle size | Unmemoized arrays in render loops, duplicate client fetch cascades |
-| **D. Backend** | REST/RPC endpoints, payload schemas, rate limits | Unhandled route exceptions, missing Zod validation, missing rate limits |
+| **D. Backend** | REST/RPC endpoints, payload schemas, rate limits | Unhandled route exceptions, missing [Zod](https://github.com/colinhacks/zod) validation, missing rate limits |
 | **E. Database** | Schema constraints, indexes, migrations | Missing foreign key indexes, unindexed search filters, N+1 query patterns |
-| **F. Security** | Hardcoded secrets, OWASP Top 10, XSS, CSRF | `sk_live_`, `ghp_` tokens, `dangerouslySetInnerHTML`, missing CSP headers |
+| **F. Security** | Hardcoded secrets ([Gitleaks](https://github.com/gitleaks/gitleaks)), OWASP Top 10 ([OWASP ZAP](https://github.com/zaproxy/zaproxy)), XSS, CSRF | `sk_live_`, `ghp_` tokens, `dangerouslySetInnerHTML`, missing CSP headers |
 | **G. Game Dev** | Deterministic fixed-timestep loop, collision matrices | Variable-timestep `requestAnimationFrame`, GC allocations in hot update loop |
-| **H. Deployment** | Production build commands, Dockerfile, healthchecks | Unminified production bundles, running containers as root, missing probes |
+| **H. Deployment** | Production build commands, [Docker](https://github.com/docker/docs)file, healthchecks | Unminified production bundles, running containers as root, missing probes |
 
 ---
 

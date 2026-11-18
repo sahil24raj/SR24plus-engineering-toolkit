@@ -53,20 +53,20 @@ flowchart TD
 
 ## 3. 12-Phase Master Game Development Matrix
 
-| Phase | Engineering Role | Skills Used | Source GitHub Repository | Technical Mission | Runbook |
+| Phase | Engineering Role | Skills Used | Upstream GitHub Repositories | Technical Mission | Runbook |
 |:---:|---|---|---|---|:---:|
-| **01** | Principal Game Designer | `game-programming-patterns`, `awesome-gamedev-skills`, `agency-game-development-game-designer` | [Bob Nystrom](https://github.com/munificent/game-programming-patterns), [SR24Plus](https://github.com/sahil24raj/SR24plus-engineering-toolkit), [Agency Agents](https://github.com/msitarzewski/agency-agents) | Mechanics research, core loop GDD & economic sinks | [Phase 1](#phase-1--game-research--concept) |
-| **02** | Systems & ECS Architect | `bitecs-architecture`, `game-programming-patterns`, `new-unity-project` | [Nate Levin](https://github.com/NateLevin1/bitECS), [Unity Technologies](https://unity.com) | Zero-GC TypedArray ECS & state machine architecture | [Phase 2](#phase-2--game-architecture--mechanics) |
-| **03** | Game UI/UX & Audio Lead | `threejs-ui-hud`, `gsap-animations`, `howler-js-audio`, `ui-uitk` | [Three.js](https://github.com/mrdoob/three.js), [GreenSock](https://github.com/greensock/GSAP), [Howler.js](https://github.com/goldfire/howler.js) | Dual-camera 60 FPS HUD, minimap, combo UI & 3D sound | [Phase 3](#phase-3--game-uiux--in-game-hud) |
-| **04** | Web Game Engine Engineer | `threejs-game-engine`, `react-three-fiber`, `pixijs-engine`, `phaser-game-engine` | [Mr.doob](https://github.com/mrdoob/three.js), [Poimandres](https://github.com/pmndrs/react-three-fiber), [Phaser](https://github.com/phaserjs/phaser) | WebGL PBR scenes, R3F declarative canvas & 2D sprites | [Phase 4](#phase-4--web-game-engines-2d--3d) |
-| **05** | Gameplay & Physics Engineer | `rapier-physics`, `react-three-rapier`, `jolt-physics`, `matter-js-physics`, `combat-mechanics-engineer` | [Dimforge](https://github.com/dimforge/rapier), [Jorrit Rouwe](https://github.com/jrouwe/JoltPhysics), [Matter.js](https://github.com/liabru/matter-js) | Deterministic Rapier/Jolt rigid bodies, hitstop & frame data | [Phase 5](#phase-5--gameplay-feel--physics-simulation) |
-| **06** | Authoritative Multiplayer Lead | `colyseus-multiplayer`, `nakama-backend`, `gaffer-on-games-networking`, `browser-game-anti-cheat-engineer` | [Colyseus](https://github.com/colyseus/colyseus), [Heroic Labs](https://github.com/heroiclabs/nakama), [SR24Plus](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | 60Hz server tick, client prediction & memory XOR anti-cheat | [Phase 6](#phase-6--authoritative-multiplayer--anti-cheat) |
-| **07** | Unity 3D & Graphics Specialist | `unity-entities-ecs`, `agency-game-development-unity-unity-architect`, `urp-postprocessing` | [Unity Technologies Official](https://unity.com), [Agency Agents](https://github.com/msitarzewski/agency-agents) | Burst-compiled DOTS/ECS jobs & URP volume post-processing | [Phase 7](#phase-7--unity-game-development--urp) |
-| **08** | Vehicle Physics Specialist | `truck-physics-engineer`, `realistic-car-controller-engineer`, `racing-track-design-engineer` | [SR24Plus](https://github.com/sahil24raj/SR24plus-engineering-toolkit), [Unity Technologies](https://unity.com) | 16-wheeler heavy trucks, Pacejka slip & banked ghat tracks | [Phase 8](#phase-8--vehicle--racing-game-development) |
-| **09** | 3D Asset & Pipeline Technical Artist | `gltf-transform-pipeline`, `blender-pipeline`, `agency-game-development-blender-blender-addon-engineer` | [Don McCurdy](https://github.com/donmccurdy/glTF-Transform), [Blender Foundation](https://projects.blender.org/blender/blender) | glTF DRACO compression, KTX2 transcoding & headless Blender | [Phase 9](#phase-9--3d-asset--gltf-pipeline) |
-| **10** | Performance & QA Specialist | `threejs-optimization-profiling`, `gameplay-regression-testing`, `unity-performance-testing` | [Three.js](https://github.com/mrdoob/three.js), [Playwright](https://github.com/microsoft/playwright), [Unity](https://unity.com) | Draw call reduction, InstancedMesh & canvas test automation | [Phase 10](#phase-10--testing--performance-optimization) |
-| **11** | Build & Release Engineer | `game-build-and-release`, `unity-cli`, `optimize-web` | [SR24Plus](https://github.com/sahil24raj/SR24plus-engineering-toolkit), [Unity Technologies](https://unity.com) | Headless CLI builds, Brotli WebGL packaging & itch/Steam | [Phase 11](#phase-11--game-build--release) |
-| **12** | Economy & Analytics Architect | `game-analytics-sdk`, `umami-game-analytics`, `agency-game-development-economy-designer` | [GameAnalytics](https://gameanalytics.com), [Umami](https://github.com/umami-software/umami), [Agency Agents](https://github.com/msitarzewski/agency-agents) | Player retention telemetry, sink/source balance & churn audits | [Phase 12](#phase-12--game-analytics--retention) |
+| **01** | Principal Game Designer | `game-programming-patterns`, `awesome-gamedev-skills`, `agency-game-development-game-designer` | [game-programming-patterns](https://github.com/munificent/game-programming-patterns), [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit), [agency-agents](https://github.com/msitarzewski/agency-agents) | Mechanics research, core loop GDD & economic sinks | [Phase 1](#phase-1--game-research--concept) |
+| **02** | Systems & ECS Architect | `bitecs-architecture`, `game-programming-patterns`, `new-unity-project` | [bitECS](https://github.com/NateLevin1/bitECS), [game-programming-patterns](https://github.com/munificent/game-programming-patterns), [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | Zero-GC TypedArray ECS & state machine architecture | [Phase 2](#phase-2--game-architecture--mechanics) |
+| **03** | Game UI/UX & Audio Lead | `threejs-ui-hud`, `gsap-animations`, `howler-js-audio`, `ui-uitk` | [three.js](https://github.com/mrdoob/three.js), [GSAP](https://github.com/greensock/GSAP), [howler.js](https://github.com/goldfire/howler.js) | Dual-camera 60 FPS HUD, minimap, combo UI & 3D sound | [Phase 3](#phase-3--game-uiux--in-game-hud) |
+| **04** | Web Game Engine Engineer | `threejs-game-engine`, `react-three-fiber`, `pixijs-engine`, `phaser-game-engine` | [three.js](https://github.com/mrdoob/three.js), [react-three-fiber](https://github.com/pmndrs/react-three-fiber), [pixijs](https://github.com/pixijs/pixijs), [phaser](https://github.com/phaserjs/phaser) | WebGL PBR scenes, R3F declarative canvas & 2D sprites | [Phase 4](#phase-4--web-game-engines-2d--3d) |
+| **05** | Gameplay & Physics Engineer | `rapier-physics`, `react-three-rapier`, `jolt-physics`, `matter-js-physics`, `combat-mechanics-engineer` | [rapier](https://github.com/dimforge/rapier), [react-three-rapier](https://github.com/pmndrs/react-three-rapier), [JoltPhysics](https://github.com/jrouwe/JoltPhysics), [matter-js](https://github.com/liabru/matter-js) | Deterministic Rapier/Jolt rigid bodies, hitstop & frame data | [Phase 5](#phase-5--gameplay-feel--physics-simulation) |
+| **06** | Authoritative Multiplayer Lead | `colyseus-multiplayer`, `nakama-backend`, `gaffer-on-games-networking`, `browser-game-anti-cheat-engineer` | [colyseus](https://github.com/colyseus/colyseus), [nakama](https://github.com/heroiclabs/nakama), [socket.io](https://github.com/socketio/socket.io), [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | 60Hz server tick, client prediction & memory XOR anti-cheat | [Phase 6](#phase-6--authoritative-multiplayer--anti-cheat) |
+| **07** | Unity 3D & Graphics Specialist | `unity-entities-ecs`, `agency-game-development-unity-unity-architect`, `urp-postprocessing` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities), [agency-agents](https://github.com/msitarzewski/agency-agents) | Burst-compiled DOTS/ECS jobs & URP volume post-processing | [Phase 7](#phase-7--unity-game-development--urp) |
+| **08** | Vehicle Physics Specialist | `truck-physics-engineer`, `realistic-car-controller-engineer`, `racing-track-design-engineer` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | 16-wheeler heavy trucks, Pacejka slip & banked ghat tracks | [Phase 8](#phase-8--vehicle--racing-game-development) |
+| **09** | 3D Asset & Pipeline Technical Artist | `gltf-transform-pipeline`, `blender-pipeline`, `agency-game-development-blender-blender-addon-engineer` | [glTF-Transform](https://github.com/donmccurdy/glTF-Transform), [blender](https://projects.blender.org/blender/blender), [agency-agents](https://github.com/msitarzewski/agency-agents) | glTF DRACO compression, KTX2 transcoding & headless Blender | [Phase 9](#phase-9--3d-asset--gltf-pipeline) |
+| **10** | Performance & QA Specialist | `threejs-optimization-profiling`, `gameplay-regression-testing`, `unity-performance-testing` | [three.js](https://github.com/mrdoob/three.js), [playwright](https://github.com/microsoft/playwright), [agent-skills](https://github.com/addyosmani/agent-skills) | Draw call reduction, InstancedMesh & canvas test automation | [Phase 10](#phase-10--testing--performance-optimization) |
+| **11** | Build & Release Engineer | `game-build-and-release`, `unity-cli`, `optimize-web` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | Headless CLI builds, Brotli WebGL packaging & itch/Steam | [Phase 11](#phase-11--game-build--release) |
+| **12** | Economy & Analytics Architect | `game-analytics-sdk`, `umami-game-analytics`, `agency-game-development-economy-designer` | [GA-SDK-JAVASCRIPT](https://github.com/gameanalytics/GA-SDK-JAVASCRIPT), [umami](https://github.com/umami-software/umami), [agency-agents](https://github.com/msitarzewski/agency-agents) | Player retention telemetry, sink/source balance & churn audits | [Phase 12](#phase-12--game-analytics--retention) |
 
 ---
 
@@ -79,6 +79,7 @@ flowchart TD
   - `awesome-gamedev-skills` ([`SKILL.md`](../skills/sr24-custom-engineering/awesome-gamedev-skills/SKILL.md))
   - `agency-game-development-game-designer` ([`SKILL.md`](../skills/agency-agents/agency-game-development-game-designer/SKILL.md))
   - `agency-game-development-economy-designer` ([`SKILL.md`](../skills/agency-agents/agency-game-development-economy-designer/SKILL.md))
+- **Upstream GitHub Repositories**: [game-programming-patterns](https://github.com/munificent/game-programming-patterns), [agency-agents](https://github.com/msitarzewski/agency-agents), [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit)
 - **How to Prompt AI**:
   > *"Analyze competitive 3D runner and party combat games. Draft a formal Game Design Document (GDD) with a 2-minute core loop, soft currency reward tree, and dynamic collectible lanes."*
 
@@ -88,6 +89,7 @@ flowchart TD
   - `bitecs-architecture` ([`SKILL.md`](../skills/sr24-custom-engineering/bitecs-architecture/SKILL.md)): Zero-garbage TypedArray ECS for browser games.
   - `game-programming-patterns` ([`SKILL.md`](../skills/sr24-custom-engineering/game-programming-patterns/SKILL.md)): State, Command, Type Object, Spatial Partition.
   - `new-unity-project` ([`SKILL.md`](../skills/unity-skills/new-unity-project/SKILL.md)): ScriptableObject architecture for Unity.
+- **Upstream GitHub Repositories**: [bitECS](https://github.com/NateLevin1/bitECS), [game-programming-patterns](https://github.com/munificent/game-programming-patterns), [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities)
 - **How to Prompt AI**:
   > *"Architect a high-performance bitECS world for 1,000 active entities with Position, Velocity, Collider, and Health TypedArray components and decoupled query pipelines."*
 
@@ -98,6 +100,7 @@ flowchart TD
   - `gsap-animations` ([`SKILL.md`](../skills/sr24-custom-engineering/gsap-animations/SKILL.md)): High-FPS tweening for victory banners and score counters.
   - `howler-js-audio` ([`SKILL.md`](../skills/sr24-custom-engineering/howler-js-audio/SKILL.md)): Positional audio sprites and BGM crossfaders.
   - `ui-uitk` ([`SKILL.md`](../skills/unity-skills/ui-uitk/SKILL.md)): Modern flex-based UI Toolkit UXML/USS layouts.
+- **Upstream GitHub Repositories**: [three.js](https://github.com/mrdoob/three.js), [GSAP](https://github.com/greensock/GSAP), [howler.js](https://github.com/goldfire/howler.js)
 - **How to Prompt AI**:
   > *"Build a dual-camera Three.js HUD with a mini-map, health meter, and floating damage numbers animated with GSAP."*
 
@@ -109,6 +112,7 @@ flowchart TD
   - `react-three-fiber` ([`SKILL.md`](../skills/sr24-custom-engineering/react-three-fiber/SKILL.md)): Declarative 3D, Suspense model loading, `@react-three/drei`.
   - `pixijs-engine` ([`SKILL.md`](../skills/sr24-custom-engineering/pixijs-engine/SKILL.md)): High-performance 2D WebGL sprite rendering.
   - `phaser-game-engine` ([`SKILL.md`](../skills/sr24-custom-engineering/phaser-game-engine/SKILL.md)): Scene lifecycles, tilemaps, Arcade physics.
+- **Upstream GitHub Repositories**: [three.js](https://github.com/mrdoob/three.js), [react-three-fiber](https://github.com/pmndrs/react-three-fiber), [pixijs](https://github.com/pixijs/pixijs), [phaser](https://github.com/phaserjs/phaser)
 - **How to Prompt AI**:
   > *"Scaffold a React Three Fiber 3D scene with declarative glTF loading via Drei, dynamic shadow maps, and a smooth orbit/third-person follow camera."*
 
@@ -120,6 +124,7 @@ flowchart TD
   - `jolt-physics` ([`SKILL.md`](../skills/sr24-custom-engineering/jolt-physics/SKILL.md)): AAA-grade vehicle and ragdoll physics for WebAssembly.
   - `matter-js-physics` ([`SKILL.md`](../skills/sr24-custom-engineering/matter-js-physics/SKILL.md)): 2D rigid bodies and constraint chains.
   - `combat-mechanics-engineer` ([`SKILL.md`](../skills/sr24-custom-engineering/combat-mechanics-engineer/SKILL.md)): Frame data, 80ms hitstop, combo buffers.
+- **Upstream GitHub Repositories**: [rapier](https://github.com/dimforge/rapier), [react-three-rapier](https://github.com/pmndrs/react-three-rapier), [JoltPhysics](https://github.com/jrouwe/JoltPhysics), [matter-js](https://github.com/liabru/matter-js)
 - **How to Prompt AI**:
   > *"Set up a Rapier 3D kinematic character controller with slope sliding, grounded raycasts, jump impulse physics, and dynamic collision masks."*
 
@@ -131,6 +136,7 @@ flowchart TD
   - `gaffer-on-games-networking` ([`SKILL.md`](../skills/sr24-custom-engineering/gaffer-on-games-networking/SKILL.md)): Client-side prediction, delta compression, jitter buffers.
   - `socketio-realtime` ([`SKILL.md`](../skills/sr24-custom-engineering/socketio-realtime/SKILL.md)): Room management and low-latency messaging.
   - `browser-game-anti-cheat-engineer` ([`SKILL.md`](../skills/sr24-custom-engineering/browser-game-anti-cheat-engineer/SKILL.md)): Delta speedhacks, memory XOR, bot detection.
+- **Upstream GitHub Repositories**: [colyseus](https://github.com/colyseus/colyseus), [nakama](https://github.com/heroiclabs/nakama), [socket.io](https://github.com/socketio/socket.io), [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit)
 - **How to Prompt AI**:
   > *"Implement a Colyseus room state with schema synchronization, client-side input prediction, and server-side position validation to prevent teleportation."*
 
@@ -141,6 +147,7 @@ flowchart TD
   - `agency-game-development-unity-unity-architect` ([`SKILL.md`](../skills/agency-agents/agency-game-development-unity-unity-architect/SKILL.md))
   - `agency-game-development-unity-unity-shader-graph-artist` ([`SKILL.md`](../skills/agency-agents/agency-game-development-unity-unity-shader-graph-artist/SKILL.md))
   - `urp-postprocessing` ([`SKILL.md`](../skills/unity-skills/urp-postprocessing/SKILL.md)): Bloom, tonemapping, color adjustments.
+- **Upstream GitHub Repositories**: [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities), [agency-agents](https://github.com/msitarzewski/agency-agents)
 - **How to Prompt AI**:
   > *"Write an IJobEntity burst-compiled job system in Unity Entities to update 10,000 bullet projectiles per frame."*
 
@@ -150,6 +157,7 @@ flowchart TD
   - `truck-physics-engineer` ([`SKILL.md`](../skills/sr24-custom-engineering/truck-physics-engineer/SKILL.md)): 16-wheeler physics (12,000kg), dual rear axles, anti-roll bars, air brakes.
   - `realistic-car-controller-engineer` ([`SKILL.md`](../skills/sr24-custom-engineering/realistic-car-controller-engineer/SKILL.md)): Pacejka curves, aerodynamic downforce ($C_L$).
   - `racing-track-design-engineer` ([`SKILL.md`](../skills/sr24-custom-engineering/racing-track-design-engineer/SKILL.md)): Spline road generation, $5^\circ-12^\circ$ banking on hairpins.
+- **Upstream GitHub Repositories**: [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit)
 - **How to Prompt AI**:
   > *"Set up a 16-wheeler heavy truck prefab with dual drive rear axles, pneumatic brake simulation, and realistic body roll suspension."*
 
@@ -159,6 +167,7 @@ flowchart TD
   - `gltf-transform-pipeline` ([`SKILL.md`](../skills/sr24-custom-engineering/gltf-transform-pipeline/SKILL.md)): CLI/Node glTF optimization, DRACO, KTX2/Basis.
   - `blender-pipeline` ([`SKILL.md`](../skills/sr24-custom-engineering/blender-pipeline/SKILL.md)): Headless Blender CLI automation, LOD generation.
   - `agency-game-development-blender-blender-addon-engineer` ([`SKILL.md`](../skills/agency-agents/agency-game-development-blender-blender-addon-engineer/SKILL.md))
+- **Upstream GitHub Repositories**: [glTF-Transform](https://github.com/donmccurdy/glTF-Transform), [blender](https://projects.blender.org/blender/blender), [agency-agents](https://github.com/msitarzewski/agency-agents)
 - **How to Prompt AI**:
   > *"Optimize this 45MB glTF character model using gltf-transform with Draco geometry compression and KTX2 texture transcoding to bring size under 4MB."*
 
@@ -169,6 +178,7 @@ flowchart TD
   - `gameplay-regression-testing` ([`SKILL.md`](../skills/sr24-custom-engineering/gameplay-regression-testing/SKILL.md)): Playwright virtual controller & canvas regression tests.
   - `unity-performance-testing` ([`SKILL.md`](../skills/sr24-custom-engineering/unity-performance-testing/SKILL.md)): Unity Test Framework performance benchmarks.
   - `performance-optimization` ([`SKILL.md`](../skills/addyosmani-agent-skills/performance-optimization/SKILL.md))
+- **Upstream GitHub Repositories**: [three.js](https://github.com/mrdoob/three.js), [playwright](https://github.com/microsoft/playwright), [agent-skills](https://github.com/addyosmani/agent-skills)
 - **How to Prompt AI**:
   > *"Profile a Three.js scene rendering 2,000 props: convert unique meshes to InstancedMesh, bake texture atlases, and keep total draw calls under 25."*
 
@@ -178,6 +188,7 @@ flowchart TD
   - `game-build-and-release` ([`SKILL.md`](../skills/sr24-custom-engineering/game-build-and-release/SKILL.md)): Multi-platform packaging, butler itch.io, steamcmd.
   - `unity-cli` ([`SKILL.md`](../skills/unity-skills/unity-cli/SKILL.md)): Command-line Unity Editor build pipeline.
   - `optimize-web` ([`SKILL.md`](../skills/unity-skills/optimize-web/SKILL.md)): Shrinks WebGL builds with WebGPU optimization.
+- **Upstream GitHub Repositories**: [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit)
 - **How to Prompt AI**:
   > *"Create a GitHub Actions workflow to build a Unity WebGL project headlessly with Brotli compression and deploy it automatically to GitHub Pages/Itch.io."*
 
@@ -187,6 +198,7 @@ flowchart TD
   - `game-analytics-sdk` ([`SKILL.md`](../skills/sr24-custom-engineering/game-analytics-sdk/SKILL.md)): GameAnalytics integration, progression and design events.
   - `umami-game-analytics` ([`SKILL.md`](../skills/sr24-custom-engineering/umami-game-analytics/SKILL.md)): Self-hosted, privacy-first web game analytics.
   - `agency-game-development-economy-designer` ([`SKILL.md`](../skills/agency-agents/agency-game-development-economy-designer/SKILL.md))
+- **Upstream GitHub Repositories**: [GA-SDK-JAVASCRIPT](https://github.com/gameanalytics/GA-SDK-JAVASCRIPT), [umami](https://github.com/umami-software/umami), [agency-agents](https://github.com/msitarzewski/agency-agents)
 - **How to Prompt AI**:
   > *"Implement a GameAnalytics event schema to track Level_Start, Level_Complete, and Soft_Currency_Sink events across all playable minigames."*
 
@@ -194,61 +206,61 @@ flowchart TD
 
 ## 5. Complete SR24-GAME-DEV Master Skill Matrix
 
-| Phase | Skill Name | Provider / Source | Canonical Path | Primary Responsibility | Verification |
+| Phase | Skill Name | Provider / Source Repository | Canonical Path | Primary Responsibility | Verification |
 |:---:|---|---|---|---|:---:|
-| 01 | `game-programming-patterns` | Bob Nystrom Patterns | `skills/sr24-custom-engineering/game-programming-patterns/SKILL.md` | Core loops, state, command, spatial partition | Verified In-Repo |
-| 01 | `awesome-gamedev-skills` | SR24Plus Curated | `skills/sr24-custom-engineering/awesome-gamedev-skills/SKILL.md` | Mechanics research, GDD frameworks | Verified In-Repo |
-| 01 | `agency-game-development-game-designer` | `msitarzewski/agency-agents` | `skills/agency-agents/agency-game-development-game-designer/SKILL.md` | Core loop, player psychology, GDD | Verified In-Repo |
-| 01 | `agency-game-development-economy-designer` | `msitarzewski/agency-agents` | `skills/agency-agents/agency-game-development-economy-designer/SKILL.md` | Currency sinks, sources, monetization | Verified In-Repo |
-| 02 | `bitecs-architecture` | Nate Levin bitECS | `skills/sr24-custom-engineering/bitecs-architecture/SKILL.md` | Zero-GC TypedArray ECS for browser games | Verified In-Repo |
-| 02 | `agency-game-development-level-designer` | `msitarzewski/agency-agents` | `skills/agency-agents/agency-game-development-level-designer/SKILL.md` | Pacing, encounters, level design | Verified In-Repo |
-| 02 | `new-unity-project` | Unity Technologies | `skills/unity-skills/new-unity-project/SKILL.md` | ScriptableObject decoupled architecture | Verified In-Repo |
-| 03 | `threejs-ui-hud` | Three.js / R3F | `skills/sr24-custom-engineering/threejs-ui-hud/SKILL.md` | Dual-camera in-game HUD & minimap | Verified In-Repo |
-| 03 | `gsap-animations` | GreenSock / Vibe Arena | `skills/sr24-custom-engineering/gsap-animations/SKILL.md` | 60 FPS UI micro-interactions & victory screens | Verified In-Repo |
-| 03 | `howler-js-audio` | Howler.js / Vibe Arena | `skills/sr24-custom-engineering/howler-js-audio/SKILL.md` | Spatial 3D sound effects, audio sprites | Verified In-Repo |
-| 03 | `ui-uitk` | Unity Technologies | `skills/unity-skills/ui-uitk/SKILL.md` | UI Toolkit UXML/USS flexbox layouts | Verified In-Repo |
-| 03 | `ui-ugui` | Unity Technologies | `skills/unity-skills/ui-ugui/SKILL.md` | Canvas hierarchies and RectTransform anchors | Verified In-Repo |
-| 04 | `web-game-engine` | SR24Plus Master | `skills/sr24-custom-engineering/web-game-engine/SKILL.md` | Engine selector & accumulator loop | Verified In-Repo |
-| 04 | `threejs-game-engine` | Mr.doob Three.js | `skills/sr24-custom-engineering/threejs-game-engine/SKILL.md` | 3D WebGL scenes, PBR materials, instancing | Verified In-Repo |
-| 04 | `react-three-fiber` | Poimandres R3F | `skills/sr24-custom-engineering/react-three-fiber/SKILL.md` | Declarative Three.js in React/Next.js | Verified In-Repo |
-| 04 | `pixijs-engine` | PixiJS Team | `skills/sr24-custom-engineering/pixijs-engine/SKILL.md` | 2D WebGL sprite batching | Verified In-Repo |
-| 04 | `phaser-game-engine` | Phaser / Vibe Arena | `skills/sr24-custom-engineering/phaser-game-engine/SKILL.md` | 2D arcade scenes & tilemaps | Verified In-Repo |
-| 04 | `browser-game-architect` | SR24Plus Custom | `skills/sr24-custom-engineering/browser-game-architect/SKILL.md` | 60Hz loop, canvas scaling, mobile controls | Verified In-Repo |
-| 05 | `rapier-physics` | Dimforge Rapier | `skills/sr24-custom-engineering/rapier-physics/SKILL.md` | WASM 2D/3D physics & character controller | Verified In-Repo |
-| 05 | `react-three-rapier` | Poimandres Rapier | `skills/sr24-custom-engineering/react-three-rapier/SKILL.md` | Declarative 3D physics inside R3F | Verified In-Repo |
-| 05 | `jolt-physics` | Jorrit Rouwe Jolt | `skills/sr24-custom-engineering/jolt-physics/SKILL.md` | AAA-grade multithreaded vehicle physics | Verified In-Repo |
-| 05 | `matter-js-physics` | Matter.js / Vibe Arena | `skills/sr24-custom-engineering/matter-js-physics/SKILL.md` | 2D rigid body constraints & ragdolls | Verified In-Repo |
-| 05 | `combat-mechanics-engineer` | SR24Plus Custom | `skills/sr24-custom-engineering/combat-mechanics-engineer/SKILL.md` | Frame data, 80ms hitstop, combo buffers | Verified In-Repo |
-| 05 | `physics-3d-collision` | Unity Technologies | `skills/unity-skills/physics-3d-collision/SKILL.md` | 3D PhysX collisions & layer matrices | Verified In-Repo |
-| 05 | `create-2d-physics` | Unity Technologies | `skills/unity-skills/create-2d-physics/SKILL.md` | 2D Rigidbody & composite colliders | Verified In-Repo |
-| 06 | `colyseus-multiplayer` | Colyseus Team | `skills/sr24-custom-engineering/colyseus-multiplayer/SKILL.md` | Schema-based authoritative state synchronization | Verified In-Repo |
-| 06 | `nakama-backend` | Heroic Labs Nakama | `skills/sr24-custom-engineering/nakama-backend/SKILL.md` | Production game backend, matchmaking, chats | Verified In-Repo |
-| 06 | `gaffer-on-games-networking` | Glenn Fiedler | `skills/sr24-custom-engineering/gaffer-on-games-networking/SKILL.md` | Client prediction, server reconciliation | Verified In-Repo |
-| 06 | `socketio-realtime` | Socket.IO / Vibe Arena | `skills/sr24-custom-engineering/socketio-realtime/SKILL.md` | 6-character room codes & event syncing | Verified In-Repo |
-| 06 | `redis-in-memory-datastore` | Redis / Vibe Arena | `skills/sr24-custom-engineering/redis-in-memory-datastore/SKILL.md` | Ephemeral lobby state, matchmaking queues | Verified In-Repo |
-| 06 | `websocket-multiplayer-engineer` | SR24Plus Custom | `skills/sr24-custom-engineering/websocket-multiplayer-engineer/SKILL.md` | 60Hz server tick, prediction & reconciliation | Verified In-Repo |
-| 06 | `browser-game-anti-cheat-engineer` | SR24Plus Custom | `skills/sr24-custom-engineering/browser-game-anti-cheat-engineer/SKILL.md` | Delta speedhacks, memory XOR obfuscation | Verified In-Repo |
-| 07 | `unity-entities-ecs` | Unity Technologies | `skills/sr24-custom-engineering/unity-entities-ecs/SKILL.md` | Unity DOTS/ECS, Burst-compiled jobs | Verified In-Repo |
-| 07 | `agency-game-development-unity-unity-architect` | `msitarzewski/agency-agents` | `skills/agency-agents/agency-game-development-unity-unity-architect/SKILL.md` | ScriptableObject event architectures | Verified In-Repo |
-| 07 | `agency-game-development-unity-unity-shader-graph-artist` | `msitarzewski/agency-agents` | `skills/agency-agents/agency-game-development-unity-unity-shader-graph-artist/SKILL.md` | Custom Shader Graph & HLSL materials | Verified In-Repo |
-| 07 | `shader-graph-create-custom-node` | Unity Technologies | `skills/unity-skills/shader-graph-create-custom-node/SKILL.md` | Custom HLSL nodes for Shader Graph | Verified In-Repo |
-| 07 | `urp-postprocessing` | Unity Technologies | `skills/unity-skills/urp-postprocessing/SKILL.md` | URP Volume framework (bloom, tonemapping) | Verified In-Repo |
-| 08 | `truck-physics-engineer` | SR24Plus Custom | `skills/sr24-custom-engineering/truck-physics-engineer/SKILL.md` | 16-wheeler WheelColliders & air brakes | Verified In-Repo |
-| 08 | `realistic-car-controller-engineer` | SR24Plus Custom | `skills/sr24-custom-engineering/realistic-car-controller-engineer/SKILL.md` | Pacejka slip curves & Ackermann steering | Verified In-Repo |
-| 08 | `racing-track-design-engineer` | SR24Plus Custom | `skills/sr24-custom-engineering/racing-track-design-engineer/SKILL.md` | Banked ghat circuits & surface grip zones | Verified In-Repo |
-| 09 | `gltf-transform-pipeline` | Don McCurdy | `skills/sr24-custom-engineering/gltf-transform-pipeline/SKILL.md` | glTF Draco compression & KTX2 textures | Verified In-Repo |
-| 09 | `blender-pipeline` | Blender Foundation | `skills/sr24-custom-engineering/blender-pipeline/SKILL.md` | Headless Python scripts & LOD generation | Verified In-Repo |
-| 09 | `agency-game-development-blender-blender-addon-engineer` | `msitarzewski/agency-agents` | `skills/agency-agents/agency-game-development-blender-blender-addon-engineer/SKILL.md` | Blender tooling & asset export automation | Verified In-Repo |
-| 10 | `threejs-optimization-profiling` | Three.js Ecosystem | `skills/sr24-custom-engineering/threejs-optimization-profiling/SKILL.md` | InstancedMesh, Spector.js, draw call limits | Verified In-Repo |
-| 10 | `gameplay-regression-testing` | Playwright / SR24Plus | `skills/sr24-custom-engineering/gameplay-regression-testing/SKILL.md` | Automated canvas & input test runners | Verified In-Repo |
-| 10 | `unity-performance-testing` | Unity Technologies | `skills/sr24-custom-engineering/unity-performance-testing/SKILL.md` | Performance Benchmark test runner | Verified In-Repo |
-| 10 | `performance-optimization` | `addyosmani/agent-skills` | `skills/addyosmani-agent-skills/performance-optimization/SKILL.md` | Hot-loop profiling & GC leak elimination | Verified In-Repo |
-| 11 | `game-build-and-release` | SR24Plus Custom | `skills/sr24-custom-engineering/game-build-and-release/SKILL.md` | Itch.io Butler, SteamCMD, WebGL packaging | Verified In-Repo |
-| 11 | `unity-cli` | Unity Technologies | `skills/unity-skills/unity-cli/SKILL.md` | Headless command line build scripts | Verified In-Repo |
-| 11 | `optimize-web` | Unity Technologies | `skills/unity-skills/optimize-web/SKILL.md` | WebGL build shrinking & WebGPU tuning | Verified In-Repo |
-| 12 | `game-analytics-sdk` | GameAnalytics | `skills/sr24-custom-engineering/game-analytics-sdk/SKILL.md` | Progression, design & error telemetry | Verified In-Repo |
-| 12 | `umami-game-analytics` | Umami Software | `skills/sr24-custom-engineering/umami-game-analytics/SKILL.md` | Privacy-focused player event tracking | Verified In-Repo |
-| 12 | `agency-game-development-economy-designer` | `msitarzewski/agency-agents` | `skills/agency-agents/agency-game-development-economy-designer/SKILL.md` | Retention loops & monetization modeling | Verified In-Repo |
+| 01 | `game-programming-patterns` | [game-programming-patterns](https://github.com/munificent/game-programming-patterns) | `skills/sr24-custom-engineering/game-programming-patterns/SKILL.md` | Core loops, state, command, spatial partition | Verified In-Repo |
+| 01 | `awesome-gamedev-skills` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | `skills/sr24-custom-engineering/awesome-gamedev-skills/SKILL.md` | Mechanics research, GDD frameworks | Verified In-Repo |
+| 01 | `agency-game-development-game-designer` | [agency-agents](https://github.com/msitarzewski/agency-agents) | `skills/agency-agents/agency-game-development-game-designer/SKILL.md` | Core loop, player psychology, GDD | Verified In-Repo |
+| 01 | `agency-game-development-economy-designer` | [agency-agents](https://github.com/msitarzewski/agency-agents) | `skills/agency-agents/agency-game-development-economy-designer/SKILL.md` | Currency sinks, sources, monetization | Verified In-Repo |
+| 02 | `bitecs-architecture` | [bitECS](https://github.com/NateLevin1/bitECS) | `skills/sr24-custom-engineering/bitecs-architecture/SKILL.md` | Zero-GC TypedArray ECS for browser games | Verified In-Repo |
+| 02 | `agency-game-development-level-designer` | [agency-agents](https://github.com/msitarzewski/agency-agents) | `skills/agency-agents/agency-game-development-level-designer/SKILL.md` | Pacing, encounters, level design | Verified In-Repo |
+| 02 | `new-unity-project` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | `skills/unity-skills/new-unity-project/SKILL.md` | ScriptableObject decoupled architecture | Verified In-Repo |
+| 03 | `threejs-ui-hud` | [three.js](https://github.com/mrdoob/three.js) | `skills/sr24-custom-engineering/threejs-ui-hud/SKILL.md` | Dual-camera in-game HUD & minimap | Verified In-Repo |
+| 03 | `gsap-animations` | [GSAP](https://github.com/greensock/GSAP) | `skills/sr24-custom-engineering/gsap-animations/SKILL.md` | 60 FPS UI micro-interactions & victory screens | Verified In-Repo |
+| 03 | `howler-js-audio` | [howler.js](https://github.com/goldfire/howler.js) | `skills/sr24-custom-engineering/howler-js-audio/SKILL.md` | Spatial 3D sound effects, audio sprites | Verified In-Repo |
+| 03 | `ui-uitk` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | `skills/unity-skills/ui-uitk/SKILL.md` | UI Toolkit UXML/USS flexbox layouts | Verified In-Repo |
+| 03 | `ui-ugui` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | `skills/unity-skills/ui-ugui/SKILL.md` | Canvas hierarchies and RectTransform anchors | Verified In-Repo |
+| 04 | `web-game-engine` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | `skills/sr24-custom-engineering/web-game-engine/SKILL.md` | Engine selector & accumulator loop | Verified In-Repo |
+| 04 | `threejs-game-engine` | [three.js](https://github.com/mrdoob/three.js) | `skills/sr24-custom-engineering/threejs-game-engine/SKILL.md` | 3D WebGL scenes, PBR materials, instancing | Verified In-Repo |
+| 04 | `react-three-fiber` | [react-three-fiber](https://github.com/pmndrs/react-three-fiber) | `skills/sr24-custom-engineering/react-three-fiber/SKILL.md` | Declarative Three.js in React/Next.js | Verified In-Repo |
+| 04 | `pixijs-engine` | [pixijs](https://github.com/pixijs/pixijs) | `skills/sr24-custom-engineering/pixijs-engine/SKILL.md` | 2D WebGL sprite batching | Verified In-Repo |
+| 04 | `phaser-game-engine` | [phaser](https://github.com/phaserjs/phaser) | `skills/sr24-custom-engineering/phaser-game-engine/SKILL.md` | 2D arcade scenes & tilemaps | Verified In-Repo |
+| 04 | `browser-game-architect` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | `skills/sr24-custom-engineering/browser-game-architect/SKILL.md` | 60Hz loop, canvas scaling, mobile controls | Verified In-Repo |
+| 05 | `rapier-physics` | [rapier](https://github.com/dimforge/rapier) | `skills/sr24-custom-engineering/rapier-physics/SKILL.md` | WASM 2D/3D physics & character controller | Verified In-Repo |
+| 05 | `react-three-rapier` | [react-three-rapier](https://github.com/pmndrs/react-three-rapier) | `skills/sr24-custom-engineering/react-three-rapier/SKILL.md` | Declarative 3D physics inside R3F | Verified In-Repo |
+| 05 | `jolt-physics` | [JoltPhysics](https://github.com/jrouwe/JoltPhysics) | `skills/sr24-custom-engineering/jolt-physics/SKILL.md` | AAA-grade multithreaded vehicle physics | Verified In-Repo |
+| 05 | `matter-js-physics` | [matter-js](https://github.com/liabru/matter-js) | `skills/sr24-custom-engineering/matter-js-physics/SKILL.md` | 2D rigid body constraints & ragdolls | Verified In-Repo |
+| 05 | `combat-mechanics-engineer` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | `skills/sr24-custom-engineering/combat-mechanics-engineer/SKILL.md` | Frame data, 80ms hitstop, combo buffers | Verified In-Repo |
+| 05 | `physics-3d-collision` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | `skills/unity-skills/physics-3d-collision/SKILL.md` | 3D PhysX collisions & layer matrices | Verified In-Repo |
+| 05 | `create-2d-physics` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | `skills/unity-skills/create-2d-physics/SKILL.md` | 2D Rigidbody & composite colliders | Verified In-Repo |
+| 06 | `colyseus-multiplayer` | [colyseus](https://github.com/colyseus/colyseus) | `skills/sr24-custom-engineering/colyseus-multiplayer/SKILL.md` | Schema-based authoritative state synchronization | Verified In-Repo |
+| 06 | `nakama-backend` | [nakama](https://github.com/heroiclabs/nakama) | `skills/sr24-custom-engineering/nakama-backend/SKILL.md` | Production game backend, matchmaking, chats | Verified In-Repo |
+| 06 | `gaffer-on-games-networking` | [gaffer-on-games](https://github.com/networkprotocol/libyojimbo) | `skills/sr24-custom-engineering/gaffer-on-games-networking/SKILL.md` | Client prediction, server reconciliation | Verified In-Repo |
+| 06 | `socketio-realtime` | [socket.io](https://github.com/socketio/socket.io) | `skills/sr24-custom-engineering/socketio-realtime/SKILL.md` | 6-character room codes & event syncing | Verified In-Repo |
+| 06 | `redis-in-memory-datastore` | [redis](https://github.com/redis/redis) | `skills/sr24-custom-engineering/redis-in-memory-datastore/SKILL.md` | Ephemeral lobby state, matchmaking queues | Verified In-Repo |
+| 06 | `websocket-multiplayer-engineer` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | `skills/sr24-custom-engineering/websocket-multiplayer-engineer/SKILL.md` | 60Hz server tick, prediction & reconciliation | Verified In-Repo |
+| 06 | `browser-game-anti-cheat-engineer` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | `skills/sr24-custom-engineering/browser-game-anti-cheat-engineer/SKILL.md` | Delta speedhacks, memory XOR obfuscation | Verified In-Repo |
+| 07 | `unity-entities-ecs` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | `skills/sr24-custom-engineering/unity-entities-ecs/SKILL.md` | Unity DOTS/ECS, Burst-compiled jobs | Verified In-Repo |
+| 07 | `agency-game-development-unity-unity-architect` | [agency-agents](https://github.com/msitarzewski/agency-agents) | `skills/agency-agents/agency-game-development-unity-unity-architect/SKILL.md` | ScriptableObject event architectures | Verified In-Repo |
+| 07 | `agency-game-development-unity-unity-shader-graph-artist` | [agency-agents](https://github.com/msitarzewski/agency-agents) | `skills/agency-agents/agency-game-development-unity-unity-shader-graph-artist/SKILL.md` | Custom Shader Graph & HLSL materials | Verified In-Repo |
+| 07 | `shader-graph-create-custom-node` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | `skills/unity-skills/shader-graph-create-custom-node/SKILL.md` | Custom HLSL nodes for Shader Graph | Verified In-Repo |
+| 07 | `urp-postprocessing` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | `skills/unity-skills/urp-postprocessing/SKILL.md` | URP Volume framework (bloom, tonemapping) | Verified In-Repo |
+| 08 | `truck-physics-engineer` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | `skills/sr24-custom-engineering/truck-physics-engineer/SKILL.md` | 16-wheeler WheelColliders & air brakes | Verified In-Repo |
+| 08 | `realistic-car-controller-engineer` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | `skills/sr24-custom-engineering/realistic-car-controller-engineer/SKILL.md` | Pacejka slip curves & Ackermann steering | Verified In-Repo |
+| 08 | `racing-track-design-engineer` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | `skills/sr24-custom-engineering/racing-track-design-engineer/SKILL.md` | Banked ghat circuits & surface grip zones | Verified In-Repo |
+| 09 | `gltf-transform-pipeline` | [glTF-Transform](https://github.com/donmccurdy/glTF-Transform) | `skills/sr24-custom-engineering/gltf-transform-pipeline/SKILL.md` | glTF Draco compression & KTX2 textures | Verified In-Repo |
+| 09 | `blender-pipeline` | [blender](https://projects.blender.org/blender/blender) | `skills/sr24-custom-engineering/blender-pipeline/SKILL.md` | Headless Python scripts & LOD generation | Verified In-Repo |
+| 09 | `agency-game-development-blender-blender-addon-engineer` | [agency-agents](https://github.com/msitarzewski/agency-agents) | `skills/agency-agents/agency-game-development-blender-blender-addon-engineer/SKILL.md` | Blender tooling & asset export automation | Verified In-Repo |
+| 10 | `threejs-optimization-profiling` | [three.js](https://github.com/mrdoob/three.js) | `skills/sr24-custom-engineering/threejs-optimization-profiling/SKILL.md` | InstancedMesh, Spector.js, draw call limits | Verified In-Repo |
+| 10 | `gameplay-regression-testing` | [playwright](https://github.com/microsoft/playwright) | `skills/sr24-custom-engineering/gameplay-regression-testing/SKILL.md` | Automated canvas & input test runners | Verified In-Repo |
+| 10 | `unity-performance-testing` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | `skills/sr24-custom-engineering/unity-performance-testing/SKILL.md` | Performance Benchmark test runner | Verified In-Repo |
+| 10 | `performance-optimization` | [agent-skills](https://github.com/addyosmani/agent-skills) | `skills/addyosmani-agent-skills/performance-optimization/SKILL.md` | Hot-loop profiling & GC leak elimination | Verified In-Repo |
+| 11 | `game-build-and-release` | [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | `skills/sr24-custom-engineering/game-build-and-release/SKILL.md` | Itch.io Butler, SteamCMD, WebGL packaging | Verified In-Repo |
+| 11 | `unity-cli` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | `skills/unity-skills/unity-cli/SKILL.md` | Headless command line build scripts | Verified In-Repo |
+| 11 | `optimize-web` | [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities) | `skills/unity-skills/optimize-web/SKILL.md` | WebGL build shrinking & WebGPU tuning | Verified In-Repo |
+| 12 | `game-analytics-sdk` | [GA-SDK-JAVASCRIPT](https://github.com/gameanalytics/GA-SDK-JAVASCRIPT) | `skills/sr24-custom-engineering/game-analytics-sdk/SKILL.md` | Progression, design & error telemetry | Verified In-Repo |
+| 12 | `umami-game-analytics` | [umami](https://github.com/umami-software/umami) | `skills/sr24-custom-engineering/umami-game-analytics/SKILL.md` | Privacy-focused player event tracking | Verified In-Repo |
+| 12 | `agency-game-development-economy-designer` | [agency-agents](https://github.com/msitarzewski/agency-agents) | `skills/agency-agents/agency-game-development-economy-designer/SKILL.md` | Retention loops & monetization modeling | Verified In-Repo |
 
 ---
 
@@ -256,21 +268,21 @@ flowchart TD
 
 The `SR24-GAME-DEV` pack categorizes its 52 dedicated skills across 15 core game engineering systems:
 
-1. **Game Research & Concept**: Governed by `game-programming-patterns`, `awesome-gamedev-skills`, and `agency-game-development-game-designer`. Formalizes GDD authoring, core loops, session pacing, and player retention models.
-2. **Game Architecture & ECS**: Governed by `bitecs-architecture` and `new-unity-project`. Enforces zero-allocation TypedArray ECS in WebGL and decoupled ScriptableObject event architectures in Unity.
-3. **In-Game HUD & Audio**: Governed by `threejs-ui-hud`, `gsap-animations`, and `howler-js-audio`. Implements dual-camera orthographic HUD projection, floating combat numbers, and 3D spatial audio sprites.
-4. **2D & 3D Web Engines**: Governed by `threejs-game-engine`, `react-three-fiber`, `pixijs-engine`, and `phaser-game-engine`. Provides multi-engine scaffolding for high-FPS Canvas and WebGL renderers.
-5. **Unity 3D & Native Engines**: Governed by `unity-cli`, `unity-entities-ecs`, and `urp-postprocessing`. Handles Burst-compiled jobs, custom HLSL shader graphs, and automated headless builds.
-6. **Gameplay Programming & Feel**: Governed by `combat-mechanics-engineer`. Calibrates frame data (60Hz), 80ms hitstop freezes, directional camera trauma shakes, and input buffering.
-7. **Physics Simulation**: Governed by `rapier-physics`, `react-three-rapier`, `jolt-physics`, and `matter-js-physics`. Integrates WASM deterministic rigid bodies, character kinematic raycasts, and constraint solvers.
-8. **Heavy Vehicle Physics**: Governed by `truck-physics-engineer`, `realistic-car-controller-engineer`, and `racing-track-design-engineer`. Calibrates 16-wheeler trucks (12,000kg), dual rear drive axles, Pacejka slip curves, and $5^\circ-12^\circ$ banked hairpin tracks.
-9. **Authoritative Multiplayer**: Governed by `colyseus-multiplayer`, `nakama-backend`, and `gaffer-on-games-networking`. Executes authoritative 60Hz server ticks, client-side input prediction, server reconciliation, and jitter buffers.
-10. **Anti-Cheat & Security**: Governed by `browser-game-anti-cheat-engineer`. Implements memory XOR variable encryption, delta speedhack checks, and teleport prevention.
-11. **Game AI & Pathfinding**: Governed by `initialize-ai-navigation` and `agency-academic-psychologist`. Implements NavMesh surfaces, agent avoidance, and behavioral state machines.
-12. **3D Asset & glTF Pipeline**: Governed by `gltf-transform-pipeline` and `blender-pipeline`. Automates glTF 2.0 DRACO mesh compression, KTX2/Basis texture transcoding, and headless Blender LOD generation.
-13. **Optimization & Hot-Loop Profiling**: Governed by `threejs-optimization-profiling` and `performance-optimization`. Replaces individual meshes with `InstancedMesh`, bakes texture atlases, and caps draw calls under 30.
-14. **Automated Game QA**: Governed by `gameplay-regression-testing` and `unity-performance-testing`. Runs automated Playwright canvas interactions, virtual touch joypads, and framerate stability tests.
-15. **Build, Release & Telemetry**: Governed by `game-build-and-release`, `game-analytics-sdk`, and `umami-game-analytics`. Packages multiplatform binaries, configures Brotli compression, and tracks player progression events.
+1. **Game Research & Concept**: Governed by `game-programming-patterns`, `awesome-gamedev-skills`, and `agency-game-development-game-designer` ([game-programming-patterns](https://github.com/munificent/game-programming-patterns), [agency-agents](https://github.com/msitarzewski/agency-agents)). Formalizes GDD authoring, core loops, session pacing, and player retention models.
+2. **Game Architecture & ECS**: Governed by `bitecs-architecture` and `new-unity-project` ([bitECS](https://github.com/NateLevin1/bitECS), [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities)). Enforces zero-allocation TypedArray ECS in WebGL and decoupled ScriptableObject event architectures in Unity.
+3. **In-Game HUD & Audio**: Governed by `threejs-ui-hud`, `gsap-animations`, and `howler-js-audio` ([three.js](https://github.com/mrdoob/three.js), [GSAP](https://github.com/greensock/GSAP), [howler.js](https://github.com/goldfire/howler.js)). Implements dual-camera orthographic HUD projection, floating combat numbers, and 3D spatial audio sprites.
+4. **2D & 3D Web Engines**: Governed by `threejs-game-engine`, `react-three-fiber`, `pixijs-engine`, and `phaser-game-engine` ([three.js](https://github.com/mrdoob/three.js), [react-three-fiber](https://github.com/pmndrs/react-three-fiber), [pixijs](https://github.com/pixijs/pixijs), [phaser](https://github.com/phaserjs/phaser)). Provides multi-engine scaffolding for high-FPS Canvas and WebGL renderers.
+5. **Unity 3D & Native Engines**: Governed by `unity-cli`, `unity-entities-ecs`, and `urp-postprocessing` ([com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities)). Handles Burst-compiled jobs, custom HLSL shader graphs, and automated headless builds.
+6. **Gameplay Programming & Feel**: Governed by `combat-mechanics-engineer` ([SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit)). Calibrates frame data (60Hz), 80ms hitstop freezes, directional camera trauma shakes, and input buffering.
+7. **Physics Simulation**: Governed by `rapier-physics`, `react-three-rapier`, `jolt-physics`, and `matter-js-physics` ([rapier](https://github.com/dimforge/rapier), [react-three-rapier](https://github.com/pmndrs/react-three-rapier), [JoltPhysics](https://github.com/jrouwe/JoltPhysics), [matter-js](https://github.com/liabru/matter-js)). Integrates WASM deterministic rigid bodies, character kinematic raycasts, and constraint solvers.
+8. **Heavy Vehicle Physics**: Governed by `truck-physics-engineer`, `realistic-car-controller-engineer`, and `racing-track-design-engineer` ([SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit)). Calibrates 16-wheeler trucks (12,000kg), dual rear drive axles, Pacejka slip curves, and $5^\circ-12^\circ$ banked hairpin tracks.
+9. **Authoritative Multiplayer**: Governed by `colyseus-multiplayer`, `nakama-backend`, and `gaffer-on-games-networking` ([colyseus](https://github.com/colyseus/colyseus), [nakama](https://github.com/heroiclabs/nakama), [socket.io](https://github.com/socketio/socket.io)). Executes authoritative 60Hz server ticks, client-side input prediction, server reconciliation, and jitter buffers.
+10. **Anti-Cheat & Security**: Governed by `browser-game-anti-cheat-engineer` ([SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit)). Implements memory XOR variable encryption, delta speedhack checks, and teleport prevention.
+11. **Game AI & Pathfinding**: Governed by `initialize-ai-navigation` and `agency-academic-psychologist` ([com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities), [agency-agents](https://github.com/msitarzewski/agency-agents)). Implements NavMesh surfaces, agent avoidance, and behavioral state machines.
+12. **3D Asset & glTF Pipeline**: Governed by `gltf-transform-pipeline` and `blender-pipeline` ([glTF-Transform](https://github.com/donmccurdy/glTF-Transform), [blender](https://projects.blender.org/blender/blender)). Automates glTF 2.0 DRACO mesh compression, KTX2/Basis texture transcoding, and headless Blender LOD generation.
+13. **Optimization & Hot-Loop Profiling**: Governed by `threejs-optimization-profiling` and `performance-optimization` ([three.js](https://github.com/mrdoob/three.js), [agent-skills](https://github.com/addyosmani/agent-skills)). Replaces individual meshes with `InstancedMesh`, bakes texture atlases, and caps draw calls under 30.
+14. **Automated Game QA**: Governed by `gameplay-regression-testing` and `unity-performance-testing` ([playwright](https://github.com/microsoft/playwright), [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities)). Runs automated Playwright canvas interactions, virtual touch joypads, and framerate stability tests.
+15. **Build, Release & Telemetry**: Governed by `game-build-and-release`, `game-analytics-sdk`, and `umami-game-analytics` ([GA-SDK-JAVASCRIPT](https://github.com/gameanalytics/GA-SDK-JAVASCRIPT), [umami](https://github.com/umami-software/umami)). Packages multiplatform binaries, configures Brotli compression, and tracks player progression events.
 
 ### Implementation Status Tiers:
 - **Integrated Skills (100% Verified in Repo)**: `bitecs-architecture`, `threejs-game-engine`, `react-three-fiber`, `rapier-physics`, `jolt-physics`, `matter-js-physics`, `phaser-game-engine`, `colyseus-multiplayer`, `truck-physics-engineer`, `realistic-car-controller-engineer`, `racing-track-design-engineer`, `combat-mechanics-engineer`, `browser-game-anti-cheat-engineer`, `gltf-transform-pipeline`, `howler-js-audio`, `gsap-animations`, `gameplay-regression-testing`.
