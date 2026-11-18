@@ -74,7 +74,26 @@ flowchart TD
 
 ---
 
-## 4. 12-Phase Detailed Lifecycle Breakdown
+## 4. 12-Phase Master Web Development Matrix
+
+| Phase | Engineering Role | Skills Used | Source GitHub Repository | Technical Mission | Runbook |
+|:---:|---|---|---|---|:---:|
+| **01** | Principal Product Strategist | `firecrawl-scraper`, `tavily-search-intelligence`, `agency-product-trend-researcher` | [Firecrawl](https://github.com/firecrawl/firecrawl), [Tavily](https://github.com/tavily-ai/tavily-python), [Agency Agents](https://github.com/msitarzewski/agency-agents) | Competitor discovery, pricing extraction & TAM sizing | [Phase 1](#phase-1--research-and-product-discovery) |
+| **02** | Senior Product Architect | `c4-architecture-model`, `mermaid-diagrams`, `spec-driven-development` | [C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML), [Mermaid JS](https://github.com/mermaid-js/mermaid), [Addy Osmani](https://github.com/addyosmani/agent-skills) | PRDs, user stories, C4 systems & sequence specs | [Phase 2](#phase-2--planning-and-requirements) |
+| **03** | Brand Identity Director | `taste-skill`, `lucide-icons`, `fontsource-typography`, `agency-design-brand-guardian` | [Leonxlnx](https://github.com/Leonxlnx/taste-skill), [Lucide](https://github.com/lucide-icons/lucide), [Fontsource](https://github.com/fontsource/fontsource) | High-taste color systems, typography & 24px icons | [Phase 3](#phase-3--branding-and-product-identity) |
+| **04** | Principal UI/UX Architect | `impeccable`, `ui-ux-pro-max`, `antislop-ui`, `component-intelligence`, `axe-core-accessibility` | [Paul Bakaus](https://github.com/pbakaus/impeccable), [NextLevelBuilder](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), [Miqdad Badjuber](https://github.com/miqdadbadjuber/anti-slop) | Anti-slop gate, 48+ styles, WCAG AA contrast & tokens | [Phase 4](#phase-4--uiux-design--anti-slop-hard-gate) |
+| **05** | Senior Frontend Architect | `bulletproof-react`, `typescript-eslint`, `react-testing-library`, `gsap-animations` | [Alan Alickovic](https://github.com/alan2207/bulletproof-react), [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint), [Testing Library](https://github.com/testing-library/react-testing-library) | Modular React/Next.js features, strict types & zero-any | [Phase 5](#phase-5--frontend-development) |
+| **06** | Distributed Backend Architect | `supabase-engineering`, `node-best-practices`, `socketio-realtime`, `zod-schema-validation`, `bullmq-job-queues` | [Supabase](https://github.com/supabase/agent-skills), [Yoni Goldberg](https://github.com/goldbergyoni/nodebestpractices), [Socket.IO](https://github.com/socketio/socket.io), [Zod](https://github.com/colinhacks/zod) | High-throughput APIs, WebSockets & background workers | [Phase 6](#phase-6--backend--realtime-engineering) |
+| **07** | Database Reliability Engineer | `prisma-orm`, `drizzle-orm`, `dbml-schema-design`, `redis-in-memory-datastore` | [Prisma](https://github.com/prisma/prisma), [Drizzle](https://github.com/drizzle-team/drizzle-orm), [Holistics DBML](https://github.com/holistics/dbml), [Redis](https://github.com/redis/redis) | Normalized schemas, zero-downtime migrations & caching | [Phase 7](#phase-7--database--storage) |
+| **08** | SaaS & Fintech Engineer | `razorpay-upi-specialist`, `indian-gst-billing-engineer`, `lago-billing`, `growthbook-experimentation` | [SR24Plus](https://github.com/sahil24raj/SR24plus-engineering-toolkit), [Lago](https://github.com/getlago/lago), [GrowthBook](https://github.com/growthbook/growthbook) | Razorpay UPI QR, Indian GST math & usage metering | [Phase 8](#phase-8--advanced-saas--fintech) |
+| **09** | Principal AppSec Engineer | `owasp-zap-scanner`, `gitleaks-secret-detection`, `trivy-security-scanner`, `osv-scanner` | [OWASP ZAP](https://github.com/zaproxy/zaproxy), [Gitleaks](https://github.com/gitleaks/gitleaks), [Aqua Trivy](https://github.com/aquasecurity/trivy) | DAST fuzzing, secret scanning & container CVE audits | [Phase 9](#phase-9--security-and-hardening) |
+| **10** | Lead QA Automation Engineer | `playwright-testing`, `lost-pixel-visual-regression`, `k6-load-testing`, `bruno-api-testing` | [Microsoft Playwright](https://github.com/microsoft/playwright), [Lost Pixel](https://github.com/lost-pixel/lost-pixel), [Grafana k6](https://github.com/grafana/k6) | Zero-flake E2E, visual pixel diffing & load spikes | [Phase 10](#phase-10--testing-and-quality-assurance) |
+| **11** | Principal DevOps / SRE | `docker-containerization`, `opentofu-iac`, `github-actions-ci`, `sentry-monitoring` | [Docker](https://github.com/docker/docs), [OpenTofu](https://github.com/opentofu/opentofu), [GitHub Actions](https://github.com/actions/runner), [Sentry](https://github.com/getsentry/sentry) | Multi-stage Docker, IaC cloud & automated CI/CD | [Phase 11](#phase-11--devops-and-deployment) |
+| **12** | Growth & Telemetry Lead | `posthog-analytics`, `microsoft-clarity`, `programmatic-seo-engineer`, `product-hunt-launch-specialist` | [PostHog](https://github.com/PostHog/posthog), [Microsoft Clarity](https://github.com/microsoft/clarity), [SR24Plus](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | Conversion funnels, session heatmaps & programmatic SEO | [Phase 12](#phase-12--product-analytics-and-growth) |
+
+---
+
+## 5. 12-Phase Detailed Lifecycle Breakdown
 
 ### Phase 1 — Research and Product Discovery
 - **Engineering Role**: Principal Product Strategist & Competitive Intelligence Engineer
@@ -335,3 +354,26 @@ flowchart TD
 | 12 | `posthog-analytics` | `sr24-custom-engineering` | `skills/sr24-custom-engineering/posthog-analytics/SKILL.md` | Product telemetry & session replay | Verified In-Repo |
 | 12 | `microsoft-clarity` | `sr24-custom-engineering` | `skills/sr24-custom-engineering/microsoft-clarity/SKILL.md` | Heatmaps & rage-click detection | Verified In-Repo |
 | 12 | `product-hunt-launch-specialist` | `sr24-custom-engineering` | `skills/sr24-custom-engineering/product-hunt-launch-specialist/SKILL.md` | Product Hunt #1 Day launch strategy | Verified In-Repo |
+
+---
+
+## 7. Web Development Architectural Specializations
+
+The `SR24-WEB-DEV` pack organizes its 58 dedicated skills across 15 core architectural domains:
+
+1. **Frontend Architecture**: Governed by `bulletproof-react` and `composition-patterns`. Enforces feature-based directories (`src/features/*`), colocation of hooks, types, and tests, and clean state boundaries.
+2. **Backend Architecture**: Governed by `node-best-practices` and `agency-engineering-backend-architect`. Implements controller-service-repository layered patterns, graceful shutdown, and structured logging.
+3. **API Engineering**: Governed by `zod-schema-validation` and `api-and-interface-design`. Guarantees strict runtime schema validation, type inference, OpenAPI 3.1 contracts, and offline Bruno test collections.
+4. **Database Architecture**: Governed by `drizzle-orm`, `prisma-orm`, and `dbml-schema-design`. Enforces normalized schemas (3NF), indexed relations, zero-downtime migrations, and Redis caching layers.
+5. **SaaS Engineering**: Governed by `lago-billing` and `growthbook-experimentation`. Handles multi-tenant organization isolation, metered usage events, and feature flag management.
+6. **Authentication & Identity**: Governed by `supabase-engineering` and `agency-engineering-identity-access-engineer`. Implements secure JWT storage, refresh rotation, OAuth 2.0 / OIDC, and Row Level Security.
+7. **Security & AppSec**: Governed by `owasp-zap-scanner`, `gitleaks-secret-detection`, `trivy-security-scanner`, and `osv-scanner`. Protects against OWASP Top 10 vulnerabilities, leaked API tokens, and container CVEs.
+8. **Payment Integration**: Governed by `razorpay-upi-specialist` and `indian-gst-billing-engineer`. Implements Razorpay Orders API, dynamic UPI QR strings, HMAC signature verification, and CGST/SGST tax math.
+9. **Responsive UI**: Governed by `antislop-ui` and `component-intelligence`. Guarantees fluid layouts across mobile, tablet, and desktop viewports with 4px/8px mathematical tokens.
+10. **Accessibility & WCAG**: Governed by `axe-core-accessibility` and `impeccable`. Guarantees WCAG 2.1 AA/AAA compliance, minimum 4.5:1 text contrast ratios, and keyboard navigation.
+11. **Testing & QA**: Governed by `playwright-testing`, `react-testing-library`, `lost-pixel-visual-regression`, and `k6-load-testing`. Provides complete test pyramid coverage from units to visual diffs and load spikes.
+12. **CI/CD Automation**: Governed by `github-actions-ci` and `ci-cd-and-automation`. Automates parallel matrix testing, dependency caching, linting, and build verification.
+13. **Cloud Deployment**: Governed by `docker-containerization` and `opentofu-iac`. Authorizes multi-stage Alpine Docker builds and declarative OpenTofu cloud infrastructure.
+14. **Performance Optimization**: Governed by `performance-optimization`, `fontsource-typography`, and `lucide-icons`. Guarantees Core Web Vitals optimization (LCP < 2.0s, CLS = 0, INP < 150ms).
+15. **SEO & Analytics**: Governed by `programmatic-seo-engineer`, `posthog-analytics`, and `microsoft-clarity`. Generates valid JSON-LD schemas, tracks user telemetry funnels, and records rage-click session replays.
+

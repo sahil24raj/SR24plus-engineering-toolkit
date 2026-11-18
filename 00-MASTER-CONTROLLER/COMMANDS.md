@@ -27,8 +27,9 @@ The SR24Plus Engineering Toolkit provides **14 Primary Workflow Commands** for e
 | **17**| **`/sr24-ai [task]`** | Production AI systems, MCP servers, prompt injection defense, hybrid RAG, offline rule fallbacks | [`SR24-AI.md`](./workflows/SR24-AI.md) |
 | **18**| **`/sr24-design [task]`** | Bespoke design system, 4px/8px mathematical tokens, anti-AI-slop audit, finish-gate critique | [`SR24-DESIGN.md`](./workflows/SR24-DESIGN.md) |
 | **19**| **`/sr24-security [task]`** | Comprehensive AppSec, OWASP Top 10, secret scanning, SQL injection, CSP/CORS hardening | [`SR24-SECURITY.md`](./workflows/SR24-SECURITY.md) |
-| **20**| **`/sr24-qa [task]`** | Automated Playwright E2E suites, visual regression, systematic debugging, test evidence | [`SR24-SHIP.md`](./workflows/SR24-SHIP.md) |
-| **21**| **`/sr24-ship [task]`** | Production build verification, Docker, CI/CD pipeline, healthchecks, rollback strategy | [`SR24-SHIP.md`](./workflows/SR24-SHIP.md) |
+| **20**| **`/sr24-research [task]`** | Evidence synthesis, competitive intelligence crawl, market TAM validation | [`SR24-RESEARCH.md`](./workflows/SR24-RESEARCH.md) |
+| **21**| **`/sr24-qa [task]`** | Automated Playwright E2E suites, visual regression, systematic debugging, test evidence | [`SR24-SHIP.md`](./workflows/SR24-SHIP.md) |
+| **22**| **`/sr24-ship [task]`** | Production build verification, Docker, CI/CD pipeline, healthchecks, rollback strategy | [`SR24-SHIP.md`](./workflows/SR24-SHIP.md) |
 
 ---
 

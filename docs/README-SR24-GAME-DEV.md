@@ -51,22 +51,22 @@ flowchart TD
 
 ---
 
-## 3. 12-Phase Game Production Lifecycle (Rating: 10.0 / 10)
+## 3. 12-Phase Master Game Development Matrix
 
-| Phase | Phase Name | Focus | Key Skills | Target Rating |
-|:---:|---|---|---|:---:|
-| **01** | Research & Concept | Mechanics research, GDD drafting, economy sources & sinks | `game-programming-patterns`, `awesome-gamedev-skills`, `agency-game-development-game-designer` | **10.0 / 10** |
-| **02** | Design & Architecture | ECS systems, state machines, decoupled ScriptableObjects | `bitecs-architecture`, `game-programming-patterns`, `new-unity-project` | **10.0 / 10** |
-| **03** | UI/UX & HUD Design | 60 FPS in-game HUD, minimap, combo counters, audio cues | `threejs-ui-hud`, `gsap-animations`, `howler-js-audio`, `ui-uitk` | **10.0 / 10** |
-| **04** | Web Game Engines | Three.js, React Three Fiber, Pixi.js, Phaser 3 | `threejs-game-engine`, `react-three-fiber`, `pixijs-engine`, `phaser-game-engine` | **10.0 / 10** |
-| **05** | Gameplay & Physics | Rapier, Jolt, Matter.js, combat frame data, hitstop | `rapier-physics`, `react-three-rapier`, `jolt-physics`, `matter-js-physics`, `combat-mechanics-engineer` | **10.0 / 10** |
-| **06** | Multiplayer & Anti-Cheat | Authoritative Colyseus, Nakama, Socket.IO, prediction | `colyseus-multiplayer`, `nakama-backend`, `gaffer-on-games-networking`, `socketio-realtime` | **10.0 / 10** |
-| **07** | Unity 3D & URP | ScriptableRendererFeature, HLSL shaders, DOTS/ECS | `unity-entities-ecs`, `agency-game-development-unity-unity-architect`, `urp-postprocessing` | **10.0 / 10** |
-| **08** | Vehicle & Racing Physics | 16-wheeler heavy trucks, Ackermann, Pacejka, banked tracks | `truck-physics-engineer`, `realistic-car-controller-engineer`, `racing-track-design-engineer` | **10.0 / 10** |
-| **09** | 3D Asset & glTF Pipeline | glTF-Transform, DRACO, KTX2, Blender Python automation | `gltf-transform-pipeline`, `blender-pipeline`, `agency-game-development-blender-blender-addon-engineer` | **10.0 / 10** |
-| **10** | Testing & Optimization | Draw call batching, memory leak audit, gameplay QA | `threejs-optimization-profiling`, `gameplay-regression-testing`, `unity-performance-testing` | **10.0 / 10** |
-| **11** | Build & Release | Headless Unity CLI, WebGL Brotli, itch.io/Steam packaging | `game-build-and-release`, `unity-cli`, `optimize-web`, `shipping-and-launch` | **10.0 / 10** |
-| **12** | Analytics & Retention | Telemetry schema, economy balancing, churn reduction | `game-analytics-sdk`, `umami-game-analytics`, `agency-game-development-economy-designer` | **10.0 / 10** |
+| Phase | Engineering Role | Skills Used | Source GitHub Repository | Technical Mission | Runbook |
+|:---:|---|---|---|---|:---:|
+| **01** | Principal Game Designer | `game-programming-patterns`, `awesome-gamedev-skills`, `agency-game-development-game-designer` | [Bob Nystrom](https://github.com/munificent/game-programming-patterns), [SR24Plus](https://github.com/sahil24raj/SR24plus-engineering-toolkit), [Agency Agents](https://github.com/msitarzewski/agency-agents) | Mechanics research, core loop GDD & economic sinks | [Phase 1](#phase-1--game-research--concept) |
+| **02** | Systems & ECS Architect | `bitecs-architecture`, `game-programming-patterns`, `new-unity-project` | [Nate Levin](https://github.com/NateLevin1/bitECS), [Unity Technologies](https://unity.com) | Zero-GC TypedArray ECS & state machine architecture | [Phase 2](#phase-2--game-architecture--mechanics) |
+| **03** | Game UI/UX & Audio Lead | `threejs-ui-hud`, `gsap-animations`, `howler-js-audio`, `ui-uitk` | [Three.js](https://github.com/mrdoob/three.js), [GreenSock](https://github.com/greensock/GSAP), [Howler.js](https://github.com/goldfire/howler.js) | Dual-camera 60 FPS HUD, minimap, combo UI & 3D sound | [Phase 3](#phase-3--game-uiux--in-game-hud) |
+| **04** | Web Game Engine Engineer | `threejs-game-engine`, `react-three-fiber`, `pixijs-engine`, `phaser-game-engine` | [Mr.doob](https://github.com/mrdoob/three.js), [Poimandres](https://github.com/pmndrs/react-three-fiber), [Phaser](https://github.com/phaserjs/phaser) | WebGL PBR scenes, R3F declarative canvas & 2D sprites | [Phase 4](#phase-4--web-game-engines-2d--3d) |
+| **05** | Gameplay & Physics Engineer | `rapier-physics`, `react-three-rapier`, `jolt-physics`, `matter-js-physics`, `combat-mechanics-engineer` | [Dimforge](https://github.com/dimforge/rapier), [Jorrit Rouwe](https://github.com/jrouwe/JoltPhysics), [Matter.js](https://github.com/liabru/matter-js) | Deterministic Rapier/Jolt rigid bodies, hitstop & frame data | [Phase 5](#phase-5--gameplay-feel--physics-simulation) |
+| **06** | Authoritative Multiplayer Lead | `colyseus-multiplayer`, `nakama-backend`, `gaffer-on-games-networking`, `browser-game-anti-cheat-engineer` | [Colyseus](https://github.com/colyseus/colyseus), [Heroic Labs](https://github.com/heroiclabs/nakama), [SR24Plus](https://github.com/sahil24raj/SR24plus-engineering-toolkit) | 60Hz server tick, client prediction & memory XOR anti-cheat | [Phase 6](#phase-6--authoritative-multiplayer--anti-cheat) |
+| **07** | Unity 3D & Graphics Specialist | `unity-entities-ecs`, `agency-game-development-unity-unity-architect`, `urp-postprocessing` | [Unity Technologies Official](https://unity.com), [Agency Agents](https://github.com/msitarzewski/agency-agents) | Burst-compiled DOTS/ECS jobs & URP volume post-processing | [Phase 7](#phase-7--unity-game-development--urp) |
+| **08** | Vehicle Physics Specialist | `truck-physics-engineer`, `realistic-car-controller-engineer`, `racing-track-design-engineer` | [SR24Plus](https://github.com/sahil24raj/SR24plus-engineering-toolkit), [Unity Technologies](https://unity.com) | 16-wheeler heavy trucks, Pacejka slip & banked ghat tracks | [Phase 8](#phase-8--vehicle--racing-game-development) |
+| **09** | 3D Asset & Pipeline Technical Artist | `gltf-transform-pipeline`, `blender-pipeline`, `agency-game-development-blender-blender-addon-engineer` | [Don McCurdy](https://github.com/donmccurdy/glTF-Transform), [Blender Foundation](https://projects.blender.org/blender/blender) | glTF DRACO compression, KTX2 transcoding & headless Blender | [Phase 9](#phase-9--3d-asset--gltf-pipeline) |
+| **10** | Performance & QA Specialist | `threejs-optimization-profiling`, `gameplay-regression-testing`, `unity-performance-testing` | [Three.js](https://github.com/mrdoob/three.js), [Playwright](https://github.com/microsoft/playwright), [Unity](https://unity.com) | Draw call reduction, InstancedMesh & canvas test automation | [Phase 10](#phase-10--testing--performance-optimization) |
+| **11** | Build & Release Engineer | `game-build-and-release`, `unity-cli`, `optimize-web` | [SR24Plus](https://github.com/sahil24raj/SR24plus-engineering-toolkit), [Unity Technologies](https://unity.com) | Headless CLI builds, Brotli WebGL packaging & itch/Steam | [Phase 11](#phase-11--game-build--release) |
+| **12** | Economy & Analytics Architect | `game-analytics-sdk`, `umami-game-analytics`, `agency-game-development-economy-designer` | [GameAnalytics](https://gameanalytics.com), [Umami](https://github.com/umami-software/umami), [Agency Agents](https://github.com/msitarzewski/agency-agents) | Player retention telemetry, sink/source balance & churn audits | [Phase 12](#phase-12--game-analytics--retention) |
 
 ---
 
@@ -249,3 +249,32 @@ flowchart TD
 | 12 | `game-analytics-sdk` | GameAnalytics | `skills/sr24-custom-engineering/game-analytics-sdk/SKILL.md` | Progression, design & error telemetry | Verified In-Repo |
 | 12 | `umami-game-analytics` | Umami Software | `skills/sr24-custom-engineering/umami-game-analytics/SKILL.md` | Privacy-focused player event tracking | Verified In-Repo |
 | 12 | `agency-game-development-economy-designer` | `msitarzewski/agency-agents` | `skills/agency-agents/agency-game-development-economy-designer/SKILL.md` | Retention loops & monetization modeling | Verified In-Repo |
+
+---
+
+## 6. Game Engineering Systems Breakdown & Support Tiers
+
+The `SR24-GAME-DEV` pack categorizes its 52 dedicated skills across 15 core game engineering systems:
+
+1. **Game Research & Concept**: Governed by `game-programming-patterns`, `awesome-gamedev-skills`, and `agency-game-development-game-designer`. Formalizes GDD authoring, core loops, session pacing, and player retention models.
+2. **Game Architecture & ECS**: Governed by `bitecs-architecture` and `new-unity-project`. Enforces zero-allocation TypedArray ECS in WebGL and decoupled ScriptableObject event architectures in Unity.
+3. **In-Game HUD & Audio**: Governed by `threejs-ui-hud`, `gsap-animations`, and `howler-js-audio`. Implements dual-camera orthographic HUD projection, floating combat numbers, and 3D spatial audio sprites.
+4. **2D & 3D Web Engines**: Governed by `threejs-game-engine`, `react-three-fiber`, `pixijs-engine`, and `phaser-game-engine`. Provides multi-engine scaffolding for high-FPS Canvas and WebGL renderers.
+5. **Unity 3D & Native Engines**: Governed by `unity-cli`, `unity-entities-ecs`, and `urp-postprocessing`. Handles Burst-compiled jobs, custom HLSL shader graphs, and automated headless builds.
+6. **Gameplay Programming & Feel**: Governed by `combat-mechanics-engineer`. Calibrates frame data (60Hz), 80ms hitstop freezes, directional camera trauma shakes, and input buffering.
+7. **Physics Simulation**: Governed by `rapier-physics`, `react-three-rapier`, `jolt-physics`, and `matter-js-physics`. Integrates WASM deterministic rigid bodies, character kinematic raycasts, and constraint solvers.
+8. **Heavy Vehicle Physics**: Governed by `truck-physics-engineer`, `realistic-car-controller-engineer`, and `racing-track-design-engineer`. Calibrates 16-wheeler trucks (12,000kg), dual rear drive axles, Pacejka slip curves, and $5^\circ-12^\circ$ banked hairpin tracks.
+9. **Authoritative Multiplayer**: Governed by `colyseus-multiplayer`, `nakama-backend`, and `gaffer-on-games-networking`. Executes authoritative 60Hz server ticks, client-side input prediction, server reconciliation, and jitter buffers.
+10. **Anti-Cheat & Security**: Governed by `browser-game-anti-cheat-engineer`. Implements memory XOR variable encryption, delta speedhack checks, and teleport prevention.
+11. **Game AI & Pathfinding**: Governed by `initialize-ai-navigation` and `agency-academic-psychologist`. Implements NavMesh surfaces, agent avoidance, and behavioral state machines.
+12. **3D Asset & glTF Pipeline**: Governed by `gltf-transform-pipeline` and `blender-pipeline`. Automates glTF 2.0 DRACO mesh compression, KTX2/Basis texture transcoding, and headless Blender LOD generation.
+13. **Optimization & Hot-Loop Profiling**: Governed by `threejs-optimization-profiling` and `performance-optimization`. Replaces individual meshes with `InstancedMesh`, bakes texture atlases, and caps draw calls under 30.
+14. **Automated Game QA**: Governed by `gameplay-regression-testing` and `unity-performance-testing`. Runs automated Playwright canvas interactions, virtual touch joypads, and framerate stability tests.
+15. **Build, Release & Telemetry**: Governed by `game-build-and-release`, `game-analytics-sdk`, and `umami-game-analytics`. Packages multiplatform binaries, configures Brotli compression, and tracks player progression events.
+
+### Implementation Status Tiers:
+- **Integrated Skills (100% Verified in Repo)**: `bitecs-architecture`, `threejs-game-engine`, `react-three-fiber`, `rapier-physics`, `jolt-physics`, `matter-js-physics`, `phaser-game-engine`, `colyseus-multiplayer`, `truck-physics-engineer`, `realistic-car-controller-engineer`, `racing-track-design-engineer`, `combat-mechanics-engineer`, `browser-game-anti-cheat-engineer`, `gltf-transform-pipeline`, `howler-js-audio`, `gsap-animations`, `gameplay-regression-testing`.
+- **Available Skills (Native Unity & Agency Plugins)**: `unity-cli`, `urp-postprocessing`, `initialize-ai-navigation`, `setup-multiplayer-services`, `agency-game-development-*` suite.
+- **Recommended Tools**: Headless Blender CLI, Butler (itch.io), SteamCMD.
+- **Planned Capabilities**: WebGPU native compute pipeline shaders, WebRTC peer-to-peer rollback netcode for fighting games.
+
