@@ -128,3 +128,25 @@ Upon invoking `/sr24-auto`, the Master Router outputs:
   6. `gameplay-regression-testing` (Automated input replay & collision QA)
 - **Status**: Squad deployed. Ready for engineering execution.
 ```
+
+---
+
+## 5. Core Intelligence & Closed-Loop Pipeline
+
+When triggered via `/sr24-auto` or `/sr24-full-check`, the autonomous lifecycle executes across the Core Intelligence Layer:
+
+```mermaid
+flowchart TD
+    A["1. SR24 Intelligence Engine"] -->|"Classify Archetype & Plan Skills"| B["2. Squad Execution (Web / Game Pack)"]
+    B -->|"Build & Feature Code"| C["3. SR24 Production Auditor"]
+    C -->|"8-Module Audit: reports/SR24-PRODUCTION-AUDIT.md"| D{"Critical Defects?"}
+    D -->|"Yes (Score < 9.0)"| E["4. SR24 Self-Healing Engineer"]
+    E -->|"6-Step Closed Loop (Max 3 Retries)"| C
+    D -->|"No (Score >= 9.0)"| F["5. Production Release Ready (10.0/10)"]
+```
+
+1. **`sr24-intelligence-engine`**: Analyzes `package.json`, assets, and manifests; outputs the exact skill activation plan.
+2. **Pack Engineering Execution**: Invokes relevant phases from `SR24-WEB-DEV` or `SR24-GAME-DEV`.
+3. **`sr24-production-auditor`**: Conducts full-spectrum audit across Architecture, UI/UX, Frontend, Backend, DB, Security, Game Systems, and CI/CD.
+4. **`sr24-self-healing-engineer`**: Detects, diagnoses, plans, repairs, and verifies any issues without human intervention while enforcing strict non-destructive safety guardrails.
+5. **Release**: Satisfies 10.0/10 production quality gates.

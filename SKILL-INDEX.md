@@ -1,6 +1,6 @@
 # SR24PLUS SKILL QUICK INDEX
 
-Fast alphabetical and functional index of all 443 canonical skills.
+Fast alphabetical and functional index of all 479 canonical skills.
 
 ## Alphabetical Jump List
 
@@ -465,6 +465,10 @@ Fast alphabetical and functional index of all 443 canonical skills.
 - **`run-workflow`** (`ANTIGRAVITY AND AUTOMATION`) — [Source](file:///C:/Users/sr24s/.gemini/antigravity/builtin/skills/run-workflow/SKILL.md): >-...
 
 ### S
+
+- **`sr24-intelligence-engine`** (`CORE INTELLIGENCE`, `ORCHESTRATION`) — [`SKILL.md`](skills/sr24-custom-engineering/sr24-intelligence-engine/SKILL.md): Autonomous project understanding, stack detection, classification & priority-scored skill dispatch.
+- **`sr24-production-auditor`** (`QUALITY ENGINEERING`, `SECURITY`, `AUDITING`) — [`SKILL.md`](skills/sr24-custom-engineering/sr24-production-auditor/SKILL.md): Full-spectrum automated 8-module audit engine across Architecture, UI/UX, Frontend, Backend, DB, Security, Game Dev, CI/CD.
+- **`sr24-self-healing-engineer`** (`QUALITY ENGINEERING`, `DEBUGGING`, `AUTOMATION`) — [`SKILL.md`](skills/sr24-custom-engineering/sr24-self-healing-engineer/SKILL.md): Controlled 6-step closed loop debugging & repair engine (Detect, Diagnose, Plan, Repair, Test, Verify) with strict safety boundaries.
 
 - **`science-skills-common`** (`SCIENCE AND BIOINFORMATICS`) — [Source](file:///C:/Users/sr24s/.gemini/config/plugins/science/skills/science_skills_common/SKILL.md): >-...
 - **`scienceskillscommon`** (`SCIENCE AND BIOINFORMATICS`) — [Source](file:///C:/Users/sr24s/.gemini/config/plugins/science/skills/scienceskillscommon/SKILL.md): >-...

@@ -17,11 +17,17 @@
 
 | Documentation File | Description & Deep-Dive Contents |
 |---|---|
-| [**`docs/README-SR24-WEB-DEV.md`**](./docs/README-SR24-WEB-DEV.md) | **Deep-Dive: Web & SaaS Engineering Pack** (12-phase lifecycle, PRD, Anti-Slop UI, React 18/Next.js, FastAPI, Razorpay/UPI, Indian GST, Playwright, Vercel). |
-| [**`docs/README-SR24-GAME-DEV.md`**](./docs/README-SR24-GAME-DEV.md) | **Deep-Dive: Game Development Pack** (Browser WebGL games, authoritative 60Hz WebSockets, anti-cheat, Unity 16-wheeler truck physics, spline circuits). |
+| [**`docs/SR24PLUS-CORE-ARCHITECTURE.md`**](./docs/SR24PLUS-CORE-ARCHITECTURE.md) | **Core Intelligence Layer Architecture** (Unified pipeline connecting Intelligence, Packs, Auditing, and Self-Healing). |
+| [**`docs/SR24PLUS-INTELLIGENCE-ENGINE.md`**](./docs/SR24PLUS-INTELLIGENCE-ENGINE.md) | **SR24 Intelligence Engine** (Autonomous project discovery, stack detection, 12-archetype classification & skill dispatch). |
+| [**`docs/SR24PLUS-PRODUCTION-AUDITOR.md`**](./docs/SR24PLUS-PRODUCTION-AUDITOR.md) | **SR24 Production Auditor** (Full-spectrum 8-module audit across Architecture, UI/UX, Frontend, Backend, DB, Security, Game, CI/CD). |
+| [**`docs/SR24PLUS-SELF-HEALING-ENGINEER.md`**](./docs/SR24PLUS-SELF-HEALING-ENGINEER.md) | **SR24 Self-Healing Engineer** (Controlled 6-step closed loop: Detect ➔ Diagnose ➔ Plan ➔ Repair ➔ Test ➔ Verify with safety guardrails). |
+| [**`docs/SR24PLUS-CORE-TEST-REPORT.md`**](./docs/SR24PLUS-CORE-TEST-REPORT.md) | **Core Verification Test Report** (100% Passing: Classification, Routing, Audit, Self-Healing, Regression & Safety). |
+| [**`docs/SR24PLUS-CORE-INTELLIGENCE-AUDIT.md`**](./docs/SR24PLUS-CORE-INTELLIGENCE-AUDIT.md) | **Core Intelligence Subsystems Audit** (Existing capabilities vs. gaps analysis, risk matrix & implementation plan). |
+| [**`docs/README-SR24-WEB-DEV.md`**](./docs/README-SR24-WEB-DEV.md) | **Deep-Dive: Web & SaaS Engineering Pack** (12-phase lifecycle, 58 skills, PRD, Anti-Slop UI, React 18/Next.js, FastAPI, Razorpay/UPI, Drizzle, Trivy). |
+| [**`docs/README-SR24-GAME-DEV.md`**](./docs/README-SR24-GAME-DEV.md) | **Deep-Dive: Game Development Pack** (12-phase lifecycle, 52 skills, Rapier, Colyseus 60Hz, Three.js, R3F, bitECS, glTF-Transform, Unity truck physics). |
 | [**`docs/PROJECT-USE-CASES.md`**](./docs/PROJECT-USE-CASES.md) | **2 Consolidated Master Production Profiles** (Profile 1: Full-Stack SaaS for Dukan Sathi & ExamLoop; Profile 2: Browser Gaming for Vibe Arena). |
-| [**`docs/SKILL-SOURCES.md`**](./docs/SKILL-SOURCES.md) | **Source Repositories & Attribution** (Direct links to all 10 upstream GitHub repositories and authors). |
-| [**`docs/SKILL-PROVENANCE-REPORT.md`**](./docs/SKILL-PROVENANCE-REPORT.md) | **Skill Lineage & Classification Report** (Direct imports [390], adaptations [6], custom skills [17], zero unknown). |
+| [**`docs/SKILL-SOURCES.md`**](./docs/SKILL-SOURCES.md) | **Source Repositories & Attribution** (Direct links to all upstream GitHub repositories and authors). |
+| [**`docs/SKILL-PROVENANCE-REPORT.md`**](./docs/SKILL-PROVENANCE-REPORT.md) | **Skill Lineage & Classification Report** (479 canonical skills verified, zero unknown). |
 | [**`docs/ENGINEERING-PACKS.md`**](./docs/ENGINEERING-PACKS.md) | **14 Domain Engineering Packs** (UI/UX, Games, Frontend, Backend, AI/ML, Mobile, DevOps, QA, Research, Science, etc.). |
 | [**`docs/MASTER-WORKFLOW.md`**](./docs/MASTER-WORKFLOW.md) | **Multi-Agent Orchestration & Lifecycle** (How master router coordinates tasks, loads skills, and enforces quality gates). |
 

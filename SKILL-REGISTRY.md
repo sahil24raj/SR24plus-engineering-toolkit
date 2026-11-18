@@ -1,8 +1,8 @@
 # SR24PLUS MASTER SKILL REGISTRY (v3.0)
 
-> **Status**: Verified & Production-Ready • **Total Registered Skills**: 476 Canonical Skills Directly Maintained in Repository
+> **Status**: Verified & Production-Ready • **Total Registered Skills**: 479 Canonical Skills Directly Maintained in Repository
 
-This master registry indexes all 476 production-grade skills directly stored in the repository.
+This master registry indexes all 479 production-grade skills directly stored in the repository.
 Every skill is verified with a valid `SKILL.md`, explicit operational boundaries, and production-tested instructions.
 
 ---
@@ -448,42 +448,45 @@ Every skill is verified with a valid `SKILL.md`, explicit operational boundaries
 | 435 | **`spec-driven-development`** | `addyosmani-agent-skills` | [`SKILL.md`](skills/addyosmani-agent-skills/spec-driven-development/SKILL.md) | Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists |
 | 436 | **`sprite-editor`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/sprite-editor/SKILL.md) | Edits Unity sprite rectangles, borders, pivots, outlines, and slicing by generating C# scripts. Use when the user works  |
 | 437 | **`sprite-segment-3x3grid`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/sprite-segment-3x3grid/SKILL.md) | Segments a Sprite texture into a 3x3 grid and outputs a pattern of cells matching the center cell |
-| 438 | **`supabase-engineering`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/supabase-engineering/SKILL.md) | >- |
-| 439 | **`swarm`** | `antigravity-core` | [`SKILL.md`](skills/antigravity-core/swarm/SKILL.md) | >- |
-| 440 | **`swarm_monitor`** | `antigravity-core` | [`SKILL.md`](skills/antigravity-core/swarm_monitor/SKILL.md) | >- |
-| 441 | **`swarm_narrator`** | `antigravity-core` | [`SKILL.md`](skills/antigravity-core/swarm_narrator/SKILL.md) | >- |
-| 442 | **`systematic-debugging-engineer`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/systematic-debugging-engineer/SKILL.md) | Specialist in root-cause analysis (RCA), systematic debugging, memory leak isolation, race condition detection, and regr |
-| 443 | **`tavily-search-intelligence`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/tavily-search-intelligence/SKILL.md) | >- |
-| 444 | **`test-driven-development`** | `addyosmani-agent-skills` | [`SKILL.md`](skills/addyosmani-agent-skills/test-driven-development/SKILL.md) | Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or cha |
-| 445 | **`threejs-game-engine`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/threejs-game-engine/SKILL.md) | >- |
-| 446 | **`threejs-optimization-profiling`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/threejs-optimization-profiling/SKILL.md) | >- |
-| 447 | **`threejs-ui-hud`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/threejs-ui-hud/SKILL.md) | >- |
-| 448 | **`trivy-security-scanner`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/trivy-security-scanner/SKILL.md) | >- |
-| 449 | **`truck-physics-engineer`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/truck-physics-engineer/SKILL.md) | Architect of heavy vehicle and truck physics simulation in Unity — multi-axle WheelColliders, high center-of-mass body r |
-| 450 | **`typescript-eslint`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/typescript-eslint/SKILL.md) | >- |
-| 451 | **`ui`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/ui/SKILL.md) | Routes Unity UI requests to the right framework skill (UI Toolkit, uGUI, or IMGUI) and answers UI comparison questions.  |
-| 452 | **`ui-imgui`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/ui-imgui/SKILL.md) | Generates and modifies Unity IMGUI editor code such as EditorWindows, custom Inspectors, PropertyDrawers, and OnGUI scri |
-| 453 | **`ui-plugin-navigation`** | `antigravity-core` | [`SKILL.md`](skills/antigravity-core/ui-plugin-navigation/SKILL.md) | Discover UI plugin panels relevant to the current task and surface a one-click pill in chat to open (toggle) them in the |
-| 454 | **`ui-ugui`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/ui-ugui/SKILL.md) | Understands, edits, and generates Unity uGUI Canvas hierarchies, RectTransforms, Layout Groups, and prefab UI. Use for r |
-| 455 | **`ui-uitk`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/ui-uitk/SKILL.md) | Understands, edits, and generates Unity UI Toolkit UXML and USS with flex layouts. Use for requests involving UI Toolkit |
-| 456 | **`ui-ux-pro-max`** | `ui-design-suite` | [`SKILL.md`](skills/ui-design-suite/ui-ux-pro-max/SKILL.md) | UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, o |
-| 457 | **`umami-game-analytics`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/umami-game-analytics/SKILL.md) | >- |
-| 458 | **`unity-cli`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/unity-cli/SKILL.md) | Controls the Unity Editor and projects from the command line, driving a running Editor to edit scenes and assets or run  |
-| 459 | **`unity-entities-ecs`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/unity-entities-ecs/SKILL.md) | >- |
-| 460 | **`unity-package-management`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/unity-package-management/SKILL.md) | Adds, removes, upgrades, and discovers Unity (UPM) packages from outside the Editor, with the Pipeline package commands  |
-| 461 | **`unity-performance-testing`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/unity-performance-testing/SKILL.md) | >- |
-| 462 | **`urp-postprocessing`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/urp-postprocessing/SKILL.md) | Sets up, configures, and debugs URP post-processing with the Volume framework. Use for bloom, tonemapping, color adjustm |
-| 463 | **`using-agent-skills`** | `addyosmani-agent-skills` | [`SKILL.md`](skills/addyosmani-agent-skills/using-agent-skills/SKILL.md) | Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow appl |
-| 464 | **`validate-urp-render-graph-renderer-feature`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/validate-urp-render-graph-renderer-feature/SKILL.md) | Reviews a Unity 6 URP ScriptableRendererFeature that uses the Render Graph API, checking resource wiring, material bindi |
-| 465 | **`vendure-ecommerce`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/vendure-ecommerce/SKILL.md) | >- |
-| 466 | **`vercel-cli-with-tokens`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/vercel-cli-with-tokens/SKILL.md) | Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tok |
-| 467 | **`vercel-composition-patterns`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/composition-patterns/SKILL.md) | React composition patterns that scale. Use when refactoring components with |
-| 468 | **`vercel-optimize`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/vercel-optimize/SKILL.md) | Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited  |
-| 469 | **`vercel-react-best-practices`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/react-best-practices/SKILL.md) | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, r |
-| 470 | **`vercel-react-native-skills`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/react-native-skills/SKILL.md) | React Native and Expo best practices for building performant mobile apps. Use |
-| 471 | **`vercel-react-view-transitions`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/react-view-transitions/SKILL.md) | Guide for implementing smooth, native-feeling animations using React |
-| 472 | **`web-design-guidelines`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/web-design-guidelines/SKILL.md) | Review UI code for Web Interface Guidelines compliance. Use when asked to |
-| 473 | **`web-game-engine`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/web-game-engine/SKILL.md) | >- |
-| 474 | **`websocket-multiplayer-engineer`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/websocket-multiplayer-engineer/SKILL.md) | Architect of real-time multiplayer browser games — authoritative game servers, client prediction, server reconciliation, |
-| 475 | **`writing-guidelines`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/writing-guidelines/SKILL.md) | Review docs/prose for Writing Guidelines compliance. Use when asked to |
-| 476 | **`zod-schema-validation`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/zod-schema-validation/SKILL.md) | >- |
+| 438 | **`sr24-intelligence-engine`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/sr24-intelligence-engine/SKILL.md) | Autonomous project understanding, tech stack inference, classification, and priority-scored skill activation planner for |
+| 439 | **`sr24-production-auditor`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/sr24-production-auditor/SKILL.md) | Full-spectrum automated production audit engine covering Architecture, UI/UX, Frontend, Backend, Database, Security, Gam |
+| 440 | **`sr24-self-healing-engineer`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/sr24-self-healing-engineer/SKILL.md) | Controlled autonomous debugging and closed-loop repair workflow (Detect, Diagnose, Plan, Repair, Test, Verify) with stri |
+| 441 | **`supabase-engineering`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/supabase-engineering/SKILL.md) | >- |
+| 442 | **`swarm`** | `antigravity-core` | [`SKILL.md`](skills/antigravity-core/swarm/SKILL.md) | >- |
+| 443 | **`swarm_monitor`** | `antigravity-core` | [`SKILL.md`](skills/antigravity-core/swarm_monitor/SKILL.md) | >- |
+| 444 | **`swarm_narrator`** | `antigravity-core` | [`SKILL.md`](skills/antigravity-core/swarm_narrator/SKILL.md) | >- |
+| 445 | **`systematic-debugging-engineer`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/systematic-debugging-engineer/SKILL.md) | Specialist in root-cause analysis (RCA), systematic debugging, memory leak isolation, race condition detection, and regr |
+| 446 | **`tavily-search-intelligence`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/tavily-search-intelligence/SKILL.md) | >- |
+| 447 | **`test-driven-development`** | `addyosmani-agent-skills` | [`SKILL.md`](skills/addyosmani-agent-skills/test-driven-development/SKILL.md) | Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or cha |
+| 448 | **`threejs-game-engine`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/threejs-game-engine/SKILL.md) | >- |
+| 449 | **`threejs-optimization-profiling`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/threejs-optimization-profiling/SKILL.md) | >- |
+| 450 | **`threejs-ui-hud`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/threejs-ui-hud/SKILL.md) | >- |
+| 451 | **`trivy-security-scanner`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/trivy-security-scanner/SKILL.md) | >- |
+| 452 | **`truck-physics-engineer`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/truck-physics-engineer/SKILL.md) | Architect of heavy vehicle and truck physics simulation in Unity — multi-axle WheelColliders, high center-of-mass body r |
+| 453 | **`typescript-eslint`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/typescript-eslint/SKILL.md) | >- |
+| 454 | **`ui`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/ui/SKILL.md) | Routes Unity UI requests to the right framework skill (UI Toolkit, uGUI, or IMGUI) and answers UI comparison questions.  |
+| 455 | **`ui-imgui`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/ui-imgui/SKILL.md) | Generates and modifies Unity IMGUI editor code such as EditorWindows, custom Inspectors, PropertyDrawers, and OnGUI scri |
+| 456 | **`ui-plugin-navigation`** | `antigravity-core` | [`SKILL.md`](skills/antigravity-core/ui-plugin-navigation/SKILL.md) | Discover UI plugin panels relevant to the current task and surface a one-click pill in chat to open (toggle) them in the |
+| 457 | **`ui-ugui`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/ui-ugui/SKILL.md) | Understands, edits, and generates Unity uGUI Canvas hierarchies, RectTransforms, Layout Groups, and prefab UI. Use for r |
+| 458 | **`ui-uitk`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/ui-uitk/SKILL.md) | Understands, edits, and generates Unity UI Toolkit UXML and USS with flex layouts. Use for requests involving UI Toolkit |
+| 459 | **`ui-ux-pro-max`** | `ui-design-suite` | [`SKILL.md`](skills/ui-design-suite/ui-ux-pro-max/SKILL.md) | UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, o |
+| 460 | **`umami-game-analytics`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/umami-game-analytics/SKILL.md) | >- |
+| 461 | **`unity-cli`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/unity-cli/SKILL.md) | Controls the Unity Editor and projects from the command line, driving a running Editor to edit scenes and assets or run  |
+| 462 | **`unity-entities-ecs`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/unity-entities-ecs/SKILL.md) | >- |
+| 463 | **`unity-package-management`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/unity-package-management/SKILL.md) | Adds, removes, upgrades, and discovers Unity (UPM) packages from outside the Editor, with the Pipeline package commands  |
+| 464 | **`unity-performance-testing`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/unity-performance-testing/SKILL.md) | >- |
+| 465 | **`urp-postprocessing`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/urp-postprocessing/SKILL.md) | Sets up, configures, and debugs URP post-processing with the Volume framework. Use for bloom, tonemapping, color adjustm |
+| 466 | **`using-agent-skills`** | `addyosmani-agent-skills` | [`SKILL.md`](skills/addyosmani-agent-skills/using-agent-skills/SKILL.md) | Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow appl |
+| 467 | **`validate-urp-render-graph-renderer-feature`** | `unity-skills` | [`SKILL.md`](skills/unity-skills/validate-urp-render-graph-renderer-feature/SKILL.md) | Reviews a Unity 6 URP ScriptableRendererFeature that uses the Render Graph API, checking resource wiring, material bindi |
+| 468 | **`vendure-ecommerce`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/vendure-ecommerce/SKILL.md) | >- |
+| 469 | **`vercel-cli-with-tokens`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/vercel-cli-with-tokens/SKILL.md) | Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tok |
+| 470 | **`vercel-composition-patterns`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/composition-patterns/SKILL.md) | React composition patterns that scale. Use when refactoring components with |
+| 471 | **`vercel-optimize`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/vercel-optimize/SKILL.md) | Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited  |
+| 472 | **`vercel-react-best-practices`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/react-best-practices/SKILL.md) | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, r |
+| 473 | **`vercel-react-native-skills`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/react-native-skills/SKILL.md) | React Native and Expo best practices for building performant mobile apps. Use |
+| 474 | **`vercel-react-view-transitions`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/react-view-transitions/SKILL.md) | Guide for implementing smooth, native-feeling animations using React |
+| 475 | **`web-design-guidelines`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/web-design-guidelines/SKILL.md) | Review UI code for Web Interface Guidelines compliance. Use when asked to |
+| 476 | **`web-game-engine`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/web-game-engine/SKILL.md) | >- |
+| 477 | **`websocket-multiplayer-engineer`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/websocket-multiplayer-engineer/SKILL.md) | Architect of real-time multiplayer browser games — authoritative game servers, client prediction, server reconciliation, |
+| 478 | **`writing-guidelines`** | `vercel-skills` | [`SKILL.md`](skills/vercel-skills/writing-guidelines/SKILL.md) | Review docs/prose for Writing Guidelines compliance. Use when asked to |
+| 479 | **`zod-schema-validation`** | `sr24-custom-engineering` | [`SKILL.md`](skills/sr24-custom-engineering/zod-schema-validation/SKILL.md) | >- |
