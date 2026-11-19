@@ -16,8 +16,8 @@ This report documents the forensic link audit of the root `README.md` for the **
 ### Summary Metrics:
 - **Total Active GitHub Repository Hyperlinks in `README.md`**: **238**
 - **Total Unique Upstream Repositories Referenced**: **70**
-- **Total Internal Skill Manual Links (`./skills/...`)**: **86**
-- **Total Relative Internal Documentation Links**: **126**
+- **Skill Format in Master Command & Pack Tables**: **Clean Code Notation (`skill-name`) without Hyperlinks**
+- **Total Relative Internal Documentation Links in `README.md`**: **46**
 - **Broken Links Found**: **0**
 - **Unverified Repositories**: **0**
 - **Duplicate Non-Canonical Links**: **0**
