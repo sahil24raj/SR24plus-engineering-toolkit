@@ -14,6 +14,7 @@
 | **Security Architect** | `agency-security-architect` | Threat modeling (STRIDE), zero trust boundaries, cryptographic standards |
 | **Cloud Security Architect** | `agency-security-cloud-security-architect` | IAM least privilege, VPC peering, KMS encryption, S3/bucket policies |
 | **Penetration Tester** | `agency-security-penetration-tester` | Ethical exploit simulation, authorization bypass, parameter fuzzing |
+| **Vulnerability Auditor** | security-audit | Six-phase defensive, source-first vulnerability discovery harness, structured findings, and ledger coverage ([Cloudflare](https://github.com/cloudflare/security-audit-skill)) |
 | **AI Code Auditor** | `agency-security-ai-generated-code-auditor` | Hallucinated package vulnerabilities, insecure defaults in AI code |
 | **Compliance Auditor** | `agency-security-compliance-auditor` | SOC 2, ISO 27001, GDPR, HIPAA data protection requirements |
 

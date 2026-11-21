@@ -5,10 +5,10 @@
 # SR24Plus Engineering Toolkit
 ### Build Smarter. Engineer Better. Ship Production-Ready.
 
-[![Canonical Skills](https://img.shields.io/badge/Canonical%20Skills-479%20In--Repo-0f172a.svg?style=for-the-badge&logo=codeforces&logoColor=38bdf8)](./SKILL-REGISTRY.md)
+[![Canonical Skills](https://img.shields.io/badge/Canonical%20Skills-480%20In--Repo-0f172a.svg?style=for-the-badge&logo=codeforces&logoColor=38bdf8)](./SKILL-REGISTRY.md)
 [![Master Commands](https://img.shields.io/badge/Master%20Commands-14%20Workflows-0f172a.svg?style=for-the-badge&logo=powershell&logoColor=f59e0b)](./docs/SR24PLUS-MASTER-COMMANDS.md)
 [![Core Intelligence](https://img.shields.io/badge/Core%20Intelligence-Autonomous%20Loop-0f172a.svg?style=for-the-badge&logo=probot&logoColor=10b981)](./docs/SR24PLUS-CORE-INTELLIGENCE.md)
-[![Upstream Sources](https://img.shields.io/badge/Upstream%20Sources-66%20Verified%20Repos-0f172a.svg?style=for-the-badge&logo=github&logoColor=white)](./registry/SR24PLUS-UPSTREAM-SOURCES.md)
+[![Upstream Sources](https://img.shields.io/badge/Upstream%20Sources-67%20Verified%20Repos-0f172a.svg?style=for-the-badge&logo=github&logoColor=white)](./registry/SR24PLUS-UPSTREAM-SOURCES.md)
 [![Verified Coverage](https://img.shields.io/badge/Lifecycle%20Coverage-10.0%20%2F%2010-0f172a.svg?style=for-the-badge&logo=checkmarx&logoColor=fbbf24)](#4-flagship-engineering-packs)
 [![License](https://img.shields.io/badge/License-MIT%20%7C%20Apache--2.0-0f172a.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=cbd5e1)](#12-license--legal-attribution)
 
@@ -18,7 +18,7 @@
 
 The **SR24Plus Engineering Toolkit** is a modular, AI-assisted software engineering ecosystem designed to streamline full-stack web development, game development, quality engineering, production auditing, and autonomous debugging through specialized skills and intelligent multi-agent orchestration.
 
-Traditional AI coding assistants often produce generic templates ("AI slop")—unmotivated purple gradients, brittle copy-pasted UI, missing database indexes, unhardened endpoints, and jittery browser game loops. SR24Plus eliminates these defects by deploying **479 canonical production skills** across a disciplined multi-agent squad structure governed by strict engineering contracts, upstream open-source methodologies, and automated quality gates.
+Traditional AI coding assistants often produce generic templates ("AI slop")—unmotivated purple gradients, brittle copy-pasted UI, missing database indexes, unhardened endpoints, and jittery browser game loops. SR24Plus eliminates these defects by deploying **480 canonical production skills** across a disciplined multi-agent squad structure governed by strict engineering contracts, upstream open-source methodologies, and automated quality gates.
 
 ```
                                  USER TASK OR GOAL
@@ -59,14 +59,14 @@ Traditional AI coding assistants often produce generic templates ("AI slop")—u
 | [**`docs/SR24PLUS-CORE-INTELLIGENCE.md`**](./docs/SR24PLUS-CORE-INTELLIGENCE.md) | **Core Intelligence Layer Manual** — Intelligence Engine, 8-dimension Auditor, and 6-step Self-Healing loop. |
 | [**`docs/README-SR24-WEB-DEV.md`**](./docs/README-SR24-WEB-DEV.md) | **Web & SaaS Pack (58 Skills)** — 12-phase lifecycle, PRD specs, Anti-Slop UI, React 18/Next.js, Drizzle, Lago. |
 | [**`docs/README-SR24-GAME-DEV.md`**](./docs/README-SR24-GAME-DEV.md) | **Game Dev Pack (52 Skills)** — 12-phase lifecycle, Rapier physics, Three.js/R3F, Colyseus 60Hz, truck physics. |
-| [**`registry/SR24PLUS-UPSTREAM-SOURCES.md`**](./registry/SR24PLUS-UPSTREAM-SOURCES.md) | **Central Upstream Source Registry** — 66+ verified open-source repositories, canonical authors, and licenses. |
+| [**`registry/SR24PLUS-UPSTREAM-SOURCES.md`**](./registry/SR24PLUS-UPSTREAM-SOURCES.md) | **Central Upstream Source Registry** — 67 verified open-source repositories, canonical authors, and licenses. |
 | [**`docs/SR24PLUS-SOURCE-ATTRIBUTION.md`**](./docs/SR24PLUS-SOURCE-ATTRIBUTION.md) | **Upstream Attribution Directory** — Comprehensive attribution matrix across Categories A–J with verified links. |
-| [**`docs/SR24PLUS-SKILL-PROVENANCE.md`**](./docs/SR24PLUS-SKILL-PROVENANCE.md) | **Unified Skill Provenance Matrix** — Complete lineage, upstream origins, and integration status for all 479 skills. |
+| [**`docs/SR24PLUS-SKILL-PROVENANCE.md`**](./docs/SR24PLUS-SKILL-PROVENANCE.md) | **Unified Skill Provenance Matrix** — Complete lineage, upstream origins, and integration status for all 480 skills. |
 | [**`docs/SR24PLUS-GITHUB-LINK-VALIDATION.md`**](./docs/SR24PLUS-GITHUB-LINK-VALIDATION.md) | **Global Hyperlink Validation Report** — Automated link integrity verification across 650+ active repository links. |
 | [**`docs/SR24PLUS-ROOT-README-LINK-AUDIT.md`**](./docs/SR24PLUS-ROOT-README-LINK-AUDIT.md) | **Root README Link Audit** — Forensic audit confirming 100% clickable upstream repository and skill links. |
 | [**`docs/SR24PLUS-TECH-STACK.md`**](./docs/SR24PLUS-TECH-STACK.md) | **Technology Ecosystem** — Detailed tiers of supported web, game, AI, database, and DevOps technologies. |
 | [**`docs/SR24PLUS-README-AUDIT.md`**](./docs/SR24PLUS-README-AUDIT.md) | **Forensic Repository Audit** — Complete audit of existing commands, packs, phases, and baseline architecture. |
-| [**`SKILL-REGISTRY.md`**](./SKILL-REGISTRY.md) | **Master Skill Registry** — Exhaustive manifest of 479 production skills with directory paths and licenses. |
+| [**`SKILL-REGISTRY.md`**](./SKILL-REGISTRY.md) | **Master Skill Registry** — Exhaustive manifest of 480 production skills with directory paths and licenses. |
 | [**`SKILL-INDEX.md`**](./SKILL-INDEX.md) | **Alphabetical Jump Index** — Fast alphabetical index of all 479 canonical skills. |
 
 ---
@@ -88,7 +88,7 @@ The toolkit provides **14 Primary Workflow Commands**, each backed by an executa
 | **09** | `/sr24-racing-game [task]` | Vehicle Simulation | Heavy truck & vehicle physics, WheelColliders, Ackermann steering, banked hairpin circuits. | `truck-physics-engineer`, `realistic-car-controller-engineer` ([SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit/tree/main/skills/sr24-custom-engineering), [com.unity.entities](https://github.com/Unity-Technologies/com.unity.entities)) | [`SR24-RACING-GAME.md`](./00-MASTER-CONTROLLER/workflows/SR24-RACING-GAME.md) |
 | **10** | `/sr24-ai [task]` | AI & Agent Systems | Production AI systems, MCP servers, prompt injection defense, hybrid RAG vector indexes. | `prompt-injection-security-engineer`, `agency-specialized-mcp-builder` ([agency-agents](https://github.com/msitarzewski/agency-agents), [SR24plus-engineering-toolkit](https://github.com/sahil24raj/SR24plus-engineering-toolkit/tree/main/skills/sr24-custom-engineering)) | [`SR24-AI.md`](./00-MASTER-CONTROLLER/workflows/SR24-AI.md) |
 | **11** | `/sr24-design [task]` | UI/UX & Design Systems | Bespoke design system, 4px/8px tokens, anti-AI-slop audit, finish-gate critique. | `impeccable`, `antislop-ui`, `taste-skill`, `ui-ux-pro-max` ([impeccable](https://github.com/pbakaus/impeccable), [anti-slop](https://github.com/miqdadbadjuber/anti-slop), [taste-skill](https://github.com/Leonxlnx/taste-skill), [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)) | [`SR24-DESIGN.md`](./00-MASTER-CONTROLLER/workflows/SR24-DESIGN.md) |
-| **12** | `/sr24-security [task]` | Security & Hardening | AppSec, OWASP Top 10 hardening, secret scanning, dependency CVE audits, CSP/CORS. | `owasp-zap-scanner`, `gitleaks-secret-detection`, `trivy-security-scanner` ([zaproxy](https://github.com/zaproxy/zaproxy), [gitleaks](https://github.com/gitleaks/gitleaks), [trivy](https://github.com/aquasecurity/trivy), [osv-scanner](https://github.com/google/osv-scanner)) | [`SR24-SECURITY.md`](./00-MASTER-CONTROLLER/workflows/SR24-SECURITY.md) |
+| **12** | `/sr24-security [task]` | Security & Hardening | AppSec, OWASP Top 10 hardening, secret scanning, dependency CVE audits, CSP/CORS. | `security-audit`, `owasp-zap-scanner`, `gitleaks-secret-detection`, `trivy-security-scanner` ([security-audit-skill](https://github.com/cloudflare/security-audit-skill), [zaproxy](https://github.com/zaproxy/zaproxy), [gitleaks](https://github.com/gitleaks/gitleaks), [trivy](https://github.com/aquasecurity/trivy), [osv-scanner](https://github.com/google/osv-scanner)) | [`SR24-SECURITY.md`](./00-MASTER-CONTROLLER/workflows/SR24-SECURITY.md) |
 | **13** | `/sr24-research [task]` | Evidence & Research | Literature search, market sizing, competitive crawl, empirical synthesis, telemetry. | `firecrawl-scraper`, `tavily-search-intelligence`, `agency-research-synthesist` ([firecrawl](https://github.com/firecrawl/firecrawl), [tavily-python](https://github.com/tavily-ai/tavily-python), [agency-agents](https://github.com/msitarzewski/agency-agents)) | [`SR24-RESEARCH.md`](./00-MASTER-CONTROLLER/workflows/SR24-RESEARCH.md) |
 | **14** | `/sr24-ship [task]` | DevOps & Release | Production Dockerization, GitHub Actions CI/CD, health check endpoints, zero downtime. | `docker-containerization`, `github-actions-ci`, `sentry-monitoring` ([docs](https://github.com/docker/docs), [runner](https://github.com/actions/runner), [sentry](https://github.com/getsentry/sentry), [opentofu](https://github.com/opentofu/opentofu)) | [`SR24-SHIP.md`](./00-MASTER-CONTROLLER/workflows/SR24-SHIP.md) |
 
@@ -265,7 +265,7 @@ For enterprise implementations, the toolkit includes pre-configured production b
 
 ## 6. Quick Start Guide
 
-You do not need to manually configure or install individual skills. All 479 skills are pre-indexed and ready for autonomous dispatch:
+You do not need to manually configure or install individual skills. All 480 skills are pre-indexed and ready for autonomous dispatch:
 
 ### Step 1: Clone Repository
 ```bash
